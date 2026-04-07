@@ -736,6 +736,27 @@
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
   </script>
 
+  <!-- GA4: MailerLite signup tracking -->
+  <script>
+    (function() {
+      const form = document.querySelector('.ml-embedded[data-form="T9WRhZ"]');
+      if (!form) return;
+      const obs = new MutationObserver(function() {
+        if (form.querySelector('.ml-form-successBody')) {
+          if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+              method: 'mailerlite',
+              form_id: 'T9WRhZ',
+              form_location: 'homepage'
+            });
+          }
+          obs.disconnect();
+        }
+      });
+      obs.observe(form, { childList: true, subtree: true });
+    })();
+  </script>
+
   <!-- Structured Data for SEO -->
   <script type="application/ld+json">
   {

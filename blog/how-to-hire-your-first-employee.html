@@ -81,5 +81,8 @@
     </div>
   </article>
   <footer><div class="footer-brand">Silverton Publishing</div><p class="footer-copy">&copy; 2026 Silverton Publishing. All rights reserved.</p></footer>
+<script>
+(function(){var fired=false;window.addEventListener('scroll',function(){if(fired)return;var d=document.documentElement;var pct=(window.scrollY+window.innerHeight)/d.scrollHeight;if(pct>=0.75){fired=true;if(typeof gtag==='function'){gtag('event','blog_read_complete',{article_slug:location.pathname.split('/').pop().replace('.html',''),article_title:document.title});}}},{passive:true});})();
+</script>
 </body>
 </html>
