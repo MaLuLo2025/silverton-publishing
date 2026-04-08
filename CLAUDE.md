@@ -101,3 +101,18 @@ Structure improves reasoning quality — keep it consistent.
 - Let the problem dictate the solution shape
 - Flexibility > rigid step-by-step instructions
 - Trust the plan; don't re-litigate during execution
+
+---
+
+## 9. SEO Standards
+
+This project must follow **Section 20 (SEO Foundation)** of the global `~/.claude/CLAUDE.md`. Read it before any content addition or template change.
+
+Project-specific notes:
+- This is a static HTML site (not Next.js) — canonical tags are hand-coded in each page's `<head>`
+- Canonical hostname: `silvertonpublishing.com` (apex, no www)
+- `sitemap.xml` and `robots.txt` are static files at the project root — both must be updated whenever a new page is added
+- Every blog post must include `Article` JSON-LD schema in the `<head>`
+- Title suffix convention: `| Silverton Publishing` (NOT "Million Dollar Highway")
+- GA4 ID: `G-2MJWP1RMZX` — must be present on every page
+- New blog posts must be linked from `blog/index.html` at deploy time — never orphan pages

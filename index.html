@@ -750,6 +750,14 @@
               form_location: 'homepage'
             });
           }
+          try {
+            var body = JSON.stringify({ site: 'silvertonpublishing', event_type: 'generate_lead' });
+            if (navigator.sendBeacon) {
+              navigator.sendBeacon('https://select-admin-teal.vercel.app/api/track', new Blob([body], { type: 'application/json' }));
+            } else {
+              fetch('https://select-admin-teal.vercel.app/api/track', { method: 'POST', headers: { 'content-type': 'application/json' }, body: body, keepalive: true, mode: 'cors', credentials: 'omit' }).catch(function(){});
+            }
+          } catch (e) {}
           obs.disconnect();
         }
       });

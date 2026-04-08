@@ -100,7 +100,7 @@
     <p class="footer-copy">&copy; 2026 Silverton Publishing. All rights reserved.</p>
   </footer>
 <script>
-(function(){var fired=false;window.addEventListener('scroll',function(){if(fired)return;var d=document.documentElement;var pct=(window.scrollY+window.innerHeight)/d.scrollHeight;if(pct>=0.75){fired=true;if(typeof gtag==='function'){gtag('event','blog_read_complete',{article_slug:location.pathname.split('/').pop().replace('.html',''),article_title:document.title});}}},{passive:true});})();
+(function(){var fired=false;window.addEventListener('scroll',function(){if(fired)return;var d=document.documentElement;var pct=(window.scrollY+window.innerHeight)/d.scrollHeight;if(pct>=0.75){fired=true;if(typeof gtag==='function'){gtag('event','blog_read_complete',{article_slug:location.pathname.split('/').pop().replace('.html',''),article_title:document.title});}try{var b=JSON.stringify({site:"silvertonpublishing",event_type:"blog_read_complete"});if(navigator.sendBeacon){navigator.sendBeacon("https://select-admin-teal.vercel.app/api/track",new Blob([b],{type:"application/json"}));}else{fetch("https://select-admin-teal.vercel.app/api/track",{method:"POST",headers:{"content-type":"application/json"},body:b,keepalive:true,mode:"cors",credentials:"omit"}).catch(function(){});}}catch(e){}}},{passive:true});})();
 </script>
 </body>
 </html>
