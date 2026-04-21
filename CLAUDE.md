@@ -1,5 +1,8 @@
 # Claude Code Playbook
 
+## File Output
+All generated files for this project go to `~/Claude Files/silverton-publishing/` — never `~/Downloads/`.
+
 ## 1. Plan Mode Default
 
 For any non-trivial task (3+ steps, new components, refactors, or architecture decisions):
