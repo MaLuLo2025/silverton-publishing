@@ -770,7 +770,8 @@
       const form = document.querySelector('.ml-embedded[data-form="T9WRhZ"]');
       if (!form) return;
       const obs = new MutationObserver(function() {
-        if (form.querySelector('.ml-form-successBody')) {
+        const successBody = form.querySelector('.ml-form-successBody');
+        if (successBody && successBody.offsetHeight > 0) {
           if (typeof gtag === 'function') {
             gtag('event', 'generate_lead', {
               method: 'mailerlite',
