@@ -790,7 +790,7 @@
           obs.disconnect();
         }
       });
-      obs.observe(form, { childList: true, subtree: true });
+      obs.observe(form, { childList: true, subtree: true, attributes: true, attributeFilter: ['style'] });
     })();
   </script>
 
