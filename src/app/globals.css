@@ -705,6 +705,17 @@ footer {
   transform: translateY(0);
 }
 
+/* This 900px breakpoint was missed when the homepage's CSS was first ported
+   in Phase 3 — it was present in the original static site's <style> block
+   but not carried over, causing the .stats-bar 4-column grid to overflow
+   the viewport below ~900px. Found during Phase 5 mobile verification. */
+@media (max-width: 900px) {
+  .overview-grid { grid-template-columns: 1fr; gap: 24px; }
+  .stats-bar { grid-template-columns: repeat(2, 1fr); }
+  .faq-grid { grid-template-columns: 1fr; }
+  .authors-grid { grid-template-columns: 1fr; gap: 40px; }
+}
+
 @media (max-width: 768px) {
   nav { padding: 0 20px; }
   .nav-links { display: none; }
@@ -719,7 +730,8 @@ footer {
     border-bottom: 1px solid rgba(226,185,96,0.08);
   }
   .mobile-menu-btn { display: block; }
-  section { padding: 60px 20px; }
+  section, .faq-section, .signup-section { padding: 60px 20px; }
   .hero { padding: 100px 20px 60px; }
+  .volumes-grid { grid-template-columns: 1fr; }
   footer { padding: 40px 20px 24px; }
 }
