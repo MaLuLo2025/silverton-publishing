@@ -30,6 +30,7 @@ const faqPreview = [
   { slug: "do-i-need-a-business-lawyer", category: "Legal Foundations", title: "Do I Actually Need a Business Lawyer, or Can I Just Use LegalZoom?", excerpt: "You can file your own formation docs for $50. That's not the question. The question is what happens six months later when a contract, a partner dispute, or a tax election goes sideways." },
   { slug: "biggest-tax-mistakes-new-business", category: "Tax Planning", title: "The 5 Biggest Tax Mistakes New Business Owners Make (And How to Avoid Them)", excerpt: "Most of these happen in year one — before you even know they're mistakes. By the time tax season hits, the damage is done. Here's what to watch for from day one." },
   { slug: "what-should-be-in-every-business-contract", category: "Contracts", title: "What Should Be in Every Business Contract? A Founder's Clause-by-Clause Guide", excerpt: "You don't need to go to law school to understand a contract. But you do need to know what the 12 clauses that actually matter are — and what happens when they're missing." },
+  { slug: "how-to-protect-your-business-name", category: "Intellectual Property", title: "How to Protect Your Business Name: Trademarks, Domains, and What Most Founders Get Wrong", excerpt: "You picked a great name. You bought the domain. You think you're covered. You're probably not. Here's what actually protects a business name — and what doesn't." },
 ];
 
 export default function HomePage() {
