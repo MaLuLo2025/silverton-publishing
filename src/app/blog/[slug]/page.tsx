@@ -86,7 +86,7 @@ export default function BlogArticlePage({ params }: { params: { slug: string } }
         <h1>{post.title}</h1>
         <div className="article-meta">
           By Mark Stetler, J.D. &nbsp;&bull;&nbsp; Silverton Publishing &nbsp;&bull;&nbsp;{" "}
-          {new Date(post.date).toLocaleDateString("en-US", {
+          {new Date(`${post.date}T12:00:00`).toLocaleDateString("en-US", {
             year: "numeric",
             month: "long",
             day: "numeric",

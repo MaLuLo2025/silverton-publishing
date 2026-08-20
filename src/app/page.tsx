@@ -4,8 +4,9 @@ import MailerLiteSignup from "@/components/MailerLiteSignup";
 import FadeInObserver from "@/components/FadeInObserver";
 
 // Phase 3: full homepage content, ported from index.html. The FAQ preview
-// section links to 8 of the 38 blog articles (Phase 4) by slug, matching
-// the current static site's selection.
+// section links to a curated subset of blog articles by slug — not
+// auto-generated from blogPosts, so new articles need to be added here
+// explicitly if they should surface on the homepage.
 const volumes = [
   { num: "VOL 01", title: "Business Structure & Jurisdiction", tag: "How to form, where to form, and how to protect what you build" },
   { num: "VOL 02", title: "Contracts & Legal Foundations", tag: "Every clause, every deal, every risk — decoded" },
@@ -31,6 +32,7 @@ const faqPreview = [
   { slug: "biggest-tax-mistakes-new-business", category: "Tax Planning", title: "The 5 Biggest Tax Mistakes New Business Owners Make (And How to Avoid Them)", excerpt: "Most of these happen in year one — before you even know they're mistakes. By the time tax season hits, the damage is done. Here's what to watch for from day one." },
   { slug: "what-should-be-in-every-business-contract", category: "Contracts", title: "What Should Be in Every Business Contract? A Founder's Clause-by-Clause Guide", excerpt: "You don't need to go to law school to understand a contract. But you do need to know what the 12 clauses that actually matter are — and what happens when they're missing." },
   { slug: "how-to-protect-your-business-name", category: "Intellectual Property", title: "How to Protect Your Business Name: Trademarks, Domains, and What Most Founders Get Wrong", excerpt: "You picked a great name. You bought the domain. You think you're covered. You're probably not. Here's what actually protects a business name — and what doesn't." },
+  { slug: "federal-contractor-compliance-trap", category: "Business Financing", title: "The Federal Contractor Trap: Why Your Small Business Compliance Program Probably Isn't Enough", excerpt: "Having a compliance program on paper is not the same as being prepared for a federal audit. Here's the gap most small contractors don't see." },
 ];
 
 export default function HomePage() {

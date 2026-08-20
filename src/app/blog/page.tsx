@@ -34,7 +34,7 @@ export default function BlogIndexPage() {
             <h2>{post.title}</h2>
             <p>{post.excerpt}</p>
             <div className="meta">
-              {new Date(post.date).toLocaleDateString("en-US", {
+              {new Date(`${post.date}T12:00:00`).toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "long",
                 day: "numeric",
