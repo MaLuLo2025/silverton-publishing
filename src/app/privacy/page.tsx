@@ -38,10 +38,18 @@ export default function PrivacyPage() {
             processed under MailerLite&apos;s privacy policy. If you otherwise contact us directly,
             we may also collect any information you choose to provide.
           </p>
-          <p>
+          <p className="mb-3">
             <strong>Automatically collected information:</strong> We automatically collect certain
             data when you visit, including your IP address, browser type, operating system,
             referring URLs, pages viewed, and the dates and times of your visits.
+          </p>
+          <p>
+            <strong>Interaction data:</strong> We collect anonymous interaction data — such as
+            which articles you read and how far you scroll — to understand how visitors use the
+            site and improve our content. This data is sent to our own first-party analytics
+            infrastructure, not to any third-party service. No cookies are set by this system, and
+            no advertising or personal profile is built from it. As part of standard server
+            processing, your IP address and browser information may be logged.
           </p>
         </PolicySection>
 
