@@ -10,12 +10,14 @@ import { batch3Content } from "@/lib/blogContent/batch-3";
 import { batch4Content } from "@/lib/blogContent/batch-4";
 import { batch5Content } from "@/lib/blogContent/batch-5";
 import { batch6Content } from "@/lib/blogContent/batch-6";
+import { batch7Content } from "@/lib/blogContent/batch-7";
 
-// Content is split across 6 batch files (one per Phase 4 conversion agent)
-// instead of GSS's single 5,019-line blogContent object — same
-// metadata-separate-from-content contract, just spread over files that stay
-// reviewable individually. Merged here into the same
-// Record<string, ReactNode> shape GSS's [slug]/page.tsx uses.
+// Content is split across batch files (one per Phase 4 conversion agent,
+// plus one new file per blog-cycle deploy) instead of GSS's single
+// 5,019-line blogContent object — same metadata-separate-from-content
+// contract, just spread over files that stay reviewable individually.
+// Merged here into the same Record<string, ReactNode> shape GSS's
+// [slug]/page.tsx uses.
 const blogContent = {
   ...batch1Content,
   ...batch2Content,
@@ -23,6 +25,7 @@ const blogContent = {
   ...batch4Content,
   ...batch5Content,
   ...batch6Content,
+  ...batch7Content,
 };
 
 export function generateStaticParams() {

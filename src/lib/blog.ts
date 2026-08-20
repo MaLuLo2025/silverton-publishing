@@ -83,6 +83,13 @@ export const blogPosts: BlogPost[] = [
     },
   },
   {
+    slug: "federal-contractor-compliance-trap",
+    title: "The Federal Contractor Trap: Why Your Small Business Compliance Program Probably Isn't Enough",
+    category: "Business Financing — Book 9",
+    excerpt: "Having a compliance program on paper is not the same as being prepared for a federal audit. Here's the gap most small contractors don't see.",
+    date: "2026-08-25",
+  },
+  {
     slug: "financing-business-acquisition",
     title: "Financing a Business Acquisition: What Lenders Actually Look At",
     category: "Business Financing — Book 9",
