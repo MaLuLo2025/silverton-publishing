@@ -1,10 +1,11 @@
 import { MetadataRoute } from "next";
+import { blogPosts } from "@/lib/blog";
 
 const BASE = "https://silvertonpublishing.com";
 
 // Pattern matches the Select portfolio's sitemap.ts (goldsilverselect/src/app/sitemap.ts),
 // scoped down to what Silverton actually has: no states/cities/dealers arrays,
-// just static pages now and blogPosts.map() once Phase 1 ports the blog.
+// just static pages and blogPosts.map().
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
@@ -15,8 +16,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "" ? 1.0 : 0.7,
   }));
 
-  // Blog post entries land here in Phase 1, once src/lib/blog.ts exists:
-  // const blogPages = blogPosts.map((p) => ({ url: `${BASE}/blog/${p.slug}`, ... }));
+  const blogPages = blogPosts.map((p) => ({
+    url: `${BASE}/blog/${p.slug}`,
+    lastModified: p.date,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
 
-  return staticPages;
+  return [...staticPages, ...blogPages];
 }
