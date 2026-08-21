@@ -192,6 +192,13 @@ export const blogPosts: BlogPost[] = [
     },
   },
   {
+    slug: "independent-contractor-classification-2026",
+    title: "The Independent Contractor Question Just Changed Again: What Small Businesses Need to Know in 2026",
+    category: "Building Your Team — Book 5",
+    excerpt: "The DOL proposed a new independent contractor classification rule in February 2026. Here's what it actually changes, how to audit your current arrangements, and where the real liability sits.",
+    date: "2026-08-25",
+  },
+  {
     slug: "intellectual-property-basics-entrepreneurs",
     title: "Intellectual Property 101: Patents, Copyrights, and Trade Secrets for Entrepreneurs",
     category: "Intellectual Property — Book 8",

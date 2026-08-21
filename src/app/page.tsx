@@ -33,6 +33,7 @@ const faqPreview = [
   { slug: "what-should-be-in-every-business-contract", category: "Contracts", title: "What Should Be in Every Business Contract? A Founder's Clause-by-Clause Guide", excerpt: "You don't need to go to law school to understand a contract. But you do need to know what the 12 clauses that actually matter are — and what happens when they're missing." },
   { slug: "how-to-protect-your-business-name", category: "Intellectual Property", title: "How to Protect Your Business Name: Trademarks, Domains, and What Most Founders Get Wrong", excerpt: "You picked a great name. You bought the domain. You think you're covered. You're probably not. Here's what actually protects a business name — and what doesn't." },
   { slug: "federal-contractor-compliance-trap", category: "Business Financing", title: "The Federal Contractor Trap: Why Your Small Business Compliance Program Probably Isn't Enough", excerpt: "Having a compliance program on paper is not the same as being prepared for a federal audit. Here's the gap most small contractors don't see." },
+  { slug: "independent-contractor-classification-2026", category: "Building Your Team", title: "The Independent Contractor Question Just Changed Again: What Small Businesses Need to Know in 2026", excerpt: "The DOL proposed a new independent contractor classification rule in February 2026. Here's what it actually changes, how to audit your current arrangements, and where the real liability sits." },
 ];
 
 export default function HomePage() {
