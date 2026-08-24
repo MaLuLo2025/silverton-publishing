@@ -1,6 +1,6 @@
 import type { BlogPost } from "./blogTypes";
 
-// Metadata for all 38 blog articles, assembled from the Phase 4 conversion
+// Metadata for every blog article, assembled from the Phase 4 conversion
 // batches. Category labels were normalized here to the canonical 12-volume
 // taxonomy ("<Volume Title> — Book <N>") — the source HTML used at least four
 // different phrasings ("Volume N", "From Volume N", "Book N", plus several

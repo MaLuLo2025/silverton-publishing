@@ -11,7 +11,7 @@ standard (branch check, blocklist guard, fetch-and-verify push guard —
 AestheticSelect's implementation, reused verbatim; explicit-stage-only was
 already this script's behavior). Also added a `package.json` existence
 check: this repo is Next.js (`next.config.js`, `next` 14.2.35, `src/`),
-matching the SEO Standards section below (corrected 2026-08-27).
+matching the SEO Standards section below (corrected 2026-08-24).
 
 ## File Output
 All generated files for this project go to `~/Claude Files/silverton-publishing/` — never `~/Downloads/`.
@@ -96,14 +96,18 @@ For every task:
 
 ```
 src/
-  components/     # Reusable UI components
-  pages/          # Route-level views
-  hooks/          # Custom React hooks
-  utils/          # Pure helper functions
-  constants/      # App-wide constants and config
-  styles/         # Global styles / tokens
-references/       # Specs, mockups, design notes
-scripts/          # Build or automation scripts
+  app/            # App Router — routes live here, not pages/
+    layout.tsx    # Root layout (metadataBase, global chrome)
+    page.tsx      # Homepage
+    sitemap.ts    # Dynamic sitemap.xml route handler
+    robots.ts     # Dynamic robots.txt route handler
+    blog/         # /blog — index page + [slug] dynamic route
+    privacy/, terms/, cookies/   # Static legal pages
+  components/     # Reusable UI components (Header, Footer, CookieConsent, etc.)
+  lib/            # Non-component logic
+    blog.ts       # Blog post metadata (blogPosts array)
+    blogTypes.ts  # Shared TypeScript types
+    blogContent/  # Article body content, split into batch-N.tsx files
 gotchas.md        # Ongoing lessons learned
 ```
 
