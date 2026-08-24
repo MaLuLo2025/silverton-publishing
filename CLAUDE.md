@@ -6,6 +6,14 @@ Authoritative shared conventions for all Select properties live at
 or details. Do not duplicate shared conventions here; update
 `CONVENTIONS.md` instead and propagate as needed.
 
+`deploy.sh` was updated 2026-08-24 to `../CONVENTIONS.md`'s deploy-script
+standard (branch check, blocklist guard, fetch-and-verify push guard —
+AestheticSelect's implementation, reused verbatim; explicit-stage-only was
+already this script's behavior). Also added a `package.json` existence
+check: this repo is Next.js (`next.config.js`, `next` 14.2.35, `src/`), not
+static HTML — see the stale claim under SEO Standards below, unrelated to
+this change and not yet corrected.
+
 ## File Output
 All generated files for this project go to `~/Claude Files/silverton-publishing/` — never `~/Downloads/`.
 
