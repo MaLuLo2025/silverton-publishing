@@ -2,11 +2,20 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MailerLiteSignup from "@/components/MailerLiteSignup";
 import FadeInObserver from "@/components/FadeInObserver";
+import { blogPosts } from "@/lib/blog";
 
-// Phase 3: full homepage content, ported from index.html. The FAQ preview
-// section links to a curated subset of blog articles by slug — not
-// auto-generated from blogPosts, so new articles need to be added here
-// explicitly if they should surface on the homepage.
+// Phase 3: full homepage content, ported from index.html.
+//
+// The "Real Advice" grid is hybrid: a pinned set of evergreen articles
+// (featuredSlugs) followed by the most recent articles not already pinned.
+// Card copy — title, category, excerpt — is resolved from blogPosts at
+// render time and is never duplicated here. Adding an article to
+// src/lib/blog.ts is all that is required for it to be eligible; the
+// grid stays capped at FEATURED + RECENT_COUNT cards regardless of how
+// large the library grows.
+//
+// To change what is pinned, edit featuredSlugs only. Slugs that no longer
+// exist in blogPosts are dropped silently rather than rendering a dead card.
 const volumes = [
   { num: "VOL 01", title: "Business Structure & Jurisdiction", tag: "How to form, where to form, and how to protect what you build" },
   { num: "VOL 02", title: "Contracts & Legal Foundations", tag: "Every clause, every deal, every risk — decoded" },
@@ -22,19 +31,31 @@ const volumes = [
   { num: "VOL 12", title: "Offshore Business, Tax Havens & International Trusts", tag: "Kendall Mountain, Silverton." },
 ];
 
-const faqPreview = [
-  { slug: "contractor-agreement", category: "Contracts & Legal Foundations", title: "What Actually Belongs in an Independent Contractor Agreement", excerpt: "The IRS reclassifies thousands of independent contractors as employees every year. The difference between a legitimate 1099 relationship and a misclassification disaster often comes down to whether your contractor agreement includes the right clauses." },
-  { slug: "tax-deductions", category: "Tax Planning & Accounting", title: "Business Tax Deductions Most Small Businesses Miss", excerpt: "The difference between an average small business owner and one who understands the tax code is often $5,000-$15,000 in lost deductions every year. Here are the legitimate write-offs most owners leave on the table." },
-  { slug: "offshore-accounts-legal-illegal", category: "Offshore Business", title: "Offshore Accounts: What's Legal, What's Not, and What the Penalties Actually Look Like", excerpt: "Holding offshore accounts is legal. Failing to report them is where the catastrophic penalties live. The compliance regime every U.S. person with foreign accounts needs to understand." },
-  { slug: "when-is-my-business-liable-for-ai", category: "Technology, AI & Digital Business", title: "Is My Business Liable When AI Gets It Wrong? An Entrepreneur's Guide to AI Legal Risk", excerpt: "There is no federal AI liability statute, which does not mean there is no AI liability. A practitioner's guide to where entrepreneur legal exposure actually lies — and how to reduce it." },
-  { slug: "llc-vs-s-corp-vs-c-corp", category: "Entity Formation", title: "LLC vs. S-Corp vs. C-Corp: Which One Should You Actually Pick?", excerpt: "Every founder asks this question, and most get a vague answer. Here's a plain-language breakdown of how each structure works, how they're taxed, and which one fits your situation." },
-  { slug: "do-i-need-a-business-lawyer", category: "Legal Foundations", title: "Do I Actually Need a Business Lawyer, or Can I Just Use LegalZoom?", excerpt: "You can file your own formation docs for $50. That's not the question. The question is what happens six months later when a contract, a partner dispute, or a tax election goes sideways." },
-  { slug: "biggest-tax-mistakes-new-business", category: "Tax Planning", title: "The 5 Biggest Tax Mistakes New Business Owners Make (And How to Avoid Them)", excerpt: "Most of these happen in year one — before you even know they're mistakes. By the time tax season hits, the damage is done. Here's what to watch for from day one." },
-  { slug: "what-should-be-in-every-business-contract", category: "Contracts", title: "What Should Be in Every Business Contract? A Founder's Clause-by-Clause Guide", excerpt: "You don't need to go to law school to understand a contract. But you do need to know what the 12 clauses that actually matter are — and what happens when they're missing." },
-  { slug: "how-to-protect-your-business-name", category: "Intellectual Property", title: "How to Protect Your Business Name: Trademarks, Domains, and What Most Founders Get Wrong", excerpt: "You picked a great name. You bought the domain. You think you're covered. You're probably not. Here's what actually protects a business name — and what doesn't." },
-  { slug: "federal-contractor-compliance-trap", category: "Business Financing", title: "The Federal Contractor Trap: Why Your Small Business Compliance Program Probably Isn't Enough", excerpt: "Having a compliance program on paper is not the same as being prepared for a federal audit. Here's the gap most small contractors don't see." },
-  { slug: "independent-contractor-classification-2026", category: "Building Your Team", title: "The Independent Contractor Question Just Changed Again: What Small Businesses Need to Know in 2026", excerpt: "The DOL proposed a new independent contractor classification rule in February 2026. Here's what it actually changes, how to audit your current arrangements, and where the real liability sits." },
+const featuredSlugs = [
+  "do-i-need-a-business-lawyer",
+  "llc-vs-s-corp-vs-c-corp",
+  "what-should-be-in-every-business-contract",
+  "how-to-protect-your-business-name",
+  "tax-deductions",
+  "how-to-read-commercial-lease",
 ];
+
+const RECENT_COUNT = 3;
+
+const bySlug = new Map(blogPosts.map((p) => [p.slug, p]));
+
+const featured = featuredSlugs
+  .map((slug) => bySlug.get(slug))
+  .filter((p): p is NonNullable<typeof p> => Boolean(p));
+
+const featuredSet = new Set(featured.map((p) => p.slug));
+
+const recent = [...blogPosts]
+  .filter((p) => !featuredSet.has(p.slug))
+  .sort((a, b) => (a.date < b.date ? 1 : -1))
+  .slice(0, RECENT_COUNT);
+
+const advicePreview = [...featured, ...recent];
 
 export default function HomePage() {
   return (
@@ -124,7 +145,7 @@ export default function HomePage() {
             just what you need to know.
           </p>
           <div className="faq-grid">
-            {faqPreview.map((item) => (
+            {advicePreview.map((item) => (
               <a key={item.slug} href={`/blog/${item.slug}`} className="faq-card">
                 <div className="faq-category">{item.category}</div>
                 <h3>{item.title}</h3>
@@ -201,20 +222,39 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BookSeries",
-            name: "The Million Dollar Highway: An Entrepreneur's Guide to Starting, Managing, and Exiting Your Business",
-            author: [
-              { "@type": "Person", name: "Mark Stetler", jobTitle: "Attorney and Entrepreneur" },
-              { "@type": "Person", name: "Mason Stetler", jobTitle: "COO, Vaulted.com" },
-            ],
-            publisher: { "@type": "Organization", name: "Silverton Publishing" },
-            numberOfBooks: 12,
-            genre: ["Business", "Entrepreneurship", "Law", "Finance"],
-            description:
-              "A 12-volume legal and business guide for entrepreneurs covering entity formation, contracts, tax planning, insurance, hiring, intellectual property, financing, acquisitions, and exit strategy.",
-          }),
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Silverton Publishing",
+              url: "https://silvertonpublishing.com",
+              description:
+                "Independent publisher of practical legal and business guidance for entrepreneurs.",
+              founder: { "@type": "Person", name: "Mark Stetler" },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "124 N Nova Rd, Ste 106",
+                addressLocality: "Ormond Beach",
+                addressRegion: "FL",
+                postalCode: "32174",
+                addressCountry: "US",
+              },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BookSeries",
+              name: "The Million Dollar Highway: An Entrepreneur's Guide to Starting, Managing, and Exiting Your Business",
+              author: [
+                { "@type": "Person", name: "Mark Stetler", jobTitle: "Attorney and Entrepreneur" },
+                { "@type": "Person", name: "Mason Stetler", jobTitle: "COO, Vaulted.com" },
+              ],
+              publisher: { "@type": "Organization", name: "Silverton Publishing" },
+              numberOfBooks: 12,
+              genre: ["Business", "Entrepreneurship", "Law", "Finance"],
+              description:
+                "A 12-volume legal and business guide for entrepreneurs covering entity formation, contracts, tax planning, insurance, hiring, intellectual property, financing, acquisitions, and exit strategy.",
+            },
+          ]),
         }}
       />
     </>
