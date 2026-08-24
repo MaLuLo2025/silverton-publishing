@@ -10,9 +10,8 @@ or details. Do not duplicate shared conventions here; update
 standard (branch check, blocklist guard, fetch-and-verify push guard —
 AestheticSelect's implementation, reused verbatim; explicit-stage-only was
 already this script's behavior). Also added a `package.json` existence
-check: this repo is Next.js (`next.config.js`, `next` 14.2.35, `src/`), not
-static HTML — see the stale claim under SEO Standards below, unrelated to
-this change and not yet corrected.
+check: this repo is Next.js (`next.config.js`, `next` 14.2.35, `src/`),
+matching the SEO Standards section below (corrected 2026-08-27).
 
 ## File Output
 All generated files for this project go to `~/Claude Files/silverton-publishing/` — never `~/Downloads/`.
@@ -126,13 +125,22 @@ Structure improves reasoning quality — keep it consistent.
 This project must follow **Section 20 (SEO Foundation)** of the global `~/.claude/CLAUDE.md`. Read it before any content addition or template change.
 
 Project-specific notes:
-- This is a static HTML site (not Next.js) — canonical tags are hand-coded in each page's `<head>`
+- This is a Next.js 14 (App Router) site — canonical tags are set via
+  `alternates.canonical` in each route's exported `metadata` (or
+  `generateMetadata`), with `metadataBase` set once in `src/app/layout.tsx`
 - Canonical hostname: `silvertonpublishing.com` (apex, no www)
-- `sitemap.xml` and `robots.txt` are static files at the project root — both must be updated whenever a new page is added
+- `sitemap.xml` and `robots.txt` are dynamic Next.js route handlers
+  (`src/app/sitemap.ts`, `src/app/robots.ts`) — the sitemap's blog entries
+  are derived from `blogPosts` in `src/lib/blog.ts`, so a new post is
+  picked up automatically; only non-blog static pages need a manual entry
+  in `sitemap.ts`'s `staticPages` list
 - Every blog post must include `Article` JSON-LD schema in the `<head>`
 - Title suffix convention: `| Silverton Publishing` (NOT "Million Dollar Highway")
 - GA4 ID: `G-2MJWP1RMZX` — must be present on every page
-- New blog posts must be linked from `blog/index.html` at deploy time — never orphan pages
+- New blog posts must be added to `blogPosts` in `src/lib/blog.ts` — the
+  blog index (`src/app/blog/page.tsx`) and the sitemap both render from
+  that same array, so a post added there is automatically linked and
+  indexed; never orphan pages
 
 ---
 
