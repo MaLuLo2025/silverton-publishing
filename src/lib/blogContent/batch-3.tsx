@@ -532,7 +532,7 @@ export const batch3Content: Record<string, ReactNode> = {
       <h2>Copyrights</h2>
 
       <h3>What Copyright Protects</h3>
-      <p>Copyright protects original works of authorship fixed in a tangible medium. This includes written content, software code, website design, photographs, artwork, music, and video. Copyright does not protect ideas, facts, systems, or methods — only the specific creative expression of them.</p>
+      <p>Copyright protects original works of authorship fixed in a tangible medium. This includes written content, software code, website design, photographs, artwork, music, and video. The human-authorship requirement is also what makes <a href="/blog/when-is-my-business-liable-for-ai">AI-generated content</a> difficult to protect. Copyright does not protect ideas, facts, systems, or methods — only the specific creative expression of them.</p>
 
       <h3>Automatic Protection</h3>
       <p>Copyright attaches automatically when you create an original work — you do not need to register or use a &copy; symbol. However, registration with the U.S. Copyright Office significantly strengthens your enforcement position. Without registration, you can only recover actual damages (often difficult to prove) in an infringement lawsuit. With registration made before infringement or within three months of publication, you can seek statutory damages (up to $150,000 per willful infringement) and attorney&apos;s fees.</p>

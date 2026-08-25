@@ -315,7 +315,7 @@ export const batch2Content: Record<string, ReactNode> = {
 
       <h2>What the EEOC Is and Who Files Complaints</h2>
 
-      <p>The Equal Employment Opportunity Commission enforces federal laws prohibiting workplace discrimination. Those laws include Title VII (race, color, religion, sex, national origin), the Age Discrimination in Employment Act (ADEA), the Americans with Disabilities Act (ADA), the Equal Pay Act, and a handful of others.</p>
+      <p>The Equal Employment Opportunity Commission enforces federal laws prohibiting workplace discrimination. Those laws include Title VII (race, color, religion, sex, national origin) &mdash; which the EEOC applies to <a href="/blog/when-is-my-business-liable-for-ai">algorithmic and AI-assisted hiring decisions</a> as well as human ones &mdash; the Age Discrimination in Employment Act (ADEA), the Americans with Disabilities Act (ADA), the Equal Pay Act, and a handful of others.</p>
 
       <p>Any current or former employee — or even a job applicant — can file a charge. They do not need an attorney. They walk into an EEOC field office, fill out a form, and the commission sends you notice. The charge does not mean the EEOC has concluded you did anything wrong. It means someone made an allegation and the EEOC is required to notify you.</p>
 
