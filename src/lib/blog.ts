@@ -8,6 +8,32 @@ import type { BlogPost } from "./blogTypes";
 // which of ~5 distinct article templates each piece was originally built from.
 export const blogPosts: BlogPost[] = [
   {
+    slug: "employee-ai-use-policy",
+    title: "Do You Need an Employee AI Use Policy? What It Covers and Why It Matters",
+    category: "Managing Your Team — Books 6 & 7",
+    excerpt:
+      "Most small businesses adopted AI without deciding to. A written use policy preserves trade secret status, keeps you inside your own confidentiality obligations, and gives you something to point to when a customer or insurer asks.",
+    date: "2026-08-25",
+    relatedBook: {
+      title: "The Entrepreneur's Guide to Managing Your Team — Book 6",
+      description:
+        "Workplace policies, performance management, discipline and termination, discrimination and harassment law, wage and hour compliance, and the documentation that protects an employer. Part of The Million Dollar Highway series from Silverton Publishing.",
+    },
+  },
+  {
+    slug: "who-owns-ai-generated-contractor-work",
+    title: "Who Owns the AI-Generated Work Your Contractor Delivers?",
+    category: "Intellectual Property — Books 2 & 8",
+    excerpt:
+      "Your assignment clause transfers an existing right. If the contractor generated the deliverable with AI, there may be no copyright to transfer — the clause is drafted correctly and moves nothing.",
+    date: "2026-08-25",
+    relatedBook: {
+      title: "The Entrepreneur's Guide to Intellectual Property — Book 8",
+      description:
+        "Trademarks, copyrights, patents, trade secrets, licensing, IP assignment in contractor and employee relationships, and enforcement. Part of The Million Dollar Highway series from Silverton Publishing.",
+    },
+  },
+  {
     slug: "1099-vs-w2-worker-classification",
     title: "1099 vs W-2: When Worker Misclassification Will Cost You Six Figures",
     category: "Building Your Team — Book 5",
@@ -59,6 +85,7 @@ export const blogPosts: BlogPost[] = [
     category: "Contracts & Legal Foundations — Book 2",
     excerpt: "The IRS reclassifies thousands of independent contractors as employees every year. The difference between a legitimate 1099 relationship and a misclassification disaster often comes down to whether your contractor agreement includes the right clauses.",
     date: "2026-05-26",
+    dateModified: "2026-08-25",
     relatedBook: {
       title: "Contracts & Legal Foundations — Book 2",
       description: "A clause-by-clause deep dive into every contract provision entrepreneurs encounter, with practical negotiation guidance for each. Part of The Million Dollar Highway series from Silverton Publishing.",
@@ -135,6 +162,7 @@ export const blogPosts: BlogPost[] = [
     category: "Building Your Team — Book 5",
     excerpt: "A step-by-step legal guide to hiring your first employee. EIN, W-4, I-9, workers comp, payroll taxes, and the mistakes that get small businesses fined. Written by a practicing attorney.",
     date: "2026-03-31",
+    dateModified: "2026-08-25",
     relatedBook: {
       title: "Volume 5: Building Your Team",
       description: "Covering classification, hiring, onboarding, compensation structures, payroll setup, and the complete legal framework for becoming an employer.",
@@ -330,6 +358,7 @@ export const blogPosts: BlogPost[] = [
     category: "Business Insurance & Risk Management — Book 4",
     excerpt: "Which business insurance policies do you actually need? General liability, professional liability, workers comp, BOP, D&O — explained in plain language for small business owners.",
     date: "2026-03-31",
+    dateModified: "2026-08-25",
     relatedBook: {
       title: "Volume 4: Business Insurance & Risk Management",
       description: "Covering every insurance type, how to read a policy, what exclusions to watch for, and how to structure coverage as your business grows.",

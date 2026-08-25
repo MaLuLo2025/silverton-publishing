@@ -12,6 +12,8 @@ import { batch5Content } from "@/lib/blogContent/batch-5";
 import { batch6Content } from "@/lib/blogContent/batch-6";
 import { batch7Content } from "@/lib/blogContent/batch-7";
 import { batch8Content } from "@/lib/blogContent/batch-8";
+import { batch9Content } from "@/lib/blogContent/batch-9";
+import { batch10Content } from "@/lib/blogContent/batch-10";
 
 // Content is split across batch files (one per Phase 4 conversion agent,
 // plus one new file per blog-cycle deploy) instead of GSS's single
@@ -28,6 +30,8 @@ const blogContent = {
   ...batch6Content,
   ...batch7Content,
   ...batch8Content,
+  ...batch9Content,
+  ...batch10Content,
 };
 
 export function generateStaticParams() {
@@ -65,7 +69,7 @@ export default function BlogArticlePage({ params }: { params: { slug: string } }
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.dateModified ?? post.date,
     author: { "@type": "Person", name: "Mark Stetler, J.D." },
     publisher: { "@type": "Organization", name: "Silverton Publishing" },
     mainEntityOfPage: {

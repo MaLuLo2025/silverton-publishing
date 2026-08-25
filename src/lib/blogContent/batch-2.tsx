@@ -447,6 +447,8 @@ export const batch2Content: Record<string, ReactNode> = {
 
       <h2>The Things People Forget</h2>
 
+      <p>If you use any AI tool to screen resumes, rank applicants, or score interviews &mdash; including a feature built into a job board or applicant tracking system &mdash; employment discrimination law applies to you, not to the vendor that built it. The EEOC has stated that Title VII reaches algorithmic employment decisions, and a tool that produces disparate impact is actionable without any discriminatory intent. Some jurisdictions add their own requirements, including bias auditing and applicant notice. Before your first hire is also the right time to set rules for how your team uses these tools &mdash; see <a href="/blog/employee-ai-use-policy">the employee AI use policy</a>.</p>
+
       <p><strong>Labor law posters.</strong> Federal and state law requires you to display certain posters in your workplace — minimum wage, OSHA rights, anti-discrimination, Family and Medical Leave Act (if applicable), and others. There are a lot of them, and they vary by state. You can order a complete set from your state&apos;s department of labor or buy an all-in-one compliance poster for about $30.</p>
 
       <p><strong>An employee handbook.</strong> Not legally required in most states, but practically essential. A handbook sets expectations, documents your policies on things like PTO, anti-harassment, and disciplinary procedures, and gives you something to point to if you ever need to terminate someone. Having written policies that the employee acknowledged in writing is one of the best defenses against wrongful termination claims.</p>

@@ -589,6 +589,8 @@ export const batch1Content: Record<string, ReactNode> = {
 
       <p>Failure to properly assign IP rights can result in contractors claiming ownership of work you paid them to create&mdash;and demanding licensing fees to continue using it.</p>
 
+      <p>One gap the standard assignment language does not close: if the contractor generated the deliverable with an AI tool, there may be no copyright to assign. Copyright requires human authorship, and an assignment can only transfer a right that exists. The clause is drafted correctly and moves nothing. If you are commissioning brand assets, content, or code, add a disclosure requirement and a human-authorship representation &mdash; see <a href="/blog/who-owns-ai-generated-contractor-work">who owns AI-generated work your contractor delivers</a>.</p>
+
       <h3>5. Confidentiality and Non-Disclosure</h3>
 
       <p>Contractors access sensitive business information. Your agreement should protect that information just as aggressively as employment agreements do.</p>

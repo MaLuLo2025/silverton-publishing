@@ -242,17 +242,35 @@ export const batch6Content: Record<string, ReactNode> = {
 
       <p>Without workers&apos; comp, a single workplace injury can bankrupt a small business. And the penalties for not carrying it when required range from fines to criminal charges depending on your state. This one isn&apos;t optional if you have people working for you.</p>
 
+      <h2>Cyber Liability: No Longer Optional</h2>
+
+      <p>A decade ago cyber insurance was a specialty product sold to large enterprises. It is now a baseline for any business that stores customer data, processes payments, or depends on technology to operate &mdash; which is effectively every business. If you are reading this on a computer your business owns, you are in scope.</p>
+
+      <p>Small businesses are not too small to be targets. They hold the same kinds of valuable data as large companies &mdash; customer records, payment details, employee information &mdash; with far less protecting it. Between notification costs, forensic investigation, business interruption, and regulatory response, the average small-business breach runs well past $100,000. Ransomware demands commonly land between $50,000 and $200,000. Business email compromise, where an attacker impersonates a vendor or an officer to redirect a payment, averages losses north of $120,000 per incident.</p>
+
+      <p>Coverage splits in two. First-party covers losses to your own business: breach response and forensics, notification (mandatory in all fifty states when personal information is exposed), credit monitoring, business interruption during an outage, ransomware negotiation and payment, and data recovery. Third-party covers claims against you &mdash; from individuals whose information was exposed, from regulators where fines are insurable, and for content you publish online.</p>
+
+      <p><strong>The endorsement most policies leave out.</strong> Wire fraud and business email compromise are among the most common and most expensive losses a small business will suffer, and they are frequently excluded from base cyber policies. A policy that covers a data breach may not cover a six-figure wire transfer your bookkeeper sent to someone impersonating a vendor, because the employee transferred the funds voluntarily. Social engineering and funds transfer fraud coverage exists, but it comes as a sublimit endorsement that has to be requested by name. It typically costs a few hundred dollars a year. Ask your broker whether you have it, and get the answer in writing.</p>
+
+      <p><strong>You may not qualify without basic security in place.</strong> Cyber insurers now underwrite on your security practices, and the answers determine both your premium and whether anyone will quote you at all. Multi-factor authentication on email, remote access, and administrative accounts is close to universal. Tested backups kept offline or somewhere ransomware cannot reach them are expected. Larger businesses are increasingly asked about endpoint detection software and employee security training. If your practices fall short, you may be declined outright, or offered a policy that excludes the exact attack vector your gaps leave open. Fix the security posture before you apply, not after.</p>
+
+      <p><strong>Do not expect your other policies to cover this.</strong> General liability and commercial property were not written for cyber events and will almost always deny cyber claims. Property coverage might respond to physical damage to hardware; it will not respond to breach response, notification, lost revenue from a network outage, or claims from affected customers. Standalone cyber is the answer.</p>
+
+      <p>For most small businesses the premium runs roughly $500 to $1,500 a year. Set against a six-figure average loss and the fact that your other policies will not respond, that is not a close call.</p>
+
       <h2>What Most Small Businesses Don&apos;t Need (Yet)</h2>
 
       <p><strong>Directors &amp; Officers (D&amp;O) insurance</strong> covers the personal liability of your company&apos;s directors and officers for decisions they make in their capacity as leaders. If you&apos;re a solo LLC or a two-person company, you probably don&apos;t need this yet. It becomes relevant when you have a board of directors, outside investors, or a management team making decisions that could expose them to personal liability &mdash; typically when you&apos;ve raised capital or you&apos;re approaching significant revenue.</p>
 
-      <p><strong>Cyber liability insurance</strong> covers data breaches, ransomware attacks, and the costs of notification, credit monitoring, and legal defense that follow. If you store customer credit card numbers, health records, Social Security numbers, or significant personal data, you should consider this seriously. If you&apos;re a service business that doesn&apos;t handle sensitive data, it&apos;s lower priority &mdash; but the cost is low enough ($500&ndash;$1,500/year for most small businesses) that it&apos;s worth evaluating.</p>
-
       <p><strong>Key person insurance</strong> is a life insurance policy on the founder or a critical employee, with the business as the beneficiary. If the entire business depends on one person and that person dies, the payout keeps the business running long enough to transition. It&apos;s relevant for established businesses with real revenue &mdash; less so for startups.</p>
+
+      <h2>One Thing to Check at Renewal</h2>
+
+      <p>Carriers have begun adding AI-related exclusions to general liability, errors and omissions, and cyber policies. The wording is often broad and it is rarely pointed out at renewal. If your business uses AI tools to deliver services, screen applicants, or generate customer-facing material, ask your broker directly whether any exclusion applies &mdash; and get the answer in writing. Errors produced by an AI system inside a client deliverable are a professional liability question, and whether your policy responds depends on language most owners have never read. See <a href="/blog/when-is-my-business-liable-for-ai">when your business is liable for AI</a> for where those claims actually arise.</p>
 
       <div className="callout">
         <p>
-          <strong>The practical approach:</strong> Start with general liability. If you give professional advice or deliver services, add E&amp;O. If you have a physical location, get a BOP. If you have employees, get workers&apos; comp (it&apos;s the law). Everything else, evaluate as your revenue and risk profile grow. Talk to a commercial insurance broker &mdash; not an agent who sells one company&apos;s products, but an independent broker who can shop the market for you. The consultation is usually free.
+          <strong>The practical approach:</strong> Start with general liability. If you give professional advice or deliver services, add E&amp;O. If you have a physical location, get a BOP. If you have employees, get workers&apos; comp (it&apos;s the law). Add cyber liability &mdash; with the social engineering endorsement &mdash; unless your business touches no data and no payments. Everything else, evaluate as your revenue and risk profile grow. Talk to a commercial insurance broker &mdash; not an agent who sells one company&apos;s products, but an independent broker who can shop the market for you. The consultation is usually free.
         </p>
       </div>
     </>
