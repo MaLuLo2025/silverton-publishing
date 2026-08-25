@@ -12,7 +12,11 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndexPage() {
-  const sorted = [...blogPosts].sort((a, b) => (a.date < b.date ? 1 : -1));
+  // Three-way comparator — equal dates return 0 so the stable sort preserves
+  // blogPosts array order for same-day articles. See the note in app/page.tsx.
+  const sorted = [...blogPosts].sort((a, b) =>
+    a.date === b.date ? 0 : a.date < b.date ? 1 : -1
+  );
 
   return (
     <>

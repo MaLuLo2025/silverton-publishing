@@ -52,7 +52,12 @@ const featuredSet = new Set(featured.map((p) => p.slug));
 
 const recent = [...blogPosts]
   .filter((p) => !featuredSet.has(p.slug))
-  .sort((a, b) => (a.date < b.date ? 1 : -1))
+  // Three-way comparator: returns 0 for equal dates so the sort's stability
+  // guarantee (ES2019+) applies and ties fall back to blogPosts array order.
+  // The previous form returned -1 for every equal-date pair in both directions,
+  // which is not a valid comparator — with more articles sharing a date than
+  // RECENT_COUNT, which one surfaced was engine-dependent.
+  .sort((a, b) => (a.date === b.date ? 0 : a.date < b.date ? 1 : -1))
   .slice(0, RECENT_COUNT);
 
 const advicePreview = [...featured, ...recent];
