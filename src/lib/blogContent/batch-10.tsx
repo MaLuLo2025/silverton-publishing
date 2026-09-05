@@ -70,7 +70,7 @@ export const batch10Content: Record<string, ReactNode> = {
       <h3>What should I add to my contractor agreement now?</h3>
       <p>Disclosure of AI use, a human-authorship representation for deliverables that matter, a requirement to keep records of creative contribution, the existing assignment, and indemnification for third-party IP claims. Five clauses, none long.</p>
 
-      <p>This is one piece of a wider set of exposures that arrive with AI adoption &mdash; hiring tools, vendor terms, insurance gaps, and disclosure obligations among them. See <a href="/blog/when-is-my-business-liable-for-ai">when your business is liable for AI</a> for the full picture, and <a href="/blog/employee-ai-use-policy">the employee AI use policy</a> for governing AI use inside your own team.</p>
+      <p>This is one piece of a wider set of exposures that arrive with AI adoption &mdash; hiring tools and disclosure obligations among them. See <a href="/blog/when-is-my-business-liable-for-ai">when your business is liable for AI</a> for how courts are currently allocating that liability, and <a href="/blog/employee-ai-use-policy">the employee AI use policy</a> for governing AI use inside your own team.</p>
     </>
   ),
 };

@@ -249,10 +249,11 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "non-competes-after-ftc",
-    title: "Non-Compete Agreements After the FTC Rule Changes: Where Things Actually Stand",
-    category: "Managing Your Team — Book 6",
-    excerpt: "The FTC's non-compete ban is blocked — but state law has changed significantly in parallel. Where things actually stand in mid-2026, and what small business owners need to know about protecting their legitimate interests.",
+    title: "The Federal Non-Compete Ban Failed. Now It's 50 Different State Rules.",
+    category: "Building Your Team — Book 5",
+    excerpt: "The FTC's nationwide non-compete ban was struck down and formally withdrawn. What remains is a patchwork of state rules that varies dramatically. Here's what small businesses need to know.",
     date: "2026-06-30",
+    dateModified: "2026-09-08",
   },
   {
     slug: "obbba-small-business-owners",
@@ -377,10 +378,11 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "when-is-my-business-liable-for-ai",
-    title: "Is My Business Liable When AI Gets It Wrong? An Entrepreneur's Guide to AI Legal Risk",
+    title: "Your Business Is Liable for What Your AI Tools Do. Courts Are Making That Clear.",
     category: "Technology, AI & Digital Business — Book 7",
-    excerpt: "There is no federal AI liability statute, which does not mean there is no AI liability. A practitioner's guide to where entrepreneur legal exposure actually lies — and how to reduce it.",
+    excerpt: "Courts in 2026 are holding businesses responsible for the outcomes of AI tools they deploy — not just the vendors who built them. Here's what the cases say and what to do about it.",
     date: "2026-04-20",
+    dateModified: "2026-09-08",
     relatedBook: {
       title: "The Entrepreneur's Guide to Technology, AI & Digital Business — Book 7",
       description: "AI legal liability and governance, privacy law, intellectual property in the digital economy, digital contracts, platform risk, cybersecurity compliance, fintech, and health tech. Part of The Million Dollar Highway series from Silverton Publishing.",
@@ -406,6 +408,19 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Volume 3 of The Million Dollar Highway",
       description: "Covers tax strategy for small business owners — quarterly estimated taxes, deduction planning, entity-level elections, and working effectively with your CPA.",
+    },
+  },
+
+  // ── Blog cycle 2026-09-08 addition ──
+  {
+    slug: "state-privacy-laws-small-business-2026",
+    title: "20 States Have Data Privacy Laws. Your Small Business Probably Isn't Compliant.",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "Twenty states now have comprehensive data privacy laws with no federal standard. Texas is already running enforcement sweeps. Here's what small businesses actually need to know.",
+    date: "2026-09-08",
+    relatedBook: {
+      title: "The Entrepreneur's Guide to Technology, AI & Digital Business — Book 7",
+      description: "AI legal liability and governance, privacy law, intellectual property in the digital economy, digital contracts, platform risk, cybersecurity compliance, fintech, and health tech. Part of The Million Dollar Highway series from Silverton Publishing.",
     },
   },
 ];

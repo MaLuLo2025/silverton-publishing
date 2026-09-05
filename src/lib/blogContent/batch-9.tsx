@@ -55,7 +55,7 @@ export const batch9Content: Record<string, ReactNode> = {
 
       <p>None of this requires a large document. A well-drafted AI use policy for a small business runs two to four pages. What matters is that it reflects your actual operations, that your people have read it, and that you can produce it and the acknowledgments when someone asks. The businesses that get hurt here are rarely the ones that adopted AI aggressively. They are the ones that adopted it without noticing, and had nothing to point to afterward.</p>
 
-      <p>For the wider picture of where AI exposure sits across a business &mdash; hiring, vendors, copyright, and insurance &mdash; see <a href="/blog/when-is-my-business-liable-for-ai">when your business is liable for AI</a>.</p>
+      <p>For the wider picture of where AI liability is currently being litigated &mdash; hiring decisions above all &mdash; see <a href="/blog/when-is-my-business-liable-for-ai">when your business is liable for AI</a>.</p>
     </>
   ),
 };

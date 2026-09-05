@@ -388,169 +388,51 @@ export const batch4Content: Record<string, ReactNode> = {
 
   "non-competes-after-ftc": (
     <>
-      <p>
-        Non-compete agreements for employees have been in legal and regulatory flux since the FTC
-        announced a proposed rule to ban most of them in January 2023 and finalized a rule in April
-        2024. That rule was blocked by federal courts before it took effect. What followed has been a
-        complicated combination of ongoing litigation, state-level legislative activity, and continued
-        enforcement uncertainty.
-      </p>
-      <p>
-        Here&apos;s where things actually stand in mid-2026, and what small business owners need to
-        know about protecting their legitimate interests while operating in a shifting legal
-        environment.
-      </p>
+      <p>In April 2024, the Federal Trade Commission issued a sweeping final rule that would have banned virtually all non-compete agreements nationwide. By August 2024, a federal district court in Texas had blocked it. By September 2025, the FTC had dismissed its own appeal. And in February 2026, the agency formally removed the rule from the Code of Federal Regulations &mdash; the administrative equivalent of acknowledging it&apos;s over.</p>
 
-      <h2>The FTC Rule: What Happened</h2>
-      <p>
-        The Federal Trade Commission finalized a rule in April 2024 that would have banned non-compete
-        agreements for most workers, with very limited exceptions. The rule was challenged in federal
-        court almost immediately. In August 2024, the U.S. District Court for the Northern District of
-        Texas struck down the rule as exceeding the FTC&apos;s statutory authority, and a federal
-        appeals court affirmed that ruling.
-      </p>
-      <p>
-        As of mid-2026: the FTC&apos;s non-compete ban is not in effect. The underlying litigation has
-        continued through various stages of federal court review, and the current administration&apos;s
-        FTC has taken a different posture on enforcement. The rule that would have changed everything
-        nationally is currently enjoined and may never take effect as originally written.
-      </p>
+      <p>The blanket ban is dead. Non-compete agreements are alive. And what governs them now is what governed them before: a patchwork of state laws that ranges from total prohibition to a presumption of enforceability, with most states falling somewhere in between.</p>
 
-      <div className="callout">
-        <strong>But this doesn&apos;t mean non-competes are unaffected.</strong> State law has changed
-        significantly in parallel, and the state-level reality is the controlling reality for most
-        employers.
-      </div>
+      <p>For small businesses, this isn&apos;t a return to normal. The legal attention the FTC&apos;s rulemaking generated has accelerated state-level activity. Multiple states tightened their non-compete laws during the period the federal ban was under litigation, and several others have bills pending. The landscape is more fragmented, not less, than it was before the FTC acted.</p>
 
-      <h2>The State-Level Reality Is the Controlling Reality</h2>
-      <p>
-        Non-compete enforceability has always been primarily a state law question. The FTC action
-        created national momentum for state legislatures to move independently, and many did.
-      </p>
-      <p>States that have enacted significant non-compete restrictions since 2020:</p>
-      <ul>
-        <li>
-          <strong>Minnesota (2023):</strong> Banned non-compete agreements for employees and
-          independent contractors, effective January 1, 2023. One of the most comprehensive
-          state-level bans.
-        </li>
-        <li>
-          <strong>California, North Dakota, Oklahoma:</strong> Have long prohibited employee
-          non-competes, with California&apos;s prohibition being one of the most stringent in the
-          country (extended and reinforced by recent legislation).
-        </li>
-        <li>
-          <strong>Illinois (2022):</strong> Banned non-competes for workers earning below
-          $75,000/year; restricted others.
-        </li>
-        <li>
-          <strong>Colorado, Washington, Oregon:</strong> Significant restrictions including salary
-          thresholds, notice requirements, and geographic/duration limitations.
-        </li>
-      </ul>
-      <p>
-        Many other states have tightened enforcement standards without outright banning. The trend at
-        the state level is clearly in the direction of greater restriction, even without the federal
-        ban.
-      </p>
-      <p>
-        <strong>What this means for your business:</strong> Non-compete enforceability depends on
-        where your employees are located. An agreement that is fully enforceable in Texas may be
-        completely void for your Minnesota employee doing the same job. Multi-state businesses with
-        remote employees face particularly complex situations.
-      </p>
+      <h2>The Current State-Law Spectrum</h2>
 
-      <h2>What Non-Competes Can and Can&apos;t Do Even Where They&apos;re Enforceable</h2>
-      <p>In states that still allow non-competes, courts apply a reasonableness analysis. The general framework:</p>
-      <p>
-        <strong>Legitimate business interest:</strong> The restriction must protect something real —
-        trade secrets, confidential information, customer relationships developed at the
-        employer&apos;s expense. A non-compete that prevents a janitor from working for a competitor
-        serves no legitimate business interest and won&apos;t be enforced.
-      </p>
-      <p>
-        <strong>Reasonable scope:</strong> The restriction must be limited to what&apos;s necessary to
-        protect that interest. Nationwide restrictions for an employee who only served a regional
-        market are typically overbroad. Restrictions on an industry where the employee had no access
-        to competitive information are overbroad.
-      </p>
-      <p>
-        <strong>Reasonable duration:</strong> Courts in most states are skeptical of non-competes
-        exceeding one to two years. Longer restrictions are regularly narrowed or voided.
-      </p>
-      <p>
-        Courts have authority in most states to &quot;blue-pencil&quot; (narrow) overbroad
-        non-competes to a reasonable scope. This sounds reassuring but isn&apos;t — litigation over
-        what&apos;s reasonable is expensive, and the employee operates under uncertainty while the case
-        proceeds.
-      </p>
+      <p>At one end, several states effectively ban most non-competes. California has prohibited them since 1872 &mdash; long before anyone was discussing federal action. Minnesota, North Dakota, and Oklahoma also broadly prohibit post-employment non-compete agreements, with narrow exceptions. In these states, a non-compete clause in an employment agreement is unenforceable regardless of how carefully it&apos;s drafted.</p>
 
-      <h2>The Better Tools for Most Small Businesses</h2>
-      <p>
-        For many small business owners, the combination of a well-drafted non-solicitation agreement
-        and a comprehensive confidentiality/trade secrets agreement protects the actual interests at
-        stake more reliably than a non-compete.
-      </p>
-      <p>
-        <strong>Non-solicitation agreements</strong> prohibit a departing employee from soliciting
-        your customers or employees for a defined period (typically one to two years). These are more
-        narrowly targeted than non-competes, are generally better tolerated by courts across all
-        states, and protect the specific injury — losing customers and team members to a defecting
-        employee — rather than broadly restricting employment.
-      </p>
-      <p>
-        <strong>Confidentiality agreements</strong> protect the specific information — client lists,
-        pricing, business strategies, proprietary processes — that you&apos;ve legitimately invested
-        in developing. Combined with trade secrets law (the Defend Trade Secrets Act federally, and
-        state trade secrets statutes), a solid confidentiality agreement can provide strong protection
-        for competitive information without the enforceability challenges of a non-compete.
-      </p>
-      <p>
-        <strong>IP assignment clauses</strong> ensure that work product, inventions, and intellectual
-        property developed in the course of employment belong to the business, not to the departing
-        employee.
-      </p>
-      <p>
-        This combination — non-solicitation + confidentiality + IP assignment — is often more durable,
-        more enforceable across jurisdictions, and more tailored to your actual interests than a broad
-        non-compete.
-      </p>
+      <p>At the other end, states like Florida and Kansas have enacted statutes creating a presumption of enforceability for non-compete agreements that meet specified criteria &mdash; reasonable time period, reasonable geographic scope, protection of a legitimate business interest. In these states, a well-drafted non-compete is not just enforceable but presumptively valid, shifting the burden to the employee to prove it&apos;s unreasonable.</p>
 
-      <h2>The Sale of Business Exception</h2>
-      <p>
-        Most states that have restricted or banned employee non-competes maintain an exception for
-        non-competes ancillary to the sale of a business. If you&apos;re selling your company and the
-        buyer wants a non-compete from you (as the seller), to protect the goodwill they&apos;re
-        paying for, that agreement is generally treated differently from an employee non-compete.
-      </p>
-      <p>
-        Seller non-competes are generally enforceable and reasonable if tied to the actual scope of
-        the business being sold, typically for 3 to 5 years. If you&apos;re buying a business and
-        negotiating a seller non-compete, or selling and being asked to sign one, this is a distinct
-        legal context from the employee non-compete environment.
-      </p>
+      <p>Most states fall between these poles. They&apos;ll enforce a non-compete if it&apos;s reasonable in scope, duration, and geographic reach, protects a legitimate business interest (trade secrets, customer relationships, specialized training), and doesn&apos;t impose an undue hardship on the employee. &ldquo;Reasonable&rdquo; is interpreted by courts on a case-by-case basis, which means enforceability depends as much on how a judge reads the facts as on what the contract says.</p>
 
-      <h2>What You Should Do Now</h2>
-      <p>If your business currently uses non-compete agreements for employees:</p>
-      <ol>
-        <li>
-          Have current agreements reviewed by an employment attorney who tracks state law. Pay
-          particular attention to any employees in states with strong restrictions.
-        </li>
-        <li>
-          For any new hires in restrictive states, consider whether the non-compete actually adds
-          protection or creates a false sense of security. Replace or supplement with non-solicitation
-          and confidentiality agreements that will hold up.
-        </li>
-        <li>
-          If you&apos;re in a multi-state employment situation, have a policy that identifies which
-          agreement applies based on the employee&apos;s primary work location.
-        </li>
-        <li>
-          Don&apos;t assume the agreements you&apos;ve been using for years are still effective. The
-          landscape has changed materially.
-        </li>
-      </ol>
+      <h2>The FTC Isn&apos;t Done</h2>
+
+      <p>The categorical ban failed, but the FTC retains authority under Section 5 of the FTC Act to challenge specific non-compete agreements it considers unfair methods of competition &mdash; on a case-by-case basis rather than by rule. The agency has signaled clearly that it intends to use this authority.</p>
+
+      <p>In 2025, the FTC finalized a consent order against Rollins, Inc. (the parent company of Orkin), requiring the company to release approximately 18,000 employees from non-compete agreements the agency considered anticompetitive. The Rollins agreements applied to nearly all employees regardless of position, seniority, or access to confidential information &mdash; the kind of broad, blanket non-compete that courts and regulators have increasingly found indefensible.</p>
+
+      <p>The Rollins case illustrates the FTC&apos;s current enforcement posture: it&apos;s not challenging non-competes that protect genuine trade secrets or customer relationships for senior employees. It&apos;s targeting agreements that restrict low-wage or mid-level workers from taking a job at a competitor, where the company can&apos;t articulate a legitimate business interest beyond &ldquo;we don&apos;t want them to leave.&rdquo;</p>
+
+      <h2>What Actually Protects Your Business</h2>
+
+      <p>For most small businesses, the question isn&apos;t whether non-competes are legal &mdash; in most states they are, if drafted properly. The question is whether a non-compete is the right tool for what you&apos;re actually trying to protect, and whether it would survive a challenge if tested.</p>
+
+      <p>Non-disclosure agreements protect confidential information &mdash; pricing, customer lists, proprietary processes, business strategies &mdash; without restricting where someone can work. They&apos;re enforceable in virtually every state because they restrict what information can be used, not what jobs can be taken. For most small businesses, the information is what matters, not the employment restriction.</p>
+
+      <p>Non-solicitation agreements prevent a departing employee from actively soliciting your customers or recruiting your other employees for a specified period. They&apos;re narrower than non-competes and more likely to be enforced because they target a specific competitive harm rather than imposing a blanket employment restriction.</p>
+
+      <p>Garden leave clauses pay the employee during the non-compete period &mdash; the company continues salary in exchange for the restriction. Courts are substantially more willing to enforce a restriction that comes with continued compensation than one that simply prevents someone from earning a living. For a key employee who genuinely has access to competitive intelligence worth protecting, a funded restriction is both fairer and more defensible than an unfunded one.</p>
+
+      <h2>How to Evaluate Your Current Agreements</h2>
+
+      <p>If your business currently uses non-compete agreements, a practical review against the current landscape includes three questions.</p>
+
+      <p>First, does the agreement protect a legitimate business interest that can be articulated specifically &mdash; not &ldquo;they know how we do things,&rdquo; but &ldquo;they have access to our customer pricing database and our product development roadmap&rdquo;? Courts increasingly require specificity about what&apos;s being protected, and vague or overbroad justifications weaken enforceability.</p>
+
+      <p>Second, is the restriction proportionate to the interest? A two-year nationwide restriction for a regional sales representative is disproportionate in most courts&apos; analysis. A six-month restriction within the territory the employee actually served is more likely to survive scrutiny. Duration, geographic scope, and the scope of restricted activities all need to match the actual competitive risk, not the company&apos;s preference for maximum protection.</p>
+
+      <p>Third, does the agreement comply with the law of the state where the employee works &mdash; which may not be the state where the company is incorporated or headquartered? Choice-of-law clauses don&apos;t always control, and courts in employee-friendly states may apply their own law regardless of what the contract specifies.</p>
+
+      <h2>The Bottom Line</h2>
+
+      <p>The federal non-compete ban&apos;s failure didn&apos;t return the landscape to a stable baseline. It left a patchwork that&apos;s more fragmented and more actively evolving than it was before the FTC&apos;s rulemaking focused national attention on the issue. For small businesses, the practical path forward is to understand your state&apos;s rules, evaluate whether your current agreements would survive scrutiny under those rules, and consider whether narrower protections &mdash; NDAs, non-solicitation, garden leave &mdash; accomplish what you actually need without the enforceability risk that broad non-competes increasingly carry.</p>
     </>
   ),
 
