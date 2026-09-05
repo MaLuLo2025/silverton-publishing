@@ -424,3 +424,9 @@ export const blogPosts: BlogPost[] = [
     },
   },
 ];
+
+const slugs = blogPosts.map((p) => p.slug);
+const dupes = slugs.filter((s, i) => slugs.indexOf(s) !== i);
+if (dupes.length > 0) {
+  throw new Error(`Duplicate blog slugs found: ${dupes.join(", ")}`);
+}
