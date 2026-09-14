@@ -118,12 +118,21 @@ export default function BlogArticlePage({ params }: { params: { slug: string } }
 
       {post.relatedBook && (
         <div className="article-footer">
-          <div className="book-cta">
-            <div className="book-cta-text">
-              <h4>{post.relatedBook.title}</h4>
-              <p>{post.relatedBook.description}</p>
+          {post.relatedBook.href ? (
+            <a href={post.relatedBook.href} className="book-cta book-cta-link">
+              <div className="book-cta-text">
+                <h4>{post.relatedBook.title}</h4>
+                <p>{post.relatedBook.description}</p>
+              </div>
+            </a>
+          ) : (
+            <div className="book-cta">
+              <div className="book-cta-text">
+                <h4>{post.relatedBook.title}</h4>
+                <p>{post.relatedBook.description}</p>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       )}
 

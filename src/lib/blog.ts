@@ -18,6 +18,7 @@ export const blogPosts: BlogPost[] = [
       title: "The Entrepreneur's Guide to Managing Your Team — Book 6",
       description:
         "Workplace policies, performance management, discipline and termination, discrimination and harassment law, wage and hour compliance, and the documentation that protects an employer. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-6",
     },
   },
   {
@@ -31,6 +32,7 @@ export const blogPosts: BlogPost[] = [
       title: "The Entrepreneur's Guide to Intellectual Property — Book 8",
       description:
         "Trademarks, copyrights, patents, trade secrets, licensing, IP assignment in contractor and employee relationships, and enforcement. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-8",
     },
   },
   {
@@ -42,6 +44,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "The Entrepreneur's Guide to Building Your Team — Book 5",
       description: "Worker classification, hiring law, employment agreements, restrictive covenants, equity compensation, and the legal foundation for bringing people into your business. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-5",
     },
   },
   {
@@ -89,6 +92,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Contracts & Legal Foundations — Book 2",
       description: "A clause-by-clause deep dive into every contract provision entrepreneurs encounter, with practical negotiation guidance for each. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-2",
     },
   },
   {
@@ -107,6 +111,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Volume 11: Selling Your Business",
       description: "Covering valuation, deal structure, reps and warranties, earnouts, and what happens in the years after a sale.",
+      href: "/#vol-11",
     },
   },
   {
@@ -125,6 +130,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Volume 9: Business Financing",
       description: "Covering debt, equity, seller notes, and acquisition financing structures.",
+      href: "/#vol-9",
     },
   },
   {
@@ -136,6 +142,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Volume 10: Buying a Business",
       description: "Covering deal sourcing, valuation methods, due diligence checklists, deal structure, SBA financing, purchase agreements, and post-closing integration.",
+      href: "/#vol-10",
     },
   },
   {
@@ -147,6 +154,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Volume 6: Managing Your Team",
       description: "Covering performance management, progressive discipline, termination procedures, severance agreements, and the full legal framework for managing and separating from employees.",
+      href: "/#vol-6",
     },
   },
   {
@@ -166,6 +174,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Volume 5: Building Your Team",
       description: "Covering classification, hiring, onboarding, compensation structures, payroll setup, and the complete legal framework for becoming an employer.",
+      href: "/#vol-5",
     },
   },
   {
@@ -184,6 +193,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "The Entrepreneur's Guide to Selling Your Business — Book 11",
       description: "Valuation, deal structure, due diligence preparation, LOI negotiation, purchase agreement terms, representations and warranties, and post-closing obligations. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-11",
     },
   },
   {
@@ -195,6 +205,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Intellectual Property — Book 8",
       description: "Covering trademarks, copyrights, patents, trade secrets, domain strategy, cybersquatting, and the full IP toolkit every entrepreneur needs.",
+      href: "/#vol-8",
     },
   },
   {
@@ -206,6 +217,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Contracts & Legal Foundations — Book 2",
       description: "Covering the full range of contracts that govern small business operations, including commercial leases, vendor agreements, and customer contracts.",
+      href: "/#vol-2",
     },
   },
   {
@@ -217,6 +229,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Selling Your Business — Book 11",
       description: "Covering exit timing, valuation frameworks, buyer identification, deal structure, tax optimization, purchase agreements, and post-closing obligations.",
+      href: "/#vol-11",
     },
   },
   {
@@ -271,6 +284,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "The Entrepreneur's Guide to Offshore Business, Tax Havens & International Trusts — Book 12",
       description: "U.S. tax residency, FBAR and FATCA compliance, foreign entity reporting, the major offshore jurisdictions, anti-deferral regimes, and the realistic landscape of international tax planning for U.S. persons. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-12",
     },
   },
   {
@@ -289,6 +303,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "The Entrepreneur's Guide to Business Financing — Book 9",
       description: "Commercial lending mechanics, collateral, covenants, SBA programs, lines of credit, asset-based lending, factoring, and the full landscape of small-business debt capital. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-9",
     },
   },
   {
@@ -300,6 +315,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Intellectual Property — Book 8",
       description: "Covering trademarks, copyrights, trade secrets, and protecting the assets that distinguish your business.",
+      href: "/#vol-8",
     },
   },
   {
@@ -311,6 +327,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Exit Planning — Book 11",
       description: "Covers business exit planning — entity structure for exits, sale structure (asset vs. stock), earnouts, and post-closing considerations.",
+      href: "/#vol-11",
     },
   },
   {
@@ -329,6 +346,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Tax Planning & Accounting — Book 3",
       description: "Detailed guidance on tax planning, entity structures, and financial management for small businesses. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-3",
     },
   },
   {
@@ -340,6 +358,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "The Entrepreneur's Guide to Intellectual Property — Book 8",
       description: "Trademarks, domain names, trade secrets, patents, copyright, and IP in business transactions. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-8",
     },
   },
   {
@@ -351,6 +370,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Intellectual Property — Book 8",
       description: "In-depth discussion of intellectual property protection, licensing strategies, and building defensible business assets. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-8",
     },
   },
   {
@@ -363,6 +383,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Volume 4: Business Insurance & Risk Management",
       description: "Covering every insurance type, how to read a policy, what exclusions to watch for, and how to structure coverage as your business grows.",
+      href: "/#vol-4",
     },
   },
   {
@@ -374,6 +395,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Volume 2: Contracts & Legal Foundations",
       description: "A clause-by-clause deep dive into every contract provision entrepreneurs encounter, with practical negotiation guidance for each.",
+      href: "/#vol-2",
     },
   },
   {
@@ -386,6 +408,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "The Entrepreneur's Guide to Technology, AI & Digital Business — Book 7",
       description: "AI legal liability and governance, privacy law, intellectual property in the digital economy, digital contracts, platform risk, cybersecurity compliance, fintech, and health tech. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-7",
     },
   },
   {
@@ -397,6 +420,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "The Entrepreneur's Guide to Taxes & Accounting — Book 3",
       description: "Entity elections, S corp mechanics, pass-through taxation, estimated taxes, and the tax strategy decisions every entrepreneur should make at formation and as the business scales. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-3",
     },
   },
   {
@@ -408,6 +432,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "Volume 3 of The Million Dollar Highway",
       description: "Covers tax strategy for small business owners — quarterly estimated taxes, deduction planning, entity-level elections, and working effectively with your CPA.",
+      href: "/#vol-3",
     },
   },
 
@@ -421,6 +446,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "The Entrepreneur's Guide to Technology, AI & Digital Business — Book 7",
       description: "AI legal liability and governance, privacy law, intellectual property in the digital economy, digital contracts, platform risk, cybersecurity compliance, fintech, and health tech. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-7",
     },
   },
 
@@ -441,6 +467,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
     },
   },
   {
@@ -452,6 +479,7 @@ export const blogPosts: BlogPost[] = [
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
     },
   },
 ];

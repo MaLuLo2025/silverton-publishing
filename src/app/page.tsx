@@ -129,7 +129,7 @@ export default function HomePage() {
         </p>
         <div className="volumes-grid">
           {volumes.map((v) => (
-            <div key={v.num} className="volume-card">
+            <div key={v.num} id={`vol-${parseInt(v.num.replace("VOL ", ""), 10)}`} className="volume-card">
               <div className="volume-num">{v.num}</div>
               <div className="volume-title">{v.title}</div>
               <div className="volume-tag">{v.tag}</div>

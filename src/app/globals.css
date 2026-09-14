@@ -542,6 +542,18 @@ section { padding: 100px 40px; max-width: 1200px; margin: 0 auto; }
 }
 .book-cta-text h4 { font-family: var(--serif); color: var(--gold); font-size: 1.1rem; margin-bottom: 0.4rem; }
 .book-cta-text p { font-size: 0.9rem; color: var(--dim); margin: 0; }
+a.book-cta-link {
+  color: inherit;
+  text-decoration: none;
+}
+a.book-cta-link.book-cta:hover { border-color: rgba(226,185,96,0.3); }
+
+/* Fixed nav is 64px tall (see "===== NAV =====" below) — anchor targets need
+   scroll-margin-top so /#vol-N lands the volume card below the header
+   instead of partially behind it, both for in-page smooth-scroll and for
+   the browser's native jump on a cross-page hash link (e.g. from a blog
+   article's relatedBook cross-sell). */
+.volume-card { scroll-margin-top: 88px; }
 
 /* Structural elements found inside individual articles during the Phase 4
    conversion, beyond what the original template audit documented — ported

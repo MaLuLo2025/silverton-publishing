@@ -18,5 +18,6 @@ export interface BlogPost {
   relatedBook?: {
     title: string;
     description: string;
+    href?: string;
   };
 }
