@@ -9,7 +9,7 @@ const BASE = "https://silvertonpublishing.com";
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
-  const staticPages = ["", "/blog", "/privacy", "/terms", "/cookies"].map((path) => ({
+  const staticPages = ["", "/blog", "/ai-current", "/privacy", "/terms", "/cookies"].map((path) => ({
     url: `${BASE}${path}`,
     lastModified: now,
     changeFrequency: path === "" ? ("daily" as const) : ("weekly" as const),

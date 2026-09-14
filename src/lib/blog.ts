@@ -423,6 +423,37 @@ export const blogPosts: BlogPost[] = [
       description: "AI legal liability and governance, privacy law, intellectual property in the digital economy, digital contracts, platform risk, cybersecurity compliance, fintech, and health tech. Part of The Million Dollar Highway series from Silverton Publishing.",
     },
   },
+
+  // ── Blog cycle 2026-09-14 addition ──
+  {
+    slug: "piercing-the-corporate-veil-llc-small-business",
+    title: "Piercing the Corporate Veil: What Actually Loses Your LLC's Protection",
+    category: "Business Structure & Jurisdiction — Book 1",
+    excerpt: "The four scenarios I've watched cost real clients their personal-liability protection — commingling, undercapitalization, alter-ego operations, and fraud — plus what to do this quarter to keep the veil intact. Practitioner-level guidance, not a treatise.",
+    date: "2026-09-14",
+  },
+  {
+    slug: "is-chatgpt-attorney-client-privilege",
+    title: "Your ChatGPT Conversation Is Not Privileged: What U.S. v. Heppner Means for Small Business Owners",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "In February 2026, a federal judge in the Southern District of New York held that AI chatbot conversations aren't protected by attorney-client privilege — and, more consequentially, that feeding your lawyer's advice into a chatbot can waive the privilege on the underlying advice itself. What that means for the businesses that use these tools every day.",
+    date: "2026-09-14",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+    },
+  },
+  {
+    slug: "ai-vendor-contract-negotiation-checklist",
+    title: "The AI Vendor Contract: What Actually Changes When You're Licensing a Model",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "The contract is the product — because it's the only thing that determines what you actually bought. Six clauses that matter more with AI than with conventional software: data training rights, retention, indemnification direction, liability cap, model change and deprecation, and rights to decision data.",
+    date: "2026-09-14",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+    },
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);
