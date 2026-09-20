@@ -102,6 +102,7 @@ src/
     sitemap.ts    # Dynamic sitemap.xml route handler
     robots.ts     # Dynamic robots.txt route handler
     blog/         # /blog — index page + [slug] dynamic route
+    ai-current/   # /ai-current — static AI tracker page, linked from AI-topic article footers
     privacy/, terms/, cookies/   # Static legal pages
   components/     # Reusable UI components (Header, Footer, CookieConsent, etc.)
   lib/            # Non-component logic
