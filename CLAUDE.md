@@ -153,3 +153,5 @@ Project-specific notes:
 Debugging discipline (three-hypothesis checkpoint) and verification tooling
 (Playwright element handles) are in `../CONVENTIONS.md`. No property-specific
 override for this project.
+
+**Deployment gotcha:** Run `~/scripts/check-rendered-markdown.sh silverton-publishing` after deploy to catch renderer regressions (literal `###`, `**bold**`, `1.` etc. showing up in production posts).
