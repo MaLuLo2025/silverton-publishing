@@ -4,149 +4,97 @@ import type { ReactNode } from "react";
 export const batch13Content: Record<string, ReactNode> = {
   "corporate-transparency-act-boi-reporting-2026": (
     <>
-      <p>Few federal small-business regulations have had a more chaotic implementation than the Corporate Transparency Act&apos;s Beneficial Ownership Information reporting requirement. Since its effective date, the rule has been subject to court injunctions, FinCEN enforcement pauses, legislative responses, and enough on-again/off-again messaging that small business owners can be forgiven for having no idea what they actually have to do.</p>
+      <p>As of August 14, 2026, US-formed LLCs and corporations are permanently exempt from Beneficial Ownership Information (BOI) reporting under the Corporate Transparency Act. If you own a US small business, you almost certainly do not need to file a BOI report, and you do not need to keep track of deadlines that dominated small-business news for two years.</p>
 
-      <p>This is a practitioner&apos;s summary of where things actually stand for small business owners as of publication. It is general information, not legal advice, and &mdash; because the doctrine on this topic has been unusually unstable &mdash; the standing rules should be verified against the current state of FinCEN guidance and any active court orders before you rely on this or any other summary.</p>
+      <p>Few federal small-business regulations have had a more chaotic run. Owners spent 2024 and 2025 preparing to file, paying for filings, or ignoring the rule entirely on the strength of a headline about an injunction. This article covers what changed and when, who is still covered, what to do if you already filed, and what could still affect you. It is general information, not legal advice, and the rule has changed direction before, so verify against FinCEN before relying on any summary, including this one.</p>
 
-      <h2>What the CTA does at a conceptual level</h2>
+      <h2>What happened</h2>
 
-      <p>The Corporate Transparency Act, enacted in 2021 and effective in 2024, requires most US-formed entities (LLCs, corporations, similar structures) to file a <strong>Beneficial Ownership Information (BOI) Report</strong> with the Financial Crimes Enforcement Network (FinCEN). The reporting entity identifies each <strong>beneficial owner</strong> &mdash; generally, any individual who exercises substantial control over the entity or owns 25% or more &mdash; along with identifying information (name, date of birth, address, government ID).</p>
-
-      <p>The stated purpose: reduce anonymous shell-company use in money laundering, sanctions evasion, and financial crimes.</p>
-
-      <p>The rule affects roughly 32 million existing US entities.</p>
-
-      <h2>The implementation chaos</h2>
-
-      <p>The rule&apos;s first year of implementation produced substantial legal challenges:</p>
+      <p>The regulatory arc, in order:</p>
 
       <ul>
-        <li><strong>Court injunctions</strong> from federal district courts blocked enforcement at various points, sometimes nationwide, sometimes only for specific plaintiffs.</li>
-        <li><strong>FinCEN enforcement pauses</strong> at multiple points during litigation created uncertainty about whether reporting was actually required.</li>
-        <li><strong>Legislative responses</strong> &mdash; proposed carve-outs, delays, or repeal &mdash; added further uncertainty.</li>
-        <li><strong>Deadline extensions</strong> &mdash; the original deadline for existing entities has been moved multiple times.</li>
+        <li><strong>2021:</strong> Congress enacts the Corporate Transparency Act (CTA), aimed at anonymous shell companies used for money laundering and other financial crimes.</li>
+        <li><strong>2022:</strong> FinCEN issues the original Reporting Rule, covering most entities formed by filing with a state, with an effective date of January 1, 2024.</li>
+        <li><strong>Late 2024 and early 2025:</strong> Federal courts issue nationwide injunctions against enforcement, and FinCEN repeatedly pauses and re-extends deadlines. Owners get conflicting signals about whether filing is required at all.</li>
+        <li><strong>March 26, 2025:</strong> FinCEN issues an interim final rule exempting US-formed entities and US persons from BOI reporting.</li>
+        <li><strong>August 14, 2026:</strong> FinCEN&apos;s Final Rule, issued August 11 and published in the Federal Register on August 14, makes that exemption permanent.</li>
       </ul>
 
-      <p>For business owners, this created a specific problem: those who filed early complied with a requirement that was intermittently unenforceable; those who waited faced whiplashing communications about when filing was actually required.</p>
+      <p>The CTA itself was not repealed. What changed is FinCEN&apos;s regulatory definition of a &amp;ldquo;reporting company,&amp;rdquo; which now excludes domestic entities.</p>
 
-      <h2>Where things stand as of publication</h2>
+      <h2>Who is still covered</h2>
 
-      <p><strong>This section requires verification against current FinCEN guidance before you rely on it.</strong> Given the pace of change, any published summary risks being outdated by the time you read it.</p>
+      <p>The only remaining reporting population is <strong>foreign entities formed under non-US law that have registered to do business in a US state.</strong> These entities must file a BOI report with FinCEN within 30 days after the effective date of their US registration.</p>
 
-      <p>As of the publication of this article: the BOI reporting requirement is generally in effect for most covered entities, subject to specific court order effects on plaintiffs in ongoing litigation. FinCEN&apos;s enforcement posture has stabilized around the general requirement, with deadline structures periodically extended.</p>
+      <p>If you own or manage a foreign-formed entity that registers to do business in the US, this rule applies to you and the exemption does not.</p>
 
-      <p><strong>Rather than relying on this article as authoritative:</strong> check FinCEN&apos;s official BOI resource page directly, or consult a business attorney who tracks this rule specifically. See <a href="/ai-current">silvertonpublishing.com/ai-current</a> for our updates page tracking regulatory developments, and expect to independently verify against FinCEN before filing decisions.</p>
-
-      <h2>Who has to file</h2>
-
-      <p>The rule covers most US-formed entities with limited exceptions:</p>
-
-      <p><strong>Required to file:</strong></p>
+      <h2>Who is NOT covered</h2>
 
       <ul>
-        <li>LLCs formed under US state law</li>
-        <li>Corporations formed under US state law</li>
-        <li>Other entities created by filing with a state agency</li>
+        <li><strong>All US-formed LLCs and corporations, regardless of size.</strong> This includes single-member LLCs, family businesses, and multi-owner companies.</li>
+        <li><strong>All US persons who are beneficial owners of any entity, foreign or domestic.</strong> A US person who owns a foreign-formed entity registered in the US does not have to be reported as a beneficial owner.</li>
       </ul>
 
-      <p><strong>Exempt (23 categories):</strong></p>
+      <p>This is worth stating plainly because many owners spent 2024 and 2025 gathering IDs, identifying substantial-control individuals, and getting ready to file. That work is no longer required for a domestic entity.</p>
+
+      <h2>If you already filed</h2>
+
+      <p>Owners who filed before the exemption do not need to take any action. FinCEN retains the data that was previously submitted, but no updates, corrections, or annual filings are required for domestic entities. The old 30-day requirement to report changes in beneficial ownership does not apply to a US-formed company.</p>
+
+      <h2>The exposure that used to be real</h2>
+
+      <p>I keep one client in mind from this period: a small LLC owner-operator who believed the rule was permanently enjoined after a December 2024 news cycle and missed the deadline. When enforcement resumed and a new deadline was set, he filed within the window and no penalty was assessed. But for several months his exposure was real and unpredictable, with statutory civil penalties of up to $500 per day and criminal penalties for willful violations on the books.</p>
+
+      <p>The exemption resolved that exposure, for him and for every other domestic entity. The lesson from that period still holds in a different form: the rule moved several times in two years, and the owners who fared best checked the primary source instead of relying on social media summaries.</p>
+
+      <h2>What this means going forward</h2>
 
       <ul>
-        <li>Large operating companies (typically 20+ employees, $5M+ revenue, physical US presence)</li>
-        <li>Subsidiaries of certain exempt entities</li>
-        <li>Certain regulated entities (banks, credit unions, insurance companies, SEC-registered entities)</li>
-        <li>Inactive entities meeting specific criteria</li>
-        <li>Certain trust structures (though beneficial owners of trust-held entities may still trigger requirements)</li>
+        <li><strong>The CTA remains law.</strong> The statute was not repealed, and Congress could re-expand the scope of reporting in the future.</li>
+        <li><strong>State-level rules exist independently.</strong> Some states have their own beneficial ownership or entity-disclosure requirements, and the federal exemption does not affect them. Check with the Secretary of State where your entity is formed and where it operates.</li>
+        <li><strong>Foreign-entity owners still need to comply.</strong> The reporting obligation for foreign entities registered in the US remains in force.</li>
+        <li><strong>Other disclosures are unchanged.</strong> Annual reports, registered agent requirements, and bank customer due diligence questions about your owners are separate from BOI reporting and continue as before.</li>
       </ul>
 
-      <p>Small business LLCs &mdash; which describes most Silverton readers &mdash; are generally covered, not exempt. The &ldquo;large operating company&rdquo; exemption sounds like it might apply to more small businesses than it does; verify against the specific requirements.</p>
+      <p>The rule is stable now, but a stable regulation is not the same as a repealed statute.</p>
 
-      <h2>What the BOI report contains</h2>
+      <h2>What to verify</h2>
 
-      <p>For each beneficial owner and each &ldquo;company applicant&rdquo; (the person who filed the formation documents):</p>
-
-      <ul>
-        <li>Legal name</li>
-        <li>Date of birth</li>
-        <li>Current residential address</li>
-        <li>Unique identifying number from an acceptable document (driver&apos;s license, US passport, etc.)</li>
-        <li>Image of the identifying document</li>
-      </ul>
-
-      <p>The reporting entity itself must also provide entity name, address, jurisdiction of formation, and taxpayer identification number.</p>
-
-      <h2>Penalties for non-compliance</h2>
-
-      <p>Statutory penalties are severe:</p>
-
-      <ul>
-        <li><strong>Civil penalties</strong> up to $500 per day of non-compliance</li>
-        <li><strong>Criminal penalties</strong> up to $10,000 and/or imprisonment for willful violations, including willful failure to report or willful reporting of false information</li>
-      </ul>
-
-      <p>Whether these penalties will be aggressively pursued against ordinary small business owners who missed the initial deadline believing the rule was enjoined has been a subject of specific enforcement guidance. Verify current FinCEN enforcement posture before assuming any specific outcome.</p>
-
-      <h2>The client I keep in mind</h2>
-
-      <p>A specific client comes to mind for this piece &mdash; small LLC formed by an owner-operator who believed the rule was permanently enjoined based on a December 2024 news cycle. He missed the deadline. When enforcement resumed and the deadline was set to a new date, he filed within that window and no penalty was assessed. But there was a several-month period where his exposure was real and unpredictable.</p>
-
-      <p>The lesson: when a federal rule affects your entity, ignore-and-hope-it-goes-away is not a strategy. File when a deadline is active, monitor for changes, and update filings as required (any change in beneficial ownership triggers a new report within 30 days).</p>
-
-      <h2>Practical steps for uncertain owners</h2>
-
-      <p>Six actions for small business owners uncertain about their CTA status:</p>
-
-      <ol>
-        <li><strong>Determine whether your entity is covered.</strong> Most small business LLCs and corporations are; verify against exemption criteria.</li>
-        <li><strong>Verify current FinCEN deadlines and enforcement posture.</strong> Directly from FinCEN&apos;s official BOI resource page, not from social media summaries.</li>
-        <li><strong>Identify each beneficial owner</strong> by the rule&apos;s substantial-control or 25%-ownership tests. For simple owner-operated LLCs, this is straightforward. For multi-member LLCs with option grants, convertible instruments, or complex governance, it can be nuanced.</li>
-        <li><strong>Prepare required documentation.</strong> ID, address, other identifying information for each beneficial owner.</li>
-        <li><strong>File through FinCEN&apos;s BOI E-Filing System.</strong> No fee for the filing itself.</li>
-        <li><strong>Set a monitoring cadence.</strong> Track any changes in beneficial ownership; report within 30 days of change. Set a calendar reminder to verify FinCEN&apos;s current requirements annually.</li>
-      </ol>
-
-      <h2>When to consult counsel</h2>
-
-      <p>Simple situations (owner-operated LLC, single member, no complex ownership) can typically be handled by the owner directly through the FinCEN system.</p>
-
-      <p>Situations warranting attorney consultation:</p>
-
-      <ul>
-        <li>Multi-member LLCs with complex ownership structures</li>
-        <li>Entities with foreign owners triggering additional rules</li>
-        <li>Trusts holding significant entity ownership</li>
-        <li>Recently-formed entities near the &ldquo;company applicant&rdquo; reporting deadline</li>
-        <li>Any situation where reporting requirements are unclear</li>
-      </ul>
+      <p>Before making any filing decision, check FinCEN&apos;s official BOI resource page directly and confirm that the exemption still applies to your entity&apos;s facts. For ongoing tracking of regulatory developments, see <a href="/ai-current">silvertonpublishing.com/ai-current</a>. If your entity has foreign ownership, is formed under non-US law, or registers in multiple states, consult a business attorney.</p>
 
       <h2>Frequently Asked Questions</h2>
 
       <div className="faq-item">
-        <h3>Do I have to file a BOI report for my small business LLC?</h3>
-        <p>Most likely yes, unless your entity qualifies for one of the 23 statutory exemptions. The most commonly relevant exemption for small businesses is the &ldquo;large operating company&rdquo; exemption, which typically requires 20+ employees, over $5M in revenue, and physical US presence &mdash; most small business LLCs don&apos;t qualify. Verify the current requirement against FinCEN guidance before assuming exemption.</p>
+        <h3>Do I have to file a BOI report for my US-formed LLC?</h3>
+        <p>No. As of August 14, 2026, US-formed LLCs and corporations are permanently exempt from BOI reporting under FinCEN&apos;s Final Rule, regardless of size. Verify against FinCEN&apos;s BOI resource page if your situation involves foreign ownership or formation.</p>
       </div>
 
       <div className="faq-item">
-        <h3>What happens if I miss the deadline?</h3>
-        <p>Statutory penalties include civil penalties up to $500/day and potential criminal penalties for willful violations. Actual enforcement has varied given the rule&apos;s contested implementation history. Even where penalties haven&apos;t been aggressively pursued for late filers, the exposure was real. If you&apos;re past a deadline, file as soon as possible and document the reason for delay.</p>
+        <h3>I already filed a BOI report. Do I need to update it?</h3>
+        <p>No. Domestic entities that filed before the exemption need not take any action. FinCEN retains the previously submitted data, but no updates or annual filings are required.</p>
       </div>
 
       <div className="faq-item">
-        <h3>Do I need to file again if my beneficial owners change?</h3>
-        <p>Yes. Any change in beneficial ownership information triggers an updated report within 30 days of the change. Changes include ownership transfers, new owners crossing the 25% threshold, exits of beneficial owners, or changes to beneficial owners&apos; identifying information (address changes, etc.).</p>
+        <h3>Who still has to file?</h3>
+        <p>Foreign entities formed under non-US law that have registered to do business in a US state. They must file within 30 days after the effective date of their US registration.</p>
       </div>
 
       <div className="faq-item">
-        <h3>Can my attorney file the BOI report for me?</h3>
-        <p>Yes. Many small business attorneys will handle BOI filing as part of their formation or ongoing entity services. For simple owner-operated LLCs, the filing is straightforward enough that many owners handle it directly through FinCEN&apos;s system. For complex ownership structures, attorney involvement can be worth the fee.</p>
+        <h3>Does the exemption cover me if I am a US person who owns a foreign entity?</h3>
+        <p>The rule exempts US persons from being reported as beneficial owners of any entity, foreign or domestic. The foreign entity itself, if registered to do business in the US, remains subject to reporting. If your structure involves both, consult an attorney.</p>
+      </div>
+
+      <div className="faq-item">
+        <h3>Could BOI reporting come back for US companies?</h3>
+        <p>It could. The Corporate Transparency Act remains valid federal law, and the exemption comes from FinCEN&apos;s regulatory definition of a reporting company, not from a repeal. Congress or a future FinCEN rulemaking could re-expand the scope, which is why periodic verification is worthwhile.</p>
       </div>
 
       <div className="faq-item">
         <h3>Is BOI information public?</h3>
-        <p>No. BOI information filed with FinCEN is generally not public. Access is limited to authorized federal, state, and local agencies for law enforcement, national security, and specific regulatory purposes. Financial institutions may access BOI information for customer due diligence with entity consent.</p>
+        <p>No. BOI information filed with FinCEN is generally not public. Access is limited to authorized government agencies for law enforcement, national security, and specific regulatory purposes, and financial institutions may access it for customer due diligence with the reporting entity&apos;s consent.</p>
       </div>
 
-      <p><em>This article is general information only and does not constitute legal advice. The Corporate Transparency Act has had an unusually unstable implementation, and the standing rules should be verified against current FinCEN guidance and any active court orders before any filing decisions. For ongoing tracking of regulatory developments, see <a href="/ai-current">silvertonpublishing.com/ai-current</a>. Consult a qualified business attorney for questions about your specific entity&apos;s obligations.</em></p>
+      <p><em>This article is general information only and does not constitute legal advice. Federal beneficial ownership rules have changed direction more than once since 2024; verify current requirements against FinCEN guidance before making any filing decision. For ongoing tracking of regulatory developments, see <a href="/ai-current">silvertonpublishing.com/ai-current</a>. Consult a qualified business attorney for questions about your specific entity&apos;s obligations.</em></p>
     </>
   ),
   "ai-hiring-tools-eeoc-discrimination-2026": (

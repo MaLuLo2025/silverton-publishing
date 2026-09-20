@@ -11,7 +11,7 @@ export const blogPosts: BlogPost[] = [
     slug: "corporate-transparency-act-boi-reporting-2026",
     title: "Beneficial Ownership Reporting After CTA: Where Things Actually Stand in 2026",
     category: "Business Structure & Jurisdiction — Book 1",
-    excerpt: "The Corporate Transparency Act's Beneficial Ownership Information reporting requirement has had a chaotic implementation — court injunctions, FinCEN pauses, legislative responses. A practitioner's summary of where things actually stand for small business owners, and what to do.",
+    excerpt: "As of August 14, 2026, US-formed LLCs and corporations are permanently exempt from Beneficial Ownership Information reporting. What changed and when, who is still covered (foreign entities registered in the US), what to do if you already filed, and what could still affect you.",
     date: "2026-09-21",
     relatedBook: {
       title: "The Entrepreneur's Guide to Business Structure & Jurisdiction — Book 1",
