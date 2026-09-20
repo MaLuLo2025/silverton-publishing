@@ -8,6 +8,43 @@ import type { BlogPost } from "./blogTypes";
 // which of ~5 distinct article templates each piece was originally built from.
 export const blogPosts: BlogPost[] = [
   {
+    slug: "corporate-transparency-act-boi-reporting-2026",
+    title: "Beneficial Ownership Reporting After CTA: Where Things Actually Stand in 2026",
+    category: "Business Structure & Jurisdiction — Book 1",
+    excerpt: "The Corporate Transparency Act's Beneficial Ownership Information reporting requirement has had a chaotic implementation — court injunctions, FinCEN pauses, legislative responses. A practitioner's summary of where things actually stand for small business owners, and what to do.",
+    date: "2026-09-21",
+    relatedBook: {
+      title: "The Entrepreneur's Guide to Business Structure & Jurisdiction — Book 1",
+      description:
+        "Choosing an entity type, selecting a state of formation, maintaining liability protection, and the ongoing compliance filings that come with owning a business. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-1",
+    },
+  },
+  {
+    slug: "ai-hiring-tools-eeoc-discrimination-2026",
+    title: "AI in Hiring: The EEOC Compliance Framework Small Business Needs to Know",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "AI hiring tools create Title VII disparate-impact exposure most small businesses don't understand. The four-fifths rule applied to AI outputs, the bias audit requirements in NYC and Illinois, and the six vendor questions that determine whether you have compliance cover.",
+    date: "2026-09-21",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "ai-data-classification-policy-small-business",
+    title: "The Four-Tier Data Classification for AI Tool Use: What Actually Goes Where",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "The operational framework the U.S. v. Heppner article implied but didn't lay out: four tiers of business data (Public, Internal, Confidential, Restricted), which AI tools each may go to, and how to turn 'don't put sensitive stuff in AI tools' into a policy a real employee can apply on a Tuesday.",
+    date: "2026-09-21",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
     slug: "employee-ai-use-policy",
     title: "Do You Need an Employee AI Use Policy? What It Covers and Why It Matters",
     category: "Managing Your Team — Books 6 & 7",
