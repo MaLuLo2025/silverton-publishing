@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "do-i-need-a-business-lawyer",
     title: "Do I Actually Need a Business Lawyer, or Can I Just Use LegalZoom?",
-    category: "Business Structure & Contracts — Books 1 & 2",
+    category: "Business Structure & Jurisdiction — Books 1 & 2",
     excerpt: "Should you hire a business lawyer or use an online service like LegalZoom? A practicing attorney breaks down when you actually need legal help — and when you're fine on your own.",
     date: "2026-03-31",
   },
