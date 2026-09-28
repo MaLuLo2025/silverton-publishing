@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <nav>
       <a href="/" className="nav-brand">
-        Silverton
+        Silverton Publishing
       </a>
       <ul className="nav-links">
         {navItems.map((item) => (

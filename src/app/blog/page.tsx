@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { blogPosts } from "@/lib/blog";
+import { topicCategory } from "@/lib/categoryLabel";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -25,16 +26,15 @@ export default function BlogIndexPage() {
       <div className="page-header">
         <h1>Real Advice</h1>
         <p>
-          Before the series launches, we&apos;re publishing practical answers to the legal and
-          business questions entrepreneurs search for every day. No jargon, no hedging &mdash; just
-          what you need to know.
+          Practical answers to the legal and business questions entrepreneurs search for every
+          day. No jargon, no hedging &mdash; just what you need to know.
         </p>
       </div>
 
       <div className="articles">
         {sorted.map((post) => (
           <Link key={post.slug} href={`/blog/${post.slug}`} className="article-item">
-            <div className="cat">{post.category}</div>
+            <div className="cat">{topicCategory(post.category)}</div>
             <h2>{post.title}</h2>
             <p>{post.excerpt}</p>
             <div className="meta">

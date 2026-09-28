@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogReadTracker from "@/components/BlogReadTracker";
 import { blogPosts } from "@/lib/blog";
+import { topicCategory } from "@/lib/categoryLabel";
 import { batch1Content } from "@/lib/blogContent/batch-1";
 import { batch2Content } from "@/lib/blogContent/batch-2";
 import { batch3Content } from "@/lib/blogContent/batch-3";
@@ -94,7 +95,7 @@ export default function BlogArticlePage({ params }: { params: { slug: string } }
       />
 
       <div className="article-header">
-        <div className="article-category">{post.category}</div>
+        <div className="article-category">{topicCategory(post.category)}</div>
         <h1>{post.title}</h1>
         <div className="article-meta">
           By Mark Stetler, J.D. &nbsp;&bull;&nbsp; Silverton Publishing &nbsp;&bull;&nbsp;{" "}

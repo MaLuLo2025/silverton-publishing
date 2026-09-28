@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import MailerLiteSignup from "@/components/MailerLiteSignup";
 import FadeInObserver from "@/components/FadeInObserver";
 import { blogPosts } from "@/lib/blog";
+import { topicCategory } from "@/lib/categoryLabel";
 
 // Phase 3: full homepage content, ported from index.html.
 //
@@ -145,14 +146,13 @@ export default function HomePage() {
             Sample the Million Dollar Highway&apos;s content and practical advice.
           </h2>
           <p className="faq-intro">
-            Before the series launches, we&apos;re publishing practical answers to the legal and
-            business questions entrepreneurs search for every day. No jargon, no hedging &mdash;
-            just what you need to know.
+            Practical answers to the legal and business questions entrepreneurs search for every
+            day. No jargon, no hedging &mdash; just what you need to know.
           </p>
           <div className="faq-grid">
             {advicePreview.map((item) => (
               <a key={item.slug} href={`/blog/${item.slug}`} className="faq-card">
-                <div className="faq-category">{item.category}</div>
+                <div className="faq-category">{topicCategory(item.category)}</div>
                 <h3>{item.title}</h3>
                 <p>{item.excerpt}</p>
                 <span className="read-more">Read the Answer &rarr;</span>
