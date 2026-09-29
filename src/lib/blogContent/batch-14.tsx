@@ -186,7 +186,7 @@ export const batch14Content: Record<string, ReactNode> = {
 
   "state-boi-registries-nylta-california-2026": (
     <>
-      <p>Earlier this year I wrote about FinCEN&apos;s August 14, 2026 Final Rule permanently exempting US-formed entities from the federal Corporate Transparency Act&apos;s beneficial ownership reporting requirements. The rule closed a chapter that had been open since 2021 for domestic small businesses, resolving in favor of exemption what had been three years of injunctions, stays, and interim guidance. For most of the LLCs and corporations I represent, the federal BOI reporting question is now closed: the answer is no, you do not need to file.</p>
+      <p>Earlier this year I wrote about <a href="/blog/corporate-transparency-act-boi-reporting-2026">FinCEN&apos;s August 14, 2026 Final Rule</a> permanently exempting US-formed entities from the federal Corporate Transparency Act&apos;s beneficial ownership reporting requirements. The rule closed a chapter that had been open since 2021 for domestic small businesses, resolving in favor of exemption what had been three years of injunctions, stays, and interim guidance. For most of the LLCs and corporations I represent, the federal BOI reporting question is now closed: the answer is no, you do not need to file.</p>
 
       <p>The natural next question is whether the states will fill the gap. The Corporate Transparency Act had a policy purpose &mdash; cracking down on anonymous shell companies used for money laundering, sanctions evasion, and fraud &mdash; and the federal exemption did not repeal the purpose. It just took the federal government out of the business of pursuing it through beneficial ownership disclosure. Someone else, the thinking went, would step in.</p>
 
