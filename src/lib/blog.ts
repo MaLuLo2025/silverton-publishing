@@ -7,6 +7,43 @@ import type { BlogPost } from "./blogTypes";
 // off-taxonomy labels like "Risk Management" or "Exit Strategy") depending on
 // which of ~5 distinct article templates each piece was originally built from.
 export const blogPosts: BlogPost[] = [
+  // ── Blog cycle 2026-09-28 additions ──
+  {
+    slug: "ai-insurance-coverage-gap-iso-exclusions-2026",
+    title: "Your Business Insurance Just Stopped Covering Your AI",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "On January 1, 2026, three ISO endorsements quietly carved AI-related claims out of the standard commercial general liability policies that most small businesses carry. If you use a chatbot, an AI drafting tool, or automated pricing on your site, you may be running that exposure uninsured right now. Here is what changed, what to check at your next renewal, and the two paths back to coverage.",
+    date: "2026-09-28",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current"
+    },
+  },
+  {
+    slug: "ai-hiring-tools-vendor-agent-liability-2026",
+    title: "Using AI to Hire? Under 2026 State Law, Your Vendor Just Became Your Agent",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "Illinois HB 3773 took effect January 1, 2026. Connecticut SB5 followed. A federal court in California is treating an AI hiring vendor as the employer's legal agent for discrimination purposes. The EEOC has pulled back on federal enforcement, but private plaintiffs and state regulators have filled the gap. If your business uses an AI hiring tool, here is what changed and what to document.",
+    date: "2026-09-28",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current"
+    },
+  },
+  {
+    slug: "state-boi-registries-nylta-california-2026",
+    title: "After the Federal Exemption: The State BOI Registries That Didn't Quite Fill the Gap",
+    category: "Business Structure & Jurisdiction — Book 1",
+    excerpt: "When FinCEN exempted US-formed companies from federal BOI reporting, the story looked like it would move to the states. New York's LLC Transparency Act took effect January 1, 2026 — and then Governor Hochul vetoed the amendment that would have made it matter. California's version passed the Senate in 2024 and has not moved since. Here is what actually happened, what small business owners in New York should know, and why the state-level BOI wave is not the wave everyone expected.",
+    date: "2026-09-28",
+    relatedBook: {
+      title: "The Entrepreneur's Guide to Business Structure & Jurisdiction — Book 1",
+      description: "Choosing an entity type, selecting a state of formation, maintaining liability protection, and the ongoing compliance filings that come with owning a business. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-1"
+    },
+  },
   {
     slug: "corporate-transparency-act-boi-reporting-2026",
     title: "Beneficial Ownership Reporting After CTA: Where Things Actually Stand in 2026",
