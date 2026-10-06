@@ -64,11 +64,11 @@ export const batch15Content: Record<string, ReactNode> = {
 
       <p>Before the AG can bring an enforcement action, the AG must give you notice of the alleged violation and 60 days to cure it. That cure right does not apply to knowing or repeated violations, and it expires January 1, 2030. Treat the cure period as a safety net for honest mistakes in the first three years, not as a compliance strategy.</p>
 
-      <h2>A client story</h2>
+      <h2>A typical scenario</h2>
 
-      <p>A client of ours, a small staffing agency with a Colorado office, uses a resume-screening tool that scores applicants against job descriptions. When SB 24-205 was still in force, they spent several months and a meaningful consulting budget on an impact assessment for that tool. When the replacement passed, the owner&apos;s first question was whether that money had been wasted.</p>
+      <p>Here is a typical scenario. Consider a small staffing agency with a Colorado office that uses a resume-screening tool that scores applicants against job descriptions. When SB 24-205 was still in force, the agency spent several months and a meaningful consulting budget on an impact assessment for that tool. When the replacement passed, the owner&apos;s first question was whether that money had been wasted.</p>
 
-      <p>Partly. The assessment is no longer required, but the work behind it was most of what the new law needs: they already knew which decisions the tool influenced, what data it used, and who could override it. Turning that into a pre-use notice for the careers page, a template for 30-day adverse-outcome explanations, and a short written human-review procedure took a few weeks, not months. The businesses that will struggle in December are the ones that never figured out where their software touches a hiring or credit decision.</p>
+      <p>Partly. The assessment is no longer required, but the work behind it was most of what the new law needs: the agency already knew which decisions the tool influenced, what data it used, and who could override it. Turning that into a pre-use notice for the careers page, a template for 30-day adverse-outcome explanations, and a short written human-review procedure took a few weeks, not months. The businesses that will struggle in December are the ones that never figured out where their software touches a hiring or credit decision.</p>
 
       <h2>Your to-do list before January 1</h2>
 
@@ -175,15 +175,15 @@ export const batch15Content: Record<string, ReactNode> = {
 
       <p>California&apos;s SB 690, signed September 30, 2026, cut off private suits under one CIPA provision (the pen-register section) for website and app conduct. It does not touch the wiretap section these chat cases rely on. If your chat vendor uses transcripts to train its models, the risk is real, and a clear notice at the start of the chat that the conversation is recorded and shared with a service provider is cheap insurance.</p>
 
-      <h2>A client story</h2>
+      <h2>A typical scenario</h2>
 
-      <p>A client of ours, a three-location home-services company, put a generative AI assistant on its website last spring. The vendor&apos;s default persona introduced itself with a first name and a stock photo of a smiling woman in a headset. Nobody at the company thought twice about it until a customer in Maine, angry about a missed appointment, posted a screenshot of the exchange alongside the line &ldquo;I asked for a manager three times and it turned out I was arguing with software.&rdquo;</p>
+      <p>Consider a three-location home-services company that put a generative AI assistant on its website last spring. The vendor&apos;s default persona introduced itself with a first name and a stock photo of a smiling woman in a headset. Nobody at the company thought twice about it until a customer in Maine, angry about a missed appointment, posted a screenshot of the exchange alongside the line &ldquo;I asked for a manager three times and it turned out I was arguing with software.&rdquo;</p>
 
-      <p>There was no lawsuit. There was a fast meeting. The fix took less than a day: new greeting (&ldquo;Hi, I&apos;m the automated assistant for [company]. I can book, reschedule, and answer common questions. Type &apos;person&apos; anytime to reach our team.&rdquo;), a real handoff to the office during business hours, and a one-line recording notice. The owner&apos;s comment afterward was the right lesson: the label cost nothing, and the fake person cost them a customer and a week of reputational cleanup.</p>
+      <p>There was no lawsuit. There was a fast meeting. The fix took less than a day: new greeting (&ldquo;Hi, I&apos;m the automated assistant for [company]. I can book, reschedule, and answer common questions. Type &apos;person&apos; anytime to reach our team.&rdquo;), a real handoff to the office during business hours, and a one-line recording notice. The owner&apos;s takeaway is the right lesson: the label cost nothing, and the fake person cost the company a customer and a week of reputational cleanup.</p>
 
       <h2>The five-point checklist</h2>
 
-      <p>This checklist meets or exceeds every state rule in the table above for an ordinary small business, and it addresses the FTC deception risk at the same time.</p>
+      <p>This checklist meets or exceeds every state rule in the list above for an ordinary small business, and it addresses the FTC deception risk at the same time.</p>
 
       <ol>
         <li><strong>Disclose at the start of the chat.</strong> First message, plain words: &ldquo;I&apos;m an automated assistant,&rdquo; not a name and headshot. This satisfies Maine, Utah&apos;s safe harbor, and the likely Colorado rule all at once.</li>
@@ -296,9 +296,9 @@ export const batch15Content: Record<string, ReactNode> = {
 
       <p><strong>Diligence.</strong> At a $2 million price, no quality of earnings report is required by the SOP. At $3 million, it would be. Many lenders will ask for one anyway on deals close to the line.</p>
 
-      <h2>A client story</h2>
+      <h2>A typical scenario</h2>
 
-      <p>A client of ours was under contract this summer to buy a regional HVAC service company. The structure, negotiated in the spring, used a seller note for half the equity and a small investment from two family members for most of the rest. The lender&apos;s commitment letter arrived in late August with a note that the loan would be numbered after October 1.</p>
+      <p>Consider a buyer who was under contract this summer to buy a regional HVAC service company. The structure, negotiated in the spring, used a seller note for half the equity and a small investment from two family members for most of the rest. The lender&apos;s commitment letter arrived in late August with a note that the loan would be numbered after October 1.</p>
 
       <p>Under 8.1, the family money and the seller note were now in the same capped bucket, and the buyer&apos;s own cash fell short of the required half. The deal survived because the seller agreed to a price reduction and the family members converted their investment into a personal loan to the buyer, repaid from the buyer&apos;s own income, which reportedly can count as an unlimited source. That took three weeks of renegotiation and an amended purchase agreement. If the parties had built the structure with the new rules in mind, it would have taken none.</p>
 
