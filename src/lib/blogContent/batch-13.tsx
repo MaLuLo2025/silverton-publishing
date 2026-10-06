@@ -308,7 +308,7 @@ export const batch13Content: Record<string, ReactNode> = {
 
       <p><strong>Examples:</strong> Material under an NDA, client and customer data, personal information of employees and customers, financial records, unreleased product information, anything you would call a trade secret.</p>
 
-      <p><strong>Where it can go:</strong> Business terms + a data processing agreement listing subprocessors + verification that whatever contract governs the data permits AI vendor disclosure. Chapter 5 of the forthcoming book covers vendor terms; existing client and vendor contracts often need to be checked.</p>
+      <p><strong>Where it can go:</strong> Business terms + a data processing agreement listing subprocessors + verification that whatever contract governs the data permits AI vendor disclosure. Existing client and vendor contracts often need to be checked as well.</p>
 
       <p><strong>Practical:</strong> If a client&apos;s engagement letter prohibits sharing client information with third parties (most professional-services engagement letters do), then even a business-tier AI tool is a third party under that engagement. Verify contract permits it before using.</p>
 
