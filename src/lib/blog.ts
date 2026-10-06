@@ -7,6 +7,43 @@ import type { BlogPost } from "./blogTypes";
 // off-taxonomy labels like "Risk Management" or "Exit Strategy") depending on
 // which of ~5 distinct article templates each piece was originally built from.
 export const blogPosts: BlogPost[] = [
+  // ── Blog cycle 2026-10-05 additions ──
+  {
+    slug: "colorado-ai-act-repealed-replaced-sb-189-2026",
+    title: "The Colorado AI Act You Prepared For No Longer Exists. Here's What Takes Effect January 1.",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "Colorado repealed its 2024 AI Act and replaced it with SB 26-189, a notice-and-explanation law that takes effect January 1, 2027. What small businesses using AI in hiring, lending, housing, or insurance must do now, what they can stop doing, and what is still unsettled.",
+    date: "2026-10-05",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current"
+    },
+  },
+  {
+    slug: "website-chatbot-disclosure-laws-2026",
+    title: "Does Your Website Chatbot Have to Say It's a Bot? The 2026 State Map for Small Businesses",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "Most new chatbot laws target AI companions, not the help widget on your website. A few do reach ordinary customer-service bots. Here is the 2026 state map, the federal backstop, and a five-point checklist for small businesses.",
+    date: "2026-10-05",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current"
+    },
+  },
+  {
+    slug: "sba-7a-business-acquisition-sop-50-10-8-1-2026",
+    title: "The SBA Just Rewrote the Rules for Buying a Business With a 7(a) Loan",
+    category: "Buying a Business — Book 10",
+    excerpt: "SBA SOP 50 10 8.1 took effect October 1, 2026. The 10% equity injection survives, but seller notes, outside investors, cash-flow coverage, and diligence all work differently now. A worked example, and what buyers and sellers should change.",
+    date: "2026-10-05",
+    relatedBook: {
+      title: "Volume 10: Buying a Business",
+      description: "Covering deal sourcing, valuation methods, due diligence checklists, deal structure, SBA financing, purchase agreements, and post-closing integration.",
+      href: "/#vol-10"
+    },
+  },
   // ── Blog cycle 2026-09-28 additions ──
   {
     slug: "ai-insurance-coverage-gap-iso-exclusions-2026",
@@ -50,6 +87,7 @@ export const blogPosts: BlogPost[] = [
     category: "Business Structure & Jurisdiction — Book 1",
     excerpt: "As of August 14, 2026, US-formed LLCs and corporations are permanently exempt from Beneficial Ownership Information reporting. What changed and when, who is still covered (foreign entities registered in the US), what to do if you already filed, and what could still affect you.",
     date: "2026-09-21",
+    dateModified: "2026-10-05",
     relatedBook: {
       title: "The Entrepreneur's Guide to Business Structure & Jurisdiction — Book 1",
       description:
@@ -148,6 +186,7 @@ export const blogPosts: BlogPost[] = [
     category: "Business Insurance & Risk Management — Book 4",
     excerpt: "General liability, professional liability, BOP, workers' comp, cyber, D&O — which types of business insurance your small business needs and what each covers.",
     date: "2026-08-09",
+    dateModified: "2026-10-05",
   },
   {
     slug: "business-succession-planning",
@@ -245,6 +284,7 @@ export const blogPosts: BlogPost[] = [
     category: "Managing Your Team — Book 6",
     excerpt: "The legal steps for terminating an employee in an at-will state: documentation requirements, final pay timing, COBRA notice, WARN Act basics, and what to avoid.",
     date: "2026-08-09",
+    dateModified: "2026-10-05",
   },
   {
     slug: "how-to-prepare-business-for-sale",

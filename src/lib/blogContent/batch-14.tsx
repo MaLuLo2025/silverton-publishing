@@ -123,7 +123,7 @@ export const batch14Content: Record<string, ReactNode> = {
 
       <p><strong>New York City&apos;s Local Law 144</strong>, which took effect in July 2023, requires annual independent bias audits of automated employment decision tools used to screen candidates. A New York State Comptroller audit released in December 2025 found significant enforcement gaps &mdash; many employers subject to the law had not conducted the required audits, and the city was not systematically pursuing them. The gaps do not repeal the law. They mean that a private plaintiff who wants to make a bias-audit case has a stronger factual predicate now than they did a year ago.</p>
 
-      <p>Colorado&apos;s SB24-205 was scheduled to take effect earlier in 2026 but was suspended in April 2026 after xAI sued and the Department of Justice intervened; the Colorado situation is fluid and the current status is tracked in real time on the <a href="/ai-current">/ai-current</a> page. Beyond Illinois, Connecticut, and New York City, several other states have introduced or enacted AI hiring-adjacent legislation. The compliance picture for a business hiring across state lines is now a genuine patchwork.</p>
+      <p>Colorado&apos;s SB24-205 was scheduled to take effect earlier in 2026 but was suspended in April 2026 after xAI sued and the Department of Justice intervened; Colorado has since repealed SB24-205 and replaced it with a narrower notice-and-explanation law, SB 26-189, effective January 1, 2027 (<a href="/blog/colorado-ai-act-repealed-replaced-sb-189-2026">what changed and what to do before January</a>); the current status is tracked on the <a href="/ai-current">/ai-current</a> page. Beyond Illinois, Connecticut, and New York City, several other states have introduced or enacted AI hiring-adjacent legislation. The compliance picture for a business hiring across state lines is now a genuine patchwork.</p>
 
       <h2>The new FCRA theory</h2>
 
@@ -161,7 +161,7 @@ export const batch14Content: Record<string, ReactNode> = {
 
       <div className="faq-item">
         <h3>What states have enforceable AI hiring laws right now?</h3>
-        <p>Illinois HB 3773 (January 1, 2026), Connecticut SB5, and New York City&apos;s Local Law 144. Additional states have introduced legislation; check <a href="/ai-current">/ai-current</a> for the current picture.</p>
+        <p>Illinois HB 3773 (January 1, 2026), Connecticut SB5, and New York City&apos;s Local Law 144. Colorado&apos;s replacement law, SB 26-189, takes effect January 1, 2027 &mdash; <a href="/blog/colorado-ai-act-repealed-replaced-sb-189-2026">learn more</a>. Additional states have introduced legislation; check <a href="/ai-current">/ai-current</a> for the current picture.</p>
       </div>
 
       <div className="faq-item">

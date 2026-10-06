@@ -20,7 +20,7 @@ export const batch13Content: Record<string, ReactNode> = {
         <li><strong>August 14, 2026:</strong> FinCEN&apos;s Final Rule, issued August 11 and published in the Federal Register on August 14, makes that exemption permanent.</li>
       </ul>
 
-      <p>The CTA itself was not repealed. What changed is FinCEN&apos;s regulatory definition of a &amp;ldquo;reporting company,&amp;rdquo; which now excludes domestic entities.</p>
+      <p>The CTA itself was not repealed. What changed is FinCEN&apos;s regulatory definition of a &ldquo;reporting company,&rdquo; which now excludes domestic entities.</p>
 
       <h2>Who is still covered</h2>
 

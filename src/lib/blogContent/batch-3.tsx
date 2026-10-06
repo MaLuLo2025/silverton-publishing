@@ -67,6 +67,29 @@ export const batch3Content: Record<string, ReactNode> = {
         <p>Look up your state&apos;s final pay law before the termination date, not after. The deadlines are short and the penalties for missing them (double damages, attorney&apos;s fees) are disproportionately expensive for what is usually a timing error.</p>
       </div>
 
+      <h2>The situations that generate lawsuits</h2>
+
+      <p>Most terminations never turn into claims. The ones that do tend to share a few patterns, and almost none of them are about whether the employer had a reason. They are about how the decision looks from the outside.</p>
+
+      <p><strong>Timing right after protected activity.</strong> Retaliation has been the most frequently alleged basis in charges filed with the EEOC for years running. <a href="https://www.law.cornell.edu/uscode/text/42/2000e-3" target="_blank" rel="noopener noreferrer">Federal law</a> prohibits retaliating against an employee who has opposed discrimination or participated in a complaint or investigation, and other laws protect employees who request leave, file a workers&apos; compensation claim, raise a safety concern, or ask about wages. If an employee complained about harassment, asked for medical leave, filed a workers&apos; comp claim, or told you they are pregnant or have a disability, and you fire them a few weeks later, the timing alone can carry a retaliation or discrimination claim past a motion to dismiss. Your reason may be legitimate. You will still have to prove it, so document performance problems as they happen, not after the protected event.</p>
+
+      <p><strong>Inconsistent treatment.</strong> Firing one employee for being late when three others are routinely late without consequence invites the question of what is different about the one you fired. If the answer could be age, race, sex, disability, or a complaint they made, you have a problem. Before you act, check how you handled the same conduct by others.</p>
+
+      <p><strong>Humiliating or emotional terminations.</strong> Firing someone in front of coworkers, in anger, by text, or with a security escort they did nothing to earn does not create a legal claim by itself. It creates a motivated former employee who goes looking for one, and it gives a jury a reason to dislike you. A short, private, prepared meeting is cheaper.</p>
+
+      <h2>When to call a lawyer before you act</h2>
+
+      <p>Talk to employment counsel before the termination, not after, if the employee:</p>
+
+      <ul>
+        <li><strong>is 40 or older.</strong> The <a href="https://www.law.cornell.edu/uscode/text/29/631" target="_blank" rel="noopener noreferrer">Age Discrimination in Employment Act</a> protects workers 40 and over. If you want a release of age claims in exchange for severance, the <a href="https://www.law.cornell.edu/uscode/text/29/626" target="_blank" rel="noopener noreferrer">Older Workers Benefit Protection Act</a> requires, among other things, at least 21 days to consider the agreement (45 days if it is part of a group program), a 7-day revocation period after signing, and written advice to consult a lawyer. In a group termination, you must also disclose the job titles and ages of those selected and not selected.</li>
+        <li><strong>is pregnant, has a disability, or recently requested an accommodation.</strong></li>
+        <li><strong>is on, or just returned from, protected leave</strong> (family or medical leave, military leave, or state-law leave).</li>
+        <li><strong>recently complained</strong> about discrimination, harassment, safety, or wage and hour issues, internally or to an agency.</li>
+        <li><strong>has an employment contract</strong> or an offer letter that promises a term, a notice period, or termination only &ldquo;for cause.&rdquo;</li>
+        <li><strong>is part of a group layoff.</strong> Beyond the OWBPA rules above, the federal <a href="https://www.law.cornell.edu/uscode/text/29/2101" target="_blank" rel="noopener noreferrer">WARN Act</a> generally requires 60 days&apos; written notice from employers with 100 or more employees (excluding part-time employees) before a plant closing affecting 50 or more employees at a site, or a mass layoff affecting at least 50 employees making up at least 33% of the workforce at a site, or at least 500 employees, within a 30-day period. Many states have their own, stricter versions.</li>
+      </ul>
+
       <h2>COBRA Continuation Notice</h2>
 
       <p>If you have 20 or more employees and offer group health coverage, COBRA requires you to notify terminated employees of their right to continue coverage at their own expense for up to 18 months. The notice must go out within 44 days of the qualifying event (termination). Failure to provide timely COBRA notice exposes you to penalties of $110 per day per qualified beneficiary.</p>
@@ -75,7 +98,7 @@ export const batch3Content: Record<string, ReactNode> = {
 
       <h2>WARN Act Basics</h2>
 
-      <p>The federal Worker Adjustment and Retraining Notification (WARN) Act applies to employers with 100 or more employees. It requires 60 days advance written notice for plant closings or mass layoffs affecting 50 or more workers at a single site within a 30-day period.</p>
+      <p>The federal Worker Adjustment and Retraining Notification (WARN) Act applies to larger employers. The employee thresholds and the 60-day notice requirement are described in the lawyer checklist above.</p>
 
       <p>For most small businesses, the federal WARN Act is not triggered. However, roughly 20 states have mini-WARN laws with lower employee thresholds. If you are conducting layoffs affecting multiple employees, check your state&apos;s WARN requirements before proceeding.</p>
 
@@ -83,7 +106,7 @@ export const batch3Content: Record<string, ReactNode> = {
 
       <p>Severance is not legally required in most situations — you pay it if you choose to, or if the employee has a contract entitling them to it. When you do offer severance, it is standard practice to condition it on a signed release of claims. The release is a legal document in which the employee agrees not to sue you for any claims arising from their employment or termination, in exchange for the severance payment.</p>
 
-      <p>There are specific rules for releases involving employees age 40 and over under the Older Workers Benefit Protection Act (OWBPA): they must be given 21 days to consider the agreement and 7 days to revoke it after signing. Using a non-compliant release with an older worker makes the release unenforceable. Have an employment attorney draft or review any severance agreement before you use it.</p>
+      <p>Releases involving employees age 40 and over are subject to the Older Workers Benefit Protection Act (OWBPA) requirements described above. Using a non-compliant release with an older worker makes the release unenforceable. Have an employment attorney draft or review any severance agreement before you use it.</p>
 
       <h2>Unemployment Claims</h2>
 

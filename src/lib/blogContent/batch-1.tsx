@@ -389,11 +389,17 @@ export const batch1Content: Record<string, ReactNode> = {
 
       <p>Cyber policies vary significantly in what they cover and exclude. Read the policy carefully around war exclusions, social engineering fraud (phishing), and retroactive dates. Many insurers now require you to have basic security controls (MFA, endpoint protection, backups) as a condition of coverage.</p>
 
+      <h2>One thing to check at your next renewal: AI exclusions</h2>
+
+      <p>Insurers have started writing artificial intelligence out of policies that used to cover it by default. Verisk&apos;s ISO, which drafts the standard forms most carriers use, <a href="https://www.independentagent.com/vu_resource/verisk-to-roll-out-new-general-liability-exclusions-for-generative-ai-exposures/" target="_blank" rel="noopener noreferrer">introduced three optional generative AI exclusion endorsements</a> for general liability effective January 2026: CG 40 47 (Coverages A and B), CG 40 48 (Coverage B, personal and advertising injury, only), and CG 35 08 (products and completed operations). Some carriers have gone further in specialty lines. W. R. Berkley, for example, <a href="https://www.hunton.com/hunton-insurance-recovery-blog/the-continued-proliferation-of-ai-exclusions" target="_blank" rel="noopener noreferrer">introduced what it calls an &ldquo;absolute&rdquo; AI exclusion</a> for D&amp;O, E&amp;O, and fiduciary liability policies.</p>
+
+      <p>These endorsements are optional, so whether you have one depends on your carrier and your renewal. If your business uses AI to write marketing copy, answer customers, or support professional work, a new exclusion could remove coverage for exactly the claim you are most likely to face. Before you renew, ask your broker <strong>in writing</strong> whether any of your policies (CGL, E&amp;O or professional liability, and cyber) contain or will add an AI-related exclusion, and get the answer back in writing. We walk through the forms in more detail in <a href="/blog/ai-insurance-coverage-gap-iso-exclusions-2026">the AI insurance coverage gap</a>.</p>
+
       <h2>Directors &amp; Officers (D&amp;O) / Management Liability</h2>
 
       <p>D&amp;O insurance protects the personal assets of your company&apos;s directors and officers from claims that they mismanaged the business. For small private companies, the most common claims come from minority shareholders, investors, or co-founders alleging breach of fiduciary duty, self-dealing, or misrepresentation.</p>
 
-      <p>If you have outside investors, a board of advisors, or a multi-member LLC with investors holding equity, D&amp;O coverage is worth serious consideration. Without it, a lawsuit naming you personally &mdash; even a meritless one &mdash; comes out of your personal pocket to defend.</p>
+      <p>Without it, a lawsuit naming you personally &mdash; even a meritless one &mdash; comes out of your personal pocket to defend.</p>
 
       <h2>Commercial Auto Insurance</h2>
 
@@ -407,6 +413,14 @@ export const batch1Content: Record<string, ReactNode> = {
 
       <p>Umbrella coverage is especially relevant if you work on client sites, have significant vehicle exposure, or operate in a high-litigation industry. It is one of the higher-value-per-dollar coverages available to small businesses.</p>
 
+      <h2>Coverage most small businesses don&apos;t need yet</h2>
+
+      <p>Two policies get pitched to small businesses more often than they are needed.</p>
+
+      <p><strong>Key person insurance</strong> is life (and sometimes disability) coverage the business buys on someone whose loss would seriously damage it. It makes sense in two situations: a lender requires it, which is common on acquisition loans when the business depends on one owner, or a founder&apos;s death or disability would sink the company because the clients, the licenses, or the know-how sit with that one person. Otherwise, the premium is usually better spent elsewhere.</p>
+
+      <p><strong>Directors and officers (D&amp;O) insurance</strong> protects the people running the company against claims about how they managed it, mostly claims brought by outside investors and board members. If you have no outside investors and no independent board, that exposure is small. Revisit D&amp;O when you take outside money or seat a board.</p>
+
       <h2>How to Think About Coverage Gaps</h2>
 
       <p>The most common mistake small business owners make is buying the cheapest package available without understanding what it excludes. Every policy has exclusions. The question is whether the excluded risks are material to your business.</p>
@@ -417,7 +431,7 @@ export const batch1Content: Record<string, ReactNode> = {
         <p>An annual insurance review &mdash; where you walk through your current operations and compare them to your current coverage &mdash; is one of the highest-ROI hours a small business owner can spend. Businesses change. Policies do not update themselves.</p>
       </div>
 
-      <p>Get quotes from more than one broker. Coverage terms vary more than most owners realize, and the cheapest premium is not always the best policy when you are trying to file a claim.</p>
+      <p>One last practical point: consider an independent broker, one who can quote coverage from several carriers, rather than a captive agent who represents only one company. An independent broker can compare policy forms, including exclusions like the AI endorsements above, side by side. A captive agent can only show you what one carrier offers.</p>
     </>
   ),
 
