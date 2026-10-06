@@ -220,18 +220,6 @@ export const blogPosts: BlogPost[] = [
     },
   },
   {
-    slug: "how-to-fire-an-employee-legally",
-    title: "How to Fire an Employee Without Getting Sued",
-    category: "Managing Your Team — Book 6",
-    excerpt: "At-will employment doesn't mean consequence-free termination. How to fire an employee legally — documentation, progressive discipline, final paycheck rules, and the mistakes that lead to lawsuits.",
-    date: "2026-03-31",
-    relatedBook: {
-      title: "Volume 6: Managing Your Team",
-      description: "Covering performance management, progressive discipline, termination procedures, severance agreements, and the full legal framework for managing and separating from employees.",
-      href: "/#vol-6",
-    },
-  },
-  {
     slug: "how-to-handle-eeoc-complaint",
     title: "How to Handle an EEOC Complaint Against Your Small Business",
     category: "Managing Your Team — Book 6",
@@ -445,19 +433,6 @@ export const blogPosts: BlogPost[] = [
       title: "Intellectual Property — Book 8",
       description: "In-depth discussion of intellectual property protection, licensing strategies, and building defensible business assets. Part of The Million Dollar Highway series from Silverton Publishing.",
       href: "/#vol-8",
-    },
-  },
-  {
-    slug: "what-business-insurance-do-i-need",
-    title: "What Business Insurance Do I Actually Need?",
-    category: "Business Insurance & Risk Management — Book 4",
-    excerpt: "Which business insurance policies do you actually need? General liability, professional liability, workers comp, BOP, D&O — explained in plain language for small business owners.",
-    date: "2026-03-31",
-    dateModified: "2026-08-25",
-    relatedBook: {
-      title: "Volume 4: Business Insurance & Risk Management",
-      description: "Covering every insurance type, how to read a policy, what exclusions to watch for, and how to structure coverage as your business grows.",
-      href: "/#vol-4",
     },
   },
   {

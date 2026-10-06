@@ -257,56 +257,6 @@ export const batch2Content: Record<string, ReactNode> = {
     </>
   ),
 
-  "how-to-fire-an-employee-legally": (
-    <>
-      <p>Nobody starts a business because they&apos;re excited about firing people. But if you have employees long enough, you&apos;re going to have to let someone go. And the way you handle it determines whether it&apos;s a clean break or a six-figure lawsuit.</p>
-
-      <p>Most business owners think they&apos;re safe because they&apos;re in an &ldquo;at-will&rdquo; state. Let me dismantle that assumption right now.</p>
-
-      <h2>&ldquo;At-Will&rdquo; Doesn&apos;t Mean &ldquo;Consequence-Free&rdquo;</h2>
-
-      <p>At-will employment means that either party — employer or employee — can end the relationship at any time, for any reason, with or without notice. Almost every state is at-will (Montana is the lone exception). And on paper, that sounds like it gives you wide latitude to fire someone.</p>
-
-      <p>In practice, at-will has so many exceptions carved into it that relying on it as your legal shield is dangerous. You cannot fire someone for a reason that&apos;s illegal, even in an at-will state. The major categories of illegal termination include firing someone because of their race, sex, age (over 40), religion, national origin, disability, or pregnancy (federal anti-discrimination laws); firing someone in retaliation for filing a workers&apos; comp claim, reporting safety violations, reporting discrimination, or engaging in other legally protected activity; firing someone for exercising their rights under the Family and Medical Leave Act, jury duty obligations, or military service; and firing someone in a way that violates an implied contract — which can be created by your own employee handbook, verbal promises, or even a consistent pattern of progressive discipline that you suddenly deviate from.</p>
-
-      <p>That last one surprises people. If your handbook says employees will receive a verbal warning, then a written warning, then a final warning before termination — and you skip straight to firing someone — a court may treat that handbook as an implied contract that you breached.</p>
-
-      <h2>The Paper Trail Is Everything</h2>
-
-      <p>The single most important thing you can do to protect yourself in any termination is document the performance problems before the termination happens. This isn&apos;t about building a &ldquo;case&rdquo; against someone in a cynical way. It&apos;s about creating a contemporaneous record that shows the termination was based on legitimate business reasons, not discrimination or retaliation.</p>
-
-      <p>What good documentation looks like: specific descriptions of the performance problem with dates and details (&ldquo;On March 15, the monthly client report was submitted four days late and contained three factual errors that required correction&rdquo;); a record of conversations where you communicated the problem to the employee and set clear expectations for improvement; a reasonable timeframe for improvement; and a record of whether improvement happened or didn&apos;t.</p>
-
-      <p>What bad documentation looks like: vague characterizations (&ldquo;not a team player,&rdquo; &ldquo;bad attitude,&rdquo; &ldquo;not a good fit&rdquo;) with no specific examples; documentation created after the decision to terminate has already been made; or no documentation at all, followed by a sudden termination.</p>
-
-      <p>If you&apos;re ever in front of a jury explaining why you fired someone, the jury is going to look at what you wrote down while it was happening. If you wrote nothing down, the employee&apos;s version of events fills the vacuum.</p>
-
-      <h2>The Termination Conversation</h2>
-
-      <p>When the day comes, keep it short, clear, and professional. This is not a negotiation. This is not an extended discussion of everything they did wrong. It&apos;s a brief, direct communication that the employment relationship is ending.</p>
-
-      <p>Have a witness in the room — ideally someone from HR or management. State the reason for termination clearly and briefly. Don&apos;t apologize (it can be construed as an admission that the decision was wrong). Don&apos;t argue or debate. If the employee pushes back, you can acknowledge their perspective without changing the outcome: &ldquo;I understand you see it differently, but the decision has been made.&rdquo;</p>
-
-      <p>Cover the logistics: last day of employment, final paycheck (check your state law — some states require immediate payment on the day of termination), COBRA information for health insurance continuation, return of company property, and what happens to their access to company systems. Revoke all system access before or during the meeting, not after.</p>
-
-      <div className="callout">
-        <strong>Final paycheck warning:</strong> State laws on final paychecks vary enormously. California requires payment on the same day as termination for involuntary terminations. Colorado requires it by the next payday. Some states impose penalties of an additional day&apos;s wages for every day the final paycheck is late. Know your state&apos;s rule before you walk into the meeting.
-      </div>
-
-      <h2>The Situations That Generate Lawsuits</h2>
-
-      <p><strong>Timing.</strong> If you fire someone shortly after they filed a complaint, took medical leave, reported a safety issue, or disclosed a pregnancy, the timing alone creates an inference of retaliation or discrimination. Even if your reasons are legitimate, the timing makes the case expensive to defend. If possible, address performance issues well before any protected event — or if a protected event has just occurred, consult an employment attorney before proceeding with termination.</p>
-
-      <p><strong>Inconsistency.</strong> If you fire Employee A for excessive absences but didn&apos;t fire Employee B for the same behavior, you&apos;d better have a documented reason for the different treatment. Inconsistent application of policies is one of the strongest pieces of evidence in a discrimination claim.</p>
-
-      <p><strong>Emotional terminations.</strong> Firing someone in anger, in front of other employees, or in a way that humiliates them doesn&apos;t just feel wrong — it motivates lawsuits. People who feel they were treated with dignity during a termination are far less likely to sue than people who feel they were disrespected. The termination meeting should be private, brief, and professional. Always.</p>
-
-      <div className="callout">
-        <strong>When to call a lawyer first:</strong> If the employee is over 40, pregnant, disabled, on medical leave, or has recently filed any kind of complaint — talk to an employment attorney before you terminate. The consultation is a few hundred dollars. The wrongful termination lawsuit is six figures. The math is simple.
-      </div>
-    </>
-  ),
-
   "how-to-handle-eeoc-complaint": (
     <>
       <p>An EEOC complaint lands in your mailbox and your stomach drops. You built this business. You treat your people fairly. And now a federal agency is telling you that someone disagrees — and they have the authority to investigate.</p>
