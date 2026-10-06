@@ -26,6 +26,9 @@ const RULES = [
   { id: "client-anecdote", re: /\b(a |one of )?(client|clients) of ours\b/i },
   { id: "client-anecdote", re: /\bour client\b/i },
   { id: "client-anecdote", re: /\bwe (represented|advised)\b/i },
+  { id: "client-anecdote", re: /\bmy client\b/i },
+  { id: "client-anecdote", re: /\bI represented\b/i },
+  { id: "client-anecdote", re: /\ba client (called|came|asked) me\b/i },
   // e. Silverton: no pre-launch book references in body prose
   { id: "book-reference", re: /\bChapter \d+ of\b/ },
   { id: "book-reference", re: /\bthe book\b/i },

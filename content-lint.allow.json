@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "file": "src/lib/blogContent/batch-1.tsx",
+    "pattern": "client-anecdote",
+    "contains": " would have exposed my client to liability for their c",
+    "reason": "PENDING BACKLOG: first-person client anecdote; real-or-invented decision logged in docs/CONTENT-BACKLOG.md (2026-10-06)"
+  },
+  {
+    "file": "src/lib/blogContent/batch-3.tsx",
+    "pattern": "client-anecdote",
+    "contains": "A commercial tenant I represented once called the week aft",
+    "reason": "PENDING BACKLOG: first-person client anecdote; real-or-invented decision logged in docs/CONTENT-BACKLOG.md (2026-10-06)"
+  },
+  {
+    "file": "src/lib/blogContent/batch-4.tsx",
+    "pattern": "client-anecdote",
+    "contains": "          A client called me in late 2025 asking whet",
+    "reason": "PENDING BACKLOG: first-person client anecdote; real-or-invented decision logged in docs/CONTENT-BACKLOG.md (2026-10-06)"
+  }
+]
