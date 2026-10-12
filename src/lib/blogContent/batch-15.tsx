@@ -96,7 +96,7 @@ export const batch15Content: Record<string, ReactNode> = {
 
       <p>Colorado passed several narrower AI bills this session. The one most likely to matter to a general business is <a href="https://leg.colorado.gov/bills/HB26-1263" target="_blank" rel="noopener noreferrer">HB 26-1263</a>, the conversational-AI (chatbot) safety law, signed May 29, 2026, with operator requirements beginning January 1, 2027. It requires operators of publicly available chatbots to tell users they are talking to AI, and adds age-estimation, self-harm protocols, and minor-protection duties. Its definition is broad, and the AG&apos;s proposed rules would carve out narrow, bounded-task bots. We cover that in <a href="/blog/website-chatbot-disclosure-laws-2026">our chatbot disclosure guide</a>. According to the legislature&apos;s research staff, two other bills, HB 26-1139 and HB 26-1195, deal with AI in health-insurance utilization review and AI in psychotherapy. If you are not in those fields, they will not touch you.</p>
 
-      <p>If you also collect consumer data, Colorado&apos;s AI rules sit alongside its privacy law, covered in <a href="/blog/state-privacy-laws-small-business-2026">our state privacy law overview</a>.</p>
+      <p>If you also collect consumer data, Colorado&apos;s AI rules sit alongside its privacy law, covered in <a href="/blog/state-privacy-laws-small-business-2026">our state privacy law overview</a>. For another state&apos;s approach, see <a href="/blog/connecticut-cart-act-ai-subscriptions-2026">Connecticut&apos;s 2026 AI law</a>.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -220,6 +220,8 @@ export const batch15Content: Record<string, ReactNode> = {
       <h2>For ongoing tracking</h2>
 
       <p>State chatbot rules are still being written, including Colorado&apos;s final rules. We track changes at <a href="/ai-current">silvertonpublishing.com/ai-current</a>.</p>
+
+      <p>For related rules, see <a href="/blog/connecticut-cart-act-ai-subscriptions-2026">Connecticut&apos;s 2026 AI law</a>, which includes AI companion requirements, and <a href="/blog/eu-ai-act-timeline-us-small-business-2026">the EU AI Act&apos;s chatbot disclosure duty</a> for businesses with EU customers.</p>
 
       <p><em>This article reflects state and federal chatbot disclosure law as of October 2026. New state laws and rules in this area are arriving every legislative session. Confirm the current rules in the states where your customers live before relying on it. Nothing in this article is legal advice for your specific situation.</em></p>
 

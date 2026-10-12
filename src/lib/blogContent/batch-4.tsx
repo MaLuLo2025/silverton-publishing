@@ -848,6 +848,10 @@ export const batch4Content: Record<string, ReactNode> = {
         program.
       </p>
       <p>
+        For how the FBAR and Form 8938 apply to business owners and their companies, see{" "}
+        <a href="/blog/fbar-fatca-foreign-accounts-business-owners-2026">FBAR and Form 8938 for business owners</a>.
+      </p>
+      <p>
         Anyone who has discovered offshore reporting issues should consult with an international tax
         attorney before taking any action. The path between bad facts and acceptable outcomes is
         narrow and depends on choosing the right disclosure vehicle for the specific situation.

@@ -571,6 +571,44 @@ export const blogPosts: BlogPost[] = [
       href: "/ai-current",
     },
   },
+
+  // ── Blog cycle 2026-10-12 additions ──
+  {
+    slug: "eu-ai-act-timeline-us-small-business-2026",
+    title: "The EU AI Act for US Small Businesses: What Applies Now, What the Digital Omnibus Delayed, and What to Do",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "The EU AI Act reaches US companies whose AI systems or outputs end up in the EU. After the July 2026 Digital Omnibus, the high-risk rules slid to late 2027 and 2028, but chatbot disclosure and the AI-literacy duty already apply, and AI-content marking catches up on December 2, 2026.",
+    date: "2026-10-12",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "connecticut-cart-act-ai-subscriptions-2026",
+    title: "Connecticut's New AI Law: What Small Businesses Selling AI Subscriptions or Running Chatbots Need to Know",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "Connecticut's 2026 AI law, Public Act 26-15, started with a broad AI subscription rule, but a follow-up act narrowed it to very large generative AI platforms before it took effect on October 1, 2026. Here is who is actually covered, how the AI companion rules differ from a customer-service bot, and why most small employers can set the whistleblower provisions aside.",
+    date: "2026-10-12",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "fbar-fatca-foreign-accounts-business-owners-2026",
+    title: "FBAR and Form 8938 for Business Owners: Foreign Accounts, Signature Authority, and What Happens If You Missed a Filing",
+    category: "Offshore Business, Tax Havens & International Trusts — Book 12",
+    excerpt: "A foreign supplier account, a euro balance in a fintech app, or signing authority over a company account abroad can each trigger a US reporting duty. Here is how the FBAR and Form 8938 apply to small-business owners and their companies, what the penalties really are after Bittner, and what changed in 2026 for people catching up on late filings.",
+    date: "2026-10-12",
+    relatedBook: {
+      title: "The Entrepreneur's Guide to Offshore Business, Tax Havens & International Trusts — Book 12",
+      description: "U.S. tax residency, FBAR and FATCA compliance, foreign entity reporting, the major offshore jurisdictions, anti-deferral regimes, and the realistic landscape of international tax planning for U.S. persons. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-12",
+    },
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);
