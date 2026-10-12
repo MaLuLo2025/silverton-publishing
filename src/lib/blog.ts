@@ -383,6 +383,7 @@ export const blogPosts: BlogPost[] = [
     category: "Offshore Business, Tax Havens & International Trusts — Book 12",
     excerpt: "Holding offshore accounts is legal. Failing to report them is where the catastrophic penalties live. The compliance regime every U.S. person with foreign accounts needs to understand.",
     date: "2026-04-27",
+    dateModified: "2026-10-12",
     relatedBook: {
       title: "The Entrepreneur's Guide to Offshore Business, Tax Havens & International Trusts — Book 12",
       description: "U.S. tax residency, FBAR and FATCA compliance, foreign entity reporting, the major offshore jurisdictions, anti-deferral regimes, and the realistic landscape of international tax planning for U.S. persons. Part of The Million Dollar Highway series from Silverton Publishing.",

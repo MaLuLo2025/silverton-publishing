@@ -666,26 +666,34 @@ export const batch4Content: Record<string, ReactNode> = {
       <p>
         <strong>The penalty structure</strong> is where most people&apos;s understanding of offshore
         accounts changes permanently. For non-willful violations — a person who genuinely didn&apos;t
-        know about the requirement — the civil penalty can be up to $10,000 per violation. Courts have
-        interpreted &quot;per violation&quot; to mean per account per year. A person with three
-        foreign accounts who failed to file for three years is potentially exposed to $90,000 in
-        penalties even if no tax was owed and no income was earned on the accounts.
+        know about the requirement — the statutory maximum is $10,000 per violation, adjusted for
+        inflation. Under <a href="https://www.govinfo.gov/content/pkg/FR-2025-01-17/html/2025-01374.htm" target="_blank" rel="noopener noreferrer">FinCEN&apos;s January 2025 adjustment</a>,
+        that maximum is $16,536 for penalties assessed on or after January 17, 2025, and as of
+        October 2026 the 2025 amounts remain in effect. In{" "}
+        <a href="https://www.law.cornell.edu/supremecourt/text/21-1195" target="_blank" rel="noopener noreferrer">Bittner v. United States</a>{" "}
+        (2023), the Supreme Court held 5-4 that the non-willful penalty applies per report, not per
+        account. A person with three foreign accounts who failed to file for three years therefore
+        faces up to three non-willful penalties, one for each late annual report, rather than nine.
+        The statute also provides a reasonable-cause exception for non-willful violations when the
+        account is properly reported.
       </p>
       <p>
         For willful violations — and the IRS only needs to prove the person was aware of the
-        requirement, not that they intended to evade taxes — the penalty can be up to the greater of
-        $100,000 or 50% of the account balance at the time of the violation, per violation. Per
-        account, per year. Courts have upheld penalties that exceed the value of the accounts
-        themselves. Criminal penalties for willful violations include imprisonment of up to ten years
-        and fines up to $500,000.
+        requirement, not that they intended to evade taxes — the maximum is the greater of the
+        inflation-adjusted amount ($165,353 under the January 2025 adjustment) or 50% of the account
+        balance at the time of the violation. Bittner does not change the willful penalty, and
+        courts have upheld willful penalties that exceed the value of the accounts themselves.
+        Criminal penalties for willful violations include imprisonment of up to ten years and fines
+        up to $500,000. For the full breakdown, see{" "}
+        <a href="/blog/fbar-fatca-foreign-accounts-business-owners-2026">FBAR and Form 8938 for business owners</a>.
       </p>
       <p>
         A representative case of how badly this can go: a U.S. person opened a foreign bank account
         years ago, deposited $15,000, and forgot about it. No income, no transactions, nothing
         reportable on a tax return. The account sat. If the IRS later determines those failures were
-        willful, the penalty exposure is $7,500 per year (50% of the $15,000 balance) for every year of
-        non-filing. Across ten years of dormancy, that&apos;s $75,000 in potential penalties on a
-        $15,000 account that earned nothing.
+        willful, the statutory maximum for each year of non-filing is the greater of the
+        inflation-adjusted amount or 50% of the balance, which can far exceed a $15,000 account
+        that earned nothing.
       </p>
 
       <h2>Form 8938: The IRS Counterpart to FBAR</h2>
@@ -829,10 +837,16 @@ export const batch4Content: Record<string, ReactNode> = {
         period; the foreign version waives most penalties.
       </p>
       <p>
-        <strong>Delinquent FBAR Submission Procedures.</strong> For taxpayers who didn&apos;t file
-        FBAR but didn&apos;t owe additional U.S. tax (the foreign accounts didn&apos;t generate
-        reportable income or the income was already reported). This procedure can result in no
-        penalties if the non-filing is determined to be reasonable cause and not willful.
+        <strong>Delinquent FBAR Submission Procedures (no longer published).</strong> For years the
+        IRS published procedures under which a taxpayer who had reported and paid tax on all income
+        and hadn&apos;t been contacted about an exam could file late FBARs without penalty. As
+        reported by <a href="https://taxnews.ey.com/news/2026-1516-irs-removes-published-penalty-relief-guidance-for-certain-delinquent-fbar-fincen-form-114-filings" target="_blank" rel="noopener noreferrer">EY</a>{" "}
+        and other advisers, the IRS removed that page on July 1, 2026. The FBAR rules themselves
+        didn&apos;t change, but the published assurance of no penalty is gone. The IRS now tells late
+        filers to file as soon as possible to keep potential penalties to a minimum, and the penalty
+        decision rests on examiner discretion. See{" "}
+        <a href="/blog/fbar-fatca-foreign-accounts-business-owners-2026">our FBAR and Form 8938 guide</a>{" "}
+        for the options that remain.
       </p>
       <p>
         <strong>Voluntary Disclosure Practice.</strong> For taxpayers whose conduct may have been
