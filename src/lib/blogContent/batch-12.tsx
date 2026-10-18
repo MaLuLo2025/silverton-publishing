@@ -8,9 +8,9 @@ export const batch12Content: Record<string, ReactNode> = {
 
       <p>They ask about it wrong. The question they raise is usually some version of &ldquo;does my LLC really protect me?&rdquo; &mdash; as though the answer depends on which legal entity type they chose or whether their state has some particular quirk. The answer they want is yes.</p>
 
-      <p>The honest answer is: the entity protects you, unless your own conduct or paperwork takes the protection away. That &ldquo;unless&rdquo; is the part they don&apos;t think about, and it&apos;s where I&apos;ve watched clients lose the protection they thought they&apos;d bought. The doctrine that lets a court reach past the entity to hold the owner personally liable is called <strong>piercing the corporate veil</strong>, and it&apos;s rarer than most owners fear but far more real than most owners appreciate.</p>
+      <p>The honest answer is: the entity protects you, unless your own conduct or paperwork takes the protection away. That &ldquo;unless&rdquo; is the part they don&apos;t think about, and it&apos;s where owners lose the protection they thought they&apos;d bought. The doctrine that lets a court reach past the entity to hold the owner personally liable is called <strong>piercing the corporate veil</strong>, and it&apos;s rarer than most owners fear but far more real than most owners appreciate.</p>
 
-      <p>This is not a comprehensive treatment of the doctrine. That would be a book chapter. This is a practitioner-level account of the four scenarios I&apos;ve seen most often lose personal-liability protection for real small business owners, and what to do about each. It&apos;s information, not legal advice &mdash; the specifics vary by state and by facts.</p>
+      <p>This is not a comprehensive treatment of the doctrine. That would be a book chapter. This is a practitioner-level account of the four scenarios that most often cost small business owners their personal-liability protection, and what to do about each. It&apos;s information, not legal advice &mdash; the specifics vary by state and by facts.</p>
 
       <h2>Why the Doctrine Exists</h2>
 
@@ -18,7 +18,7 @@ export const batch12Content: Record<string, ReactNode> = {
 
       <p>Courts have always been willing, in narrow circumstances, to ignore that fiction. The rationale: entities are a privilege the law grants for legitimate business purposes, and owners who treat the entity as a pretext &mdash; as an accounting convenience layered over what is really personal activity &mdash; don&apos;t get the protection the entity was designed to provide.</p>
 
-      <p>The four scenarios below are the ones I&apos;ve seen do the damage most often.</p>
+      <p>The four scenarios below are the ones that do the damage most often.</p>
 
       <h2>Scenario 1: Commingling</h2>
 
@@ -30,7 +30,7 @@ export const batch12Content: Record<string, ReactNode> = {
 
       <p>The practical rule: <strong>the business has its own bank account, its own credit card, and its own accounting records. Money moves between you and the business only through documented, ordinary-course transactions &mdash; salary, distributions, loans with promissory notes, contributed capital with contemporaneous records.</strong> If you can&apos;t answer, month by month, how much you drew from the business and under what characterization, you have a commingling problem before anyone challenges you on it.</p>
 
-      <p>I had a client several years ago who lost a $180,000 judgment because his LLC had exactly one bank account, and it was the same account he used for his mortgage, his kids&apos; school payments, his car, and &mdash; occasionally &mdash; the business&apos;s payments to suppliers. When a supplier&apos;s collections attorney looked at the account, they said, correctly, that there was no functioning business separate from him. The court agreed. His homeowner&apos;s insurance and personal savings covered the rest.</p>
+      <p>Consider an owner whose LLC has exactly one bank account, and it&apos;s the same account he uses for his mortgage, his kids&apos; school payments, his car, and &mdash; occasionally &mdash; the business&apos;s payments to suppliers. A supplier wins a judgment against the LLC, and the supplier&apos;s collections attorney looks at the account and says, correctly, that there is no functioning business separate from him. A court can agree and let the judgment reach his personal assets. This is a hypothetical, but it is the pattern these cases turn on.</p>
 
       <h2>Scenario 2: Undercapitalization</h2>
 

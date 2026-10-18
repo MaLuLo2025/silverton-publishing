@@ -14,6 +14,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "Colorado repealed its 2024 AI Act and replaced it with SB 26-189, a notice-and-explanation law that takes effect January 1, 2027. What small businesses using AI in hiring, lending, housing, or insurance must do now, what they can stop doing, and what is still unsettled.",
     date: "2026-10-05",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -38,6 +39,7 @@ export const blogPosts: BlogPost[] = [
     category: "Buying a Business — Book 10",
     excerpt: "SBA SOP 50 10 8.1 took effect October 1, 2026. The 10% equity injection survives, but seller notes, outside investors, cash-flow coverage, and diligence all work differently now. A worked example, and what buyers and sellers should change.",
     date: "2026-10-05",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "Volume 10: Buying a Business",
       description: "Covering deal sourcing, valuation methods, due diligence checklists, deal structure, SBA financing, purchase agreements, and post-closing integration.",
@@ -63,6 +65,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "Illinois HB 3773 took effect January 1, 2026. Connecticut SB5 followed. A federal court in California is treating an AI hiring vendor as the employer's legal agent for discrimination purposes. The EEOC has pulled back on federal enforcement, but private plaintiffs and state regulators have filled the gap. If your business uses an AI hiring tool, here is what changed and what to document.",
     date: "2026-09-28",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -75,6 +78,7 @@ export const blogPosts: BlogPost[] = [
     category: "Business Structure & Jurisdiction — Book 1",
     excerpt: "When FinCEN exempted US-formed companies from federal BOI reporting, the story looked like it would move to the states. New York's LLC Transparency Act took effect January 1, 2026 — and then Governor Hochul vetoed the amendment that would have made it matter. California's version passed the Senate in 2024 and has not moved since. Here is what actually happened, what small business owners in New York should know, and why the state-level BOI wave is not the wave everyone expected.",
     date: "2026-09-28",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "The Entrepreneur's Guide to Business Structure & Jurisdiction — Book 1",
       description: "Choosing an entity type, selecting a state of formation, maintaining liability protection, and the ongoing compliance filings that come with owning a business. Part of The Million Dollar Highway series from Silverton Publishing.",
@@ -87,7 +91,7 @@ export const blogPosts: BlogPost[] = [
     category: "Business Structure & Jurisdiction — Book 1",
     excerpt: "As of August 14, 2026, US-formed LLCs and corporations are permanently exempt from Beneficial Ownership Information reporting. What changed and when, who is still covered (foreign entities registered in the US), what to do if you already filed, and what could still affect you.",
     date: "2026-09-21",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "The Entrepreneur's Guide to Business Structure & Jurisdiction — Book 1",
       description:
@@ -165,6 +169,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "AI tools are accelerating small business productivity. Here's where the legal exposure actually lives — and how to use AI aggressively without getting burned.",
     date: "2026-07-07",
+    dateModified: "2026-10-17",
   },
   {
     slug: "biggest-tax-mistakes-new-business",
@@ -179,6 +184,7 @@ export const blogPosts: BlogPost[] = [
     category: "Business Insurance & Risk Management — Book 4",
     excerpt: "Having business insurance and making effective use of it are two different things. The most common and costly mistakes small business owners make when filing claims — and the practices that prevent them.",
     date: "2026-06-30",
+    dateModified: "2026-10-17",
   },
   {
     slug: "business-insurance-types-guide",
@@ -194,6 +200,7 @@ export const blogPosts: BlogPost[] = [
     category: "Selling Your Business — Book 11",
     excerpt: "Succession planning isn't morbid — it's business continuity planning, exit value optimization, and personal financial planning all at once. Starting five years early is almost always the right move.",
     date: "2026-07-14",
+    dateModified: "2026-10-17",
   },
   {
     slug: "contractor-agreement",
@@ -221,6 +228,7 @@ export const blogPosts: BlogPost[] = [
     category: "Selling Your Business — Book 11",
     excerpt: "Earnouts appear in deals as a bridge mechanism between seller valuation and buyer price. In practice, they generate more post-closing disputes than almost any other acquisition term.",
     date: "2026-06-30",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "Volume 11: Selling Your Business",
       description: "Covering valuation, deal structure, reps and warranties, earnouts, and what happens in the years after a sale.",
@@ -316,6 +324,7 @@ export const blogPosts: BlogPost[] = [
     category: "Contracts & Legal Foundations — Book 2",
     excerpt: "Commercial leases are among the most consequential documents a small business owner will sign — and they're frequently signed without the scrutiny they deserve. What to examine before your signature binds you for years.",
     date: "2026-06-30",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "Contracts & Legal Foundations — Book 2",
       description: "Covering the full range of contracts that govern small business operations, including commercial leases, vendor agreements, and customer contracts.",
@@ -376,6 +385,7 @@ export const blogPosts: BlogPost[] = [
     category: "Tax Planning & Accounting — Books 3 & 11",
     excerpt: "The OBBBA is the most significant federal tax legislation since TCJA 2017. Here's what small business owners need to understand about bonus depreciation, QSBS, and pass-through deductions.",
     date: "2026-07-07",
+    dateModified: "2026-10-17",
   },
   {
     slug: "offshore-accounts-legal-illegal",
@@ -519,6 +529,7 @@ export const blogPosts: BlogPost[] = [
     category: "Tax Planning & Accounting — Book 3",
     excerpt: "Tax planning after December 31 is compliance. Tax planning before December 31 is reduction. Here's what small business owners should be doing in Q4 — and why the timing matters.",
     date: "2026-07-14",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "Volume 3 of The Million Dollar Highway",
       description: "Covers tax strategy for small business owners — quarterly estimated taxes, deduction planning, entity-level elections, and working effectively with your CPA.",
@@ -547,6 +558,7 @@ export const blogPosts: BlogPost[] = [
     category: "Business Structure & Jurisdiction — Book 1",
     excerpt: "The four scenarios I've watched cost real clients their personal-liability protection — commingling, undercapitalization, alter-ego operations, and fraud — plus what to do this quarter to keep the veil intact. Practitioner-level guidance, not a treatise.",
     date: "2026-09-14",
+    dateModified: "2026-10-17",
   },
   {
     slug: "is-chatgpt-attorney-client-privilege",
@@ -580,6 +592,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "The EU AI Act reaches US companies whose AI systems or outputs end up in the EU. After the July 2026 Digital Omnibus, the high-risk rules slid to late 2027 and 2028, but chatbot disclosure and the AI-literacy duty already apply, and AI-content marking catches up on December 2, 2026.",
     date: "2026-10-12",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",

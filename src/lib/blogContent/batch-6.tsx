@@ -475,7 +475,7 @@ export const batch6Content: Record<string, ReactNode> = {
 
       <div className="callout">
         <p>
-          Year after year, the most common thing my small business clients tell me in February is some version of: &ldquo;I wish I&apos;d known to do that in November.&rdquo; The decisions that could have reduced their tax bill &mdash; timing income and deductions, making retirement contributions, purchasing equipment &mdash; required action before the calendar turned. By the time we&apos;re reviewing the year&apos;s financials in preparation for returns, the opportunities have closed.
+          Imagine a small business owner who sits down with the year&apos;s financials in February and thinks some version of: &ldquo;I wish I&apos;d known to do that in November.&rdquo; The decisions that could have reduced the tax bill &mdash; timing income and deductions, making retirement contributions, purchasing equipment &mdash; required action before the calendar turned. By the time the year&apos;s financials are being reviewed in preparation for returns, the opportunities have closed.
         </p>
       </div>
 

@@ -161,7 +161,7 @@ export const batch14Content: Record<string, ReactNode> = {
 
       <div className="faq-item">
         <h3>What states have enforceable AI hiring laws right now?</h3>
-        <p>Illinois HB 3773 (January 1, 2026), Connecticut SB5, and New York City&apos;s Local Law 144. Colorado&apos;s replacement law, SB 26-189, takes effect January 1, 2027 &mdash; <a href="/blog/colorado-ai-act-repealed-replaced-sb-189-2026">learn more</a>. Additional states have introduced legislation; check <a href="/ai-current">/ai-current</a> for the current picture.</p>
+        <p>Illinois HB 3773 (January 1, 2026) and New York City&apos;s Local Law 144 apply now. Connecticut SB5&apos;s employment-tool obligations begin October 1, 2027. Colorado&apos;s replacement law, SB 26-189, takes effect January 1, 2027 &mdash; <a href="/blog/colorado-ai-act-repealed-replaced-sb-189-2026">learn more</a>. Additional states have introduced legislation; check <a href="/ai-current">/ai-current</a> for the current picture.</p>
       </div>
 
       <div className="faq-item">
@@ -222,7 +222,7 @@ export const batch14Content: Record<string, ReactNode> = {
 
       <h2>What this means for your small business</h2>
 
-      <p>If you own an LLC or corporation formed in the United States, you have essentially no beneficial ownership reporting obligation in September 2026. FinCEN does not require it under the federal CTA. New York does not require it unless your entity was formed in a foreign country. California, Massachusetts, and Illinois have not enacted comparable statutes. The regulatory picture that had absorbed hours of my clients&apos; time for the better part of three years has collapsed into a single-sentence answer for most of them: no filing needed.</p>
+      <p>If you own an LLC or corporation formed in the United States, you have essentially no beneficial ownership reporting obligation in September 2026. FinCEN does not require it under the federal CTA. New York does not require it unless your entity was formed in a foreign country. California, Massachusetts, and Illinois have not enacted comparable statutes. The regulatory picture that absorbed so much owners&apos; time for the better part of three years has collapsed into a single-sentence answer for most of them: no filing needed.</p>
 
       <p>There are three qualifications on that answer worth stating.</p>
 
@@ -232,11 +232,11 @@ export const batch14Content: Record<string, ReactNode> = {
 
       <p><strong>Three: state anti-money-laundering enforcement has other tools that do not depend on beneficial ownership registries.</strong> State attorneys general, state financial regulators, and state tax authorities have their own investigative powers. A New York small business owner who genuinely uses an LLC to launder money is not made safer by the narrowness of the LLC Transparency Act; they are still exposed to state and federal money-laundering enforcement under other statutes. The absence of a beneficial ownership registry is not the absence of anti-money-laundering law.</p>
 
-      <h2>The client I keep in mind</h2>
+      <h2>A composite example</h2>
 
-      <p>The client I keep coming back to on this topic is the same one from the federal BOI piece: the two-person LLC that spent hundreds of dollars in early 2025 preparing to file with an attorney&apos;s help, then read about the March 2025 interim final rule and did not file, then heard about the New York LLC Transparency Act taking effect January 1, 2026 and asked whether they now needed to file after all. The answer for that client was no in March 2025, still no in December 2025, and still no now. If the client&apos;s LLC had been formed in the Cayman Islands and registered to do business in Manhattan, the answer would have been different. It was formed in Buffalo, so it is not.</p>
+      <p>Consider a composite of situations we&apos;ve seen in practice: a two-person LLC that spends money in early 2025 preparing to file with an attorney&apos;s help, then reads about the March 2025 interim final rule and does not file, then hears about the New York LLC Transparency Act taking effect January 1, 2026 and asks whether it now needs to file after all. The answer for that LLC was no in March 2025, still no in December 2025, and still no now. If its LLC had been formed in a foreign country and registered to do business in New York, the answer would have been different. If it was formed in New York, it is not.</p>
 
-      <p>Most of my small business clients are in exactly that position. The story has closed. The state-level story, so far, has not opened as widely as anyone expected. When it does open &mdash; and something like it likely will over the next two to five years, either through federal reversal or through state action in a jurisdiction we are not currently watching &mdash; I will write about it here.</p>
+      <p>Most small business owners are in exactly that position. The story has closed. The state-level story, so far, has not opened as widely as anyone expected. When it does open &mdash; and something like it likely will over the next two to five years, either through federal reversal or through state action in a jurisdiction we are not currently watching &mdash; I will write about it here.</p>
 
       <h2>For ongoing tracking</h2>
 

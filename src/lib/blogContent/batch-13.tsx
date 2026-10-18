@@ -43,9 +43,9 @@ export const batch13Content: Record<string, ReactNode> = {
 
       <h2>The exposure that used to be real</h2>
 
-      <p>I keep one client in mind from this period: a small LLC owner-operator who believed the rule was permanently enjoined after a December 2024 news cycle and missed the deadline. When enforcement resumed and a new deadline was set, he filed within the window and no penalty was assessed. But for several months his exposure was real and unpredictable, with statutory civil penalties of up to $500 per day and criminal penalties for willful violations on the books.</p>
+      <p>Imagine a small LLC owner-operator who believed the rule was permanently enjoined after a news cycle in late 2024 and missed the deadline. When enforcement resumed and a new deadline was set, he filed within the window and no penalty was assessed. But for several months his exposure was real and unpredictable, with statutory civil penalties of up to $500 per day and criminal penalties for willful violations on the books.</p>
 
-      <p>The exemption resolved that exposure, for him and for every other domestic entity. The lesson from that period still holds in a different form: the rule moved several times in two years, and the owners who fared best checked the primary source instead of relying on social media summaries.</p>
+      <p>The exemption resolved that exposure, for an owner like him and for every other domestic entity. The lesson from that period still holds in a different form: the rule moved several times in two years, and the owners who fared best checked the primary source instead of relying on social media summaries.</p>
 
       <h2>What this means going forward</h2>
 

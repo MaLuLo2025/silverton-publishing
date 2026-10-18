@@ -452,13 +452,12 @@ export const batch4Content: Record<string, ReactNode> = {
 
       <div className="callout">
         <p>
-          A client called me in late 2025 asking whether it made sense to accelerate the asset
-          purchase she&apos;d been planning for early 2026. I didn&apos;t have a good answer until I
-          read the OBBBA bonus depreciation provision. It did. The federal bonus depreciation rules
-          restored under OBBBA meaningfully changed the calculation for the timing of major asset
-          purchases. Two months later, she&apos;d bought the equipment she needed in 2025 rather than
-          waiting, and the tax benefit was substantial. That conversation would have gone differently
-          without the OBBBA context.
+          Consider an owner who asks whether it makes sense to accelerate an asset purchase
+          she&apos;d been planning for early 2026. The answer depends on the OBBBA bonus depreciation
+          provision. The federal bonus depreciation rules restored under OBBBA meaningfully change
+          the calculation for the timing of major asset purchases. If she buys the equipment she
+          needs in 2025 rather than waiting, the tax benefit can be substantial. That decision
+          looks different without the OBBBA context.
         </p>
       </div>
 

@@ -114,7 +114,7 @@ export const batch16Content: Record<string, ReactNode> = {
 
       <h2>For ongoing tracking</h2>
 
-      <p>The Commission is still issuing guidance and codes of practice under the AI Act, and the Omnibus dates may generate further guidance before December 2026. We track developments at <a href="/ai-current">silvertonpublishing.com/ai-current</a>.</p>
+      <p>The Commission published its final <a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content" target="_blank" rel="noopener noreferrer">Code of Practice on Transparency of AI-generated Content</a> on June 10, 2026. It is voluntary, and the Article 50 duties themselves are binding. The Commission is still issuing guidance under the AI Act, and the Omnibus dates may generate further guidance before December 2026. We track developments at <a href="/ai-current">silvertonpublishing.com/ai-current</a>.</p>
 
       <p><em>This article reflects the EU AI Act, as amended by Regulation (EU) 2026/1744, as of October 2026. EU implementation guidance is still arriving, and national enforcement practice has barely begun. Confirm the current consolidated text and Commission guidance before relying on it. Nothing in this article is legal advice for your specific situation.</em></p>
     </>
@@ -180,7 +180,7 @@ export const batch16Content: Record<string, ReactNode> = {
 
       <h3>Who enforces it</h3>
 
-      <p>A violation of the subscription rule is an unfair or deceptive trade practice under the Connecticut Unfair Trade Practices Act (CUTPA). Enforcement is solely by the Attorney General, and the provision creates no private right of action. That limits class-action risk. It does not limit state enforcement. Under the <a href="https://portal.ct.gov/dcp/trade-practices-division/about-the-connecticut-unfair-trade-practices-act-cutpa" target="_blank" rel="noopener noreferrer">general CUTPA framework</a>, the state can seek injunctions, and courts can impose civil penalties of up to $5,000 for willful violations.</p>
+      <p>A violation of the subscription rule is an unfair or deceptive trade practice under the Connecticut Unfair Trade Practices Act (CUTPA). Enforcement is solely by the Attorney General, and the provision creates no private right of action. That limits class-action risk. It does not limit state enforcement. Under the <a href="https://www.cga.ct.gov/current/pub/chap_735a.htm#sec_42-110o" target="_blank" rel="noopener noreferrer">general CUTPA framework</a>, the state can seek injunctions, and courts can impose civil penalties of up to $5,000 for willful violations.</p>
 
       <h2>Question two: &ldquo;We have a chatbot on our website. Is that an &apos;AI companion&apos;?&rdquo;</h2>
 

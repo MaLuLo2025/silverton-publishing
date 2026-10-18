@@ -344,7 +344,7 @@ export const batch3Content: Record<string, ReactNode> = {
       <p>Here&apos;s what to pay attention to before your signature binds you for three to ten years.</p>
 
       <div className="callout">
-        <strong>A cautionary story:</strong> A commercial tenant I represented once called the week after signing a 7-year lease. He&apos;d signed because the broker representing the landlord told him &quot;that&apos;s the standard form.&quot; He&apos;d skimmed the lease but hadn&apos;t focused on the rent escalation clause, which allowed the landlord to raise rent by 8% annually starting in year two — tied to CPI or 8%, whichever was greater. He&apos;d budgeted for roughly 3% annual increases based on his prior experience. The number he&apos;d agreed to was more than twice that. We renegotiated, but he&apos;d already signed, which is a very different negotiating position than before. The standard form almost never benefits the tenant.
+        <strong>A cautionary hypothetical:</strong> Imagine a commercial tenant who realizes the week after signing a 7-year lease that something is wrong. He signed because the broker representing the landlord told him &quot;that&apos;s the standard form.&quot; He skimmed the lease but didn&apos;t focus on the rent escalation clause, which allows the landlord to raise rent by 8% annually starting in year two — tied to CPI or 8%, whichever is greater. He budgeted for roughly 3% annual increases based on his prior experience. The number he agreed to is more than twice that. He can ask to renegotiate, but he&apos;s already signed, which is a very different negotiating position than before. The standard form almost never benefits the tenant.
       </div>
 
       <h2>Understand the Lease Structure First</h2>

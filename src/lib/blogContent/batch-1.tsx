@@ -122,7 +122,7 @@ export const batch1Content: Record<string, ReactNode> = {
       <p>The business case is real. So are the legal exposure points that most small business owners aren&apos;t thinking about.</p>
 
       <div className="callout">
-        I&apos;ve reviewed four AI-drafted client contracts this year. Two were fine. One contained a non-compete clause that&apos;s unenforceable in the client&apos;s jurisdiction and would have created a false sense of legal protection. One contained an indemnification provision so broad it would have exposed my client to liability for their customer&apos;s own acts. Neither the clients nor the AI tool flagged these problems. They looked like professional contracts. That&apos;s the core of the legal exposure issue with AI-drafted documents: they look right even when they&apos;re wrong.
+        Imagine a business owner who has an AI tool draft four customer contracts. Two come back fine. One contains a non-compete clause that&apos;s unenforceable in the owner&apos;s jurisdiction and would create a false sense of legal protection. One contains an indemnification provision so broad it would expose the owner to liability for the customer&apos;s own acts. Neither the owner nor the AI tool flags these problems. They look like professional contracts. That&apos;s the core of the legal exposure issue with AI-drafted documents: they look right even when they&apos;re wrong.
       </div>
 
       <h2>What AI Tools Are Actually Good At in a Small Business Context</h2>
@@ -258,7 +258,7 @@ export const batch1Content: Record<string, ReactNode> = {
       <p>Here&apos;s what goes wrong in small business insurance claims &mdash; and the practices that prevent those problems.</p>
 
       <div className="callout">
-        <strong>A case study:</strong> A property damage client came to me after a water intrusion event damaged her photography studio&apos;s equipment and the build-out she&apos;d done in her commercial space. She had a commercial property policy. What she hadn&apos;t done: inventory her equipment with replacement-cost documentation, keep receipts, or record the tenant improvements she&apos;d made. When the adjuster came, the estimates were disputed, the depreciation calculations on undocumented equipment worked against her, and the recovery was significantly less than the actual loss. We recovered more than the initial offer through the supplemental claim process, but nowhere near what thorough documentation would have produced.
+        <strong>A hypothetical:</strong> Consider a photography studio owner whose commercial space suffers a water intrusion that damages her equipment and the build-out she&apos;s done. She has a commercial property policy. What she hasn&apos;t done: inventory her equipment with replacement-cost documentation, keep receipts, or record the tenant improvements she&apos;s made. When the adjuster comes, the estimates are disputed, the depreciation calculations on undocumented equipment work against her, and the recovery is significantly less than the actual loss. A supplemental claim might improve on the initial offer, but nowhere near what thorough documentation would have produced.
       </div>
 
       <h2>Mistake 1: Not Knowing What You Have Before You File</h2>
@@ -442,7 +442,7 @@ export const batch1Content: Record<string, ReactNode> = {
       <p>Succession planning isn&apos;t morbid planning; it&apos;s business continuity planning, exit value optimization, and personal financial planning &mdash; all at once.</p>
 
       <div className="callout">
-        I have a client, a 63-year-old owner of a commercial cleaning company, who called me after receiving an unsolicited offer to buy the business. The offer was reasonable. The problem: his operations were entirely dependent on him personally &mdash; no management team, no documented processes, no formal customer contracts. The buyers&apos; due diligence confirmed what we both suspected. The offer dropped by 40% when they learned the business couldn&apos;t run without him. We&apos;ve spent the last two years building what should have been in place for a decade.
+        Imagine an owner nearing retirement who receives an unsolicited offer to buy his service business. The offer is reasonable. The problem: operations depend entirely on him personally &mdash; no management team, no documented processes, no formal customer contracts. The buyer&apos;s due diligence confirms it, and the offer drops sharply when the buyer learns the business can&apos;t run without him. He then spends years building what should have been in place for a decade.
       </div>
 
       <h2>What Succession Planning Actually Covers</h2>
