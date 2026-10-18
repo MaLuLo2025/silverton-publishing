@@ -105,6 +105,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "AI hiring tools create Title VII disparate-impact exposure most small businesses don't understand. The four-fifths rule applied to AI outputs, the bias audit requirements in NYC and Illinois, and the six vendor questions that determine whether you have compliance cover.",
     date: "2026-09-21",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -281,7 +282,7 @@ export const blogPosts: BlogPost[] = [
     category: "Building Your Team — Book 5",
     excerpt: "A step-by-step legal guide to hiring your first employee. EIN, W-4, I-9, workers comp, payroll taxes, and the mistakes that get small businesses fined. Written by a practicing attorney.",
     date: "2026-03-31",
-    dateModified: "2026-08-25",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "Volume 5: Building Your Team",
       description: "Covering classification, hiring, onboarding, compensation structures, payroll setup, and the complete legal framework for becoming an employer.",

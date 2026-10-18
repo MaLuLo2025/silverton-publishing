@@ -117,7 +117,7 @@ export const batch13Content: Record<string, ReactNode> = {
 
       <p><strong>Disparate impact</strong> &mdash; facially neutral policies or practices that fall more heavily on a protected class without justification. This is the more common AI-related issue: a tool trained on historical hiring data may replicate historical discrimination patterns even without explicit discriminatory intent.</p>
 
-      <p>The EEOC&apos;s 2023 and 2024 guidance clarified that both doctrines apply to AI-driven employment decisions. Enforcement in 2025 and 2026 has been active.</p>
+      <p>Both doctrines apply to employment decisions made with AI tools in the same way they apply to decisions made by people; disparate impact is codified at <a href="https://www.law.cornell.edu/uscode/text/42/2000e-2" target="_blank" rel="noopener noreferrer">42 U.S.C. &sect; 2000e-2(k)</a>.</p>
 
       <h2>The four-fifths rule applied to AI outputs</h2>
 
@@ -247,7 +247,7 @@ export const batch13Content: Record<string, ReactNode> = {
 
       <div className="faq-item">
         <h3>Does the EEOC&apos;s four-fifths rule apply to AI tools?</h3>
-        <p>Yes. The EEOC has clarified that the four-fifths rule (screening for disparate impact when a protected class is selected at less than 80% of the rate of the highest-selected class) applies to AI-driven hiring decisions the same way it applies to human ones. AI outputs that fail the four-fifths test create prima facie disparate impact.</p>
+        <p>Yes. The four-fifths rule in the federal Uniform Guidelines on Employee Selection Procedures (29 CFR &sect; 1607.4(D)), which flags possible disparate impact when a protected class is selected at less than 80% of the rate of the highest-selected class, applies to AI-driven hiring decisions the same way it applies to human ones. AI outputs that fail the four-fifths test create prima facie disparate impact.</p>
       </div>
 
       <div className="faq-item">
