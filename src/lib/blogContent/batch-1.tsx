@@ -205,7 +205,7 @@ export const batch1Content: Record<string, ReactNode> = {
 
       <p>That&apos;s not how it works when you&apos;re self-employed. Nobody is withholding anything. The money lands in your account and it&apos;s on you to set aside what you owe and send it to the IRS on time. The IRS wants those payments quarterly &mdash; April 15, June 15, September 15, and January 15 of the following year. If you wait until April to deal with your full tax bill, you&apos;ll owe the tax itself plus penalties and interest for not paying quarterly.</p>
 
-      <p>The penalty isn&apos;t enormous in isolation &mdash; it&apos;s essentially an interest charge on the underpayment. But it adds up, and the real pain is the cash flow shock. I&apos;ve watched founders who had a great first year suddenly owe $30,000 or $40,000 in April that they&apos;d already spent. That&apos;s a business-killing surprise if you&apos;re not prepared.</p>
+      <p>The penalty isn&apos;t enormous in isolation &mdash; it&apos;s essentially an interest charge on the underpayment. But it adds up, and the real pain is the cash flow shock. Founders who had a great first year can suddenly owe a large tax bill in April on money they&apos;ve already spent. That&apos;s a business-killing surprise if you&apos;re not prepared.</p>
 
       <div className="callout">
         <strong>Fix it:</strong> The simplest approach: take 25&ndash;30% of every deposit that hits your business account and move it immediately into a separate savings account you don&apos;t touch. That&apos;s your tax reserve. When quarterly payments come due, the money is sitting there waiting. Adjust the percentage with your CPA as you get more data on your actual tax rate.

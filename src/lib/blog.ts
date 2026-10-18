@@ -130,6 +130,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Most small businesses adopted AI without deciding to. A written use policy preserves trade secret status, keeps you inside your own confidentiality obligations, and gives you something to point to when a customer or insurer asks.",
     date: "2026-08-25",
+    dateModified: "2026-10-17",
     relatedBook: {
       title: "The Entrepreneur's Guide to Managing Your Team — Book 6",
       description:
@@ -177,6 +178,7 @@ export const blogPosts: BlogPost[] = [
     category: "Tax Planning & Accounting — Book 3",
     excerpt: "Five costly tax mistakes entrepreneurs make in year one — mixing personal and business money, ignoring quarterly estimated taxes, misclassifying workers, and more. How to avoid them.",
     date: "2026-03-31",
+    dateModified: "2026-10-17",
   },
   {
     slug: "business-insurance-claims",

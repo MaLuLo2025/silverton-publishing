@@ -29,6 +29,10 @@ const RULES = [
   { id: "client-anecdote", re: /\bmy client\b/i },
   { id: "client-anecdote", re: /\bI represented\b/i },
   { id: "client-anecdote", re: /\ba client (called|came|asked) me\b/i },
+  { id: "client-anecdote", re: /\bI had a client\b/i },
+  { id: "client-anecdote", re: /\b(a|one) client (sold|bought|hired|signed|paid|lost|owed|received|told|wanted|was|had)\b/i },
+  { id: "client-anecdote", re: /\b(imagine|consider|picture|suppose) (that )?(a|one|your) clients?\b/i },
+  { id: "client-anecdote", re: /\bI(&apos;|')ve (watched|seen) (founders|owners|clients|buyers|sellers)[^.<]{0,80}\$\d/i },
   // e. Silverton: no pre-launch book references in body prose
   { id: "book-reference", re: /\bChapter \d+ of\b/ },
   { id: "book-reference", re: /\bthe book\b/i },
