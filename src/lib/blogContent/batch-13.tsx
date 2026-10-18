@@ -137,7 +137,7 @@ export const batch13Content: Record<string, ReactNode> = {
 
       <p><strong>Illinois Artificial Intelligence Video Interview Act</strong> requires employer disclosure when AI is used to analyze video interviews, plus consent from candidates.</p>
 
-      <p><strong>California and other states</strong> have proposed similar frameworks; the Colorado AI Act (effective 2027) will impose broader documentation requirements on developers and deployers of &ldquo;high-risk&rdquo; AI systems including employment tools.</p>
+      <p><strong>California and other states</strong> have moved on similar frameworks. California&apos;s Civil Rights Council regulations on automated-decision systems in employment took effect October 1, 2025, and SB 947, enacted September 30, 2026, adds <a href="/blog/california-ai-employer-laws-2027">limits on AI in discipline and termination decisions</a> starting July 1, 2027. The Colorado AI Act (effective 2027) will impose broader documentation requirements on developers and deployers of &ldquo;high-risk&rdquo; AI systems including employment tools.</p>
 
       <p>Even in jurisdictions without specific AI-hiring statutes, the general Title VII framework requires the employer to defend the tool&apos;s outputs. Documentation of bias auditing, whether or not statutorily required, is often part of that defense.</p>
 
@@ -252,7 +252,7 @@ export const batch13Content: Record<string, ReactNode> = {
 
       <div className="faq-item">
         <h3>Do I have to tell candidates I&apos;m using AI in hiring?</h3>
-        <p>Depends on jurisdiction. New York City&apos;s Local Law 144 requires disclosure of automated employment decision tools. Illinois requires disclosure and consent for AI video interview analysis. California and other states have proposed similar rules. Even where not statutorily required, disclosure is often a defensive practice &mdash; it eliminates one argument in a subsequent challenge.</p>
+        <p>Depends on jurisdiction. New York City&apos;s Local Law 144 requires disclosure of automated employment decision tools. Illinois requires disclosure and consent for AI video interview analysis. California&apos;s Civil Rights Council regulations on automated-decision systems have applied since October 1, 2025, and other states have proposed similar rules. Even where not statutorily required, disclosure is often a defensive practice &mdash; it eliminates one argument in a subsequent challenge.</p>
       </div>
 
       <div className="faq-item">
@@ -265,7 +265,7 @@ export const batch13Content: Record<string, ReactNode> = {
         <p>Consult employment counsel immediately. Depending on the situation, appropriate responses may include: pausing use of the tool, correcting the specific pattern, notifying affected candidates, addressing exposure with your vendor, and updating hiring processes going forward. Trying to handle this without counsel typically compounds the problem.</p>
       </div>
 
-      <p>This article draws from the forthcoming Silverton Publishing book <em>AI in Business and Law: A Practical Guide to Using Artificial Intelligence Without Getting Sued</em>. It is general information only, not legal advice. Employment discrimination law is complex and fact-specific. Consult a qualified employment attorney for guidance on your specific situation. For ongoing updates on AI employment law developments after this article&apos;s publication, see <a href="/ai-current">silvertonpublishing.com/ai-current</a>.</p>
+      <p>This article is general information only, not legal advice. Employment discrimination law is complex and fact-specific. Consult a qualified employment attorney for guidance on your specific situation. For ongoing updates on AI employment law developments after this article&apos;s publication, see <a href="/ai-current">silvertonpublishing.com/ai-current</a>.</p>
     </>
   ),
   "ai-data-classification-policy-small-business": (

@@ -105,7 +105,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "AI hiring tools create Title VII disparate-impact exposure most small businesses don't understand. The four-fifths rule applied to AI outputs, the bias audit requirements in NYC and Illinois, and the six vendor questions that determine whether you have compliance cover.",
     date: "2026-09-21",
-    dateModified: "2026-10-17",
+    dateModified: "2026-10-19",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -131,7 +131,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Most small businesses adopted AI without deciding to. A written use policy preserves trade secret status, keeps you inside your own confidentiality obligations, and gives you something to point to when a customer or insurer asks.",
     date: "2026-08-25",
-    dateModified: "2026-10-17",
+    dateModified: "2026-10-19",
     relatedBook: {
       title: "The Entrepreneur's Guide to Managing Your Team — Book 6",
       description:
@@ -203,7 +203,7 @@ export const blogPosts: BlogPost[] = [
     category: "Selling Your Business — Book 11",
     excerpt: "Succession planning isn't morbid — it's business continuity planning, exit value optimization, and personal financial planning all at once. Starting five years early is almost always the right move.",
     date: "2026-07-14",
-    dateModified: "2026-10-17",
+    dateModified: "2026-10-19",
   },
   {
     slug: "contractor-agreement",
@@ -624,6 +624,44 @@ export const blogPosts: BlogPost[] = [
       title: "The Entrepreneur's Guide to Offshore Business, Tax Havens & International Trusts — Book 12",
       description: "U.S. tax residency, FBAR and FATCA compliance, foreign entity reporting, the major offshore jurisdictions, anti-deferral regimes, and the realistic landscape of international tax planning for U.S. persons. Part of The Million Dollar Highway series from Silverton Publishing.",
       href: "/#vol-12",
+    },
+  },
+
+  // ── Blog cycle 2026-10-19 additions ──
+  {
+    slug: "ai-washing-ftc-marketing-claims",
+    title: "\"AI-Powered\" Is a Legal Claim: How the FTC Polices AI Marketing",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "Putting \"AI\" on your website is an advertising claim the FTC expects you to back up, and that includes claims made to other businesses. Here is what the FTC's AI-washing cases from 2024 through 2026 have in common, what the Rytr reversal says about the limits, and how to review your own copy.",
+    date: "2026-10-19",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "california-ai-employer-laws-2027",
+    title: "California's New AI Workplace Laws: What Employers Must Do Before 2027",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "On September 30, 2026, California enacted the No Robo Bosses Act (SB 947), an AI-layoff notice rule (SB 951), and new limits on AI workplace surveillance. Here is what each one requires, which employers are covered, and the dates that matter: January 1 and July 1, 2027.",
+    date: "2026-10-19",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "buy-sell-agreement-connelly-life-insurance",
+    title: "Is Your Buy-Sell Agreement Broken? What Connelly Changed for Co-Owners",
+    category: "Selling Your Business — Book 11",
+    excerpt: "In Connelly v. United States, the Supreme Court held that life insurance a company holds to buy out a deceased owner counts toward the company's value for estate tax, with no offset for the buyout obligation. With the 2026 federal exemption at $15 million, fewer owners face federal estate tax, but many buy-sell agreements still need a second look.",
+    date: "2026-10-19",
+    relatedBook: {
+      title: "Selling Your Business — Book 11",
+      description: "Covering exit timing, valuation frameworks, buyer identification, deal structure, tax optimization, purchase agreements, and post-closing obligations.",
+      href: "/#vol-11",
     },
   },
 ];

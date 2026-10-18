@@ -21,6 +21,7 @@ import { batch13Content } from "@/lib/blogContent/batch-13";
 import { batch14Content } from "@/lib/blogContent/batch-14";
 import { batch15Content } from "@/lib/blogContent/batch-15";
 import { batch16Content } from "@/lib/blogContent/batch-16";
+import { batch17Content } from "@/lib/blogContent/batch-17";
 
 // Content is split across batch files (one per Phase 4 conversion agent,
 // plus one new file per blog-cycle deploy) instead of GSS's single
@@ -45,6 +46,7 @@ const blogContent = {
   ...batch14Content,
   ...batch15Content,
   ...batch16Content,
+  ...batch17Content,
 };
 
 export function generateStaticParams() {

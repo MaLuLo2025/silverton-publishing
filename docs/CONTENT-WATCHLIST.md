@@ -17,3 +17,11 @@ Time-sensitive claims to re-verify each audit.
 | 2026-10-12 | eu-ai-act-timeline-us-small-business-2026 | Art. 50(2) grace deadline Dec 2, 2026 and new Art. 5 prohibitions; further amendments | AI Act Service Desk Art. 111/113 | 2026-10-17 | Verified on Commission page: legacy systems comply with marking from Dec 2, 2026. Post matches |
 | 2026-10-12 | eu-ai-act-timeline-us-small-business-2026 | Commission Code of Practice on AI-generated content transparency (finalization) | digital-strategy.ec.europa.eu | 2026-10-17 | Changed: final Code published Jun 10, 2026 (voluntary; assessed adequate by Commission and AI Board). Post updated |
 | 2026-10-12 | eu-ai-act-timeline-us-small-business-2026 | Further delay proposals for Annex III (Dec 2, 2027) | EUR-Lex; Commission press | 2026-10-17 | Annex III date Dec 2, 2027 confirmed; no further delay proposal found |
+| 2026-10-19 | ai-washing-ftc-marketing-claims | Air AI (D. Ariz.): any ruling or settlement | ftc.gov cases page (Air AI Technologies) | | New |
+| 2026-10-19 | ai-washing-ftc-marketing-claims | New FTC AI-washing actions or policy statements under the AI Action Plan | ftc.gov press releases ("artificial intelligence") | | New |
+| 2026-10-19 | ai-washing-ftc-marketing-claims | State AG AI-claims enforcement | State AG press pages | | New |
+| 2026-10-19 | buy-sell-agreement-connelly-life-insurance | 2027 inflation-adjusted basic exclusion amount (update the "$15 million" framing) | irs.gov newsroom, annual inflation-adjustment release (fall 2026) | | New |
+| 2026-10-19 | buy-sell-agreement-connelly-life-insurance | Any legislation changing the P.L. 119-21 exclusion amount | irs.gov "What's new — Estate and gift tax" | | New |
+| 2026-10-19 | california-ai-employer-laws-2027 | SB 947 operative date July 1, 2027; any 2027 cleanup bill (e.g. stray "deactivation" in § 1526.1(c)) | leginfo.legislature.ca.gov, SB 947 | | New |
+| 2026-10-19 | california-ai-employer-laws-2027 | CPPA ADMT compliance date (Jan 1, 2027) and enforcement advisories | cppa.ca.gov/regulations | | New |
+| 2026-10-19 | california-ai-employer-laws-2027 | EDD implementation of SB 951 technology-displacement notice summaries | edd.ca.gov WARN page, after Jan 1, 2027 | | New |

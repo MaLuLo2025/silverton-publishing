@@ -509,9 +509,6 @@ export const batch1Content: Record<string, ReactNode> = {
 
       <p>Starting this conversation five years earlier than you think you need to is almost always the right move.</p>
 
-      <div className="callout">
-        <strong>Volume 11 of The Million Dollar Highway</strong> covers selling a business &mdash; from preparation and valuation through deal structure and post-closing transition. Volume 1 covers buy-sell agreements and operating agreements as foundational succession documents.
-      </div>
     </>
   ),
 
