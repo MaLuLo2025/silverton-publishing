@@ -28,3 +28,8 @@ Lessons logged per `CLAUDE.md` Sections 2 and 4. Review before starting related 
   documentation. Prefer wording that can't go stale (e.g. "every blog
   article" instead of "all 38 blog articles") when a comment doesn't
   need to convey an exact number.
+
+## 2026-10-26 — Literal ** in rendered post (bold wrapping a markdown link)
+- What went wrong: The draft-to-JSX converter mishandled `**[text](url)** more text` list items, leaving literal `**` on the live deepfake-wire-fraud post. The build lint did not catch it; ~/scripts/check-rendered-markdown.sh did (3 hits) and a fix deploy (6296e42) was needed.
+- Root cause: Bold regex ran after link extraction on the remaining text, so bold spans that contained a link were split across segments.
+- Rule going forward: When converting markdown drafts to JSX, grep the output for a literal asterisk before building, and always run check-rendered-markdown.sh after deploy. Handle bold-wrapped links explicitly as strong around the anchor.
