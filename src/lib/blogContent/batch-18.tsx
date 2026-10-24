@@ -105,11 +105,11 @@ export const batch18Content: Record<string, ReactNode> = {
 
       <ul>
 
-        <li>**<a href="https://www.law.cornell.edu/ucc/4A/4A-202" target="_blank" rel="noopener noreferrer">Section 4A-202(b)</a><strong> lets a bank hold you to an order &ldquo;whether or not authorized&rdquo; if the bank and customer agreed on a </strong>security procedure**, the procedure is commercially reasonable, and the bank accepted the order in good faith and in compliance with it.</li>
+        <li><strong><a href="https://www.law.cornell.edu/ucc/4A/4A-202" target="_blank" rel="noopener noreferrer">Section 4A-202(b)</a></strong> lets a bank hold you to an order &ldquo;whether or not authorized&rdquo; if the bank and customer agreed on a <strong>security procedure</strong>, the procedure is commercially reasonable, and the bank accepted the order in good faith and in compliance with it.</li>
 
-        <li>**<a href="https://www.law.cornell.edu/ucc/4A/4A-203" target="_blank" rel="noopener noreferrer">Section 4A-203</a>** then gives you an escape hatch, but only for an order that &ldquo;is not, under Section 4A-202(a), an authorized order.&rdquo; If you prove the order wasn&apos;t caused by someone entrusted with your payment duties or someone who got access to your systems or credentials through you, the bank can&apos;t keep the money.</li>
+        <li><strong><a href="https://www.law.cornell.edu/ucc/4A/4A-203" target="_blank" rel="noopener noreferrer">Section 4A-203</a></strong> then gives you an escape hatch, but only for an order that &ldquo;is not, under Section 4A-202(a), an authorized order.&rdquo; If you prove the order wasn&apos;t caused by someone entrusted with your payment duties or someone who got access to your systems or credentials through you, the bank can&apos;t keep the money.</li>
 
-        <li>**<a href="https://www.law.cornell.edu/ucc/4A/4A-204" target="_blank" rel="noopener noreferrer">Section 4A-204</a>** requires the bank to refund an order that was neither authorized nor effective against you, with interest.</li>
+        <li><strong><a href="https://www.law.cornell.edu/ucc/4A/4A-204" target="_blank" rel="noopener noreferrer">Section 4A-204</a></strong> requires the bank to refund an order that was neither authorized nor effective against you, with interest.</li>
 
       </ul>
 
