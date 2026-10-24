@@ -515,7 +515,7 @@ export const batch6Content: Record<string, ReactNode> = {
 
       <p>By October, you have approximately 10 months of actual financial data. Your CPA can project your full-year income, identify the most impactful planning opportunities, and advise on specific actions before there&apos;s time pressure.</p>
 
-      <p>By December 15, you can execute most strategies and still have time to confirm they&apos;re completed before year-end.</p>
+      <p>By December 15, you can execute most strategies and still have time to confirm they&apos;re completed before year-end. If you pay contractors, <a href="/blog/form-1099-nec-2000-threshold-2027-filing">the new $2,000 Form 1099 threshold</a> changes what you need to file in January.</p>
 
       <p>By December 30, you&apos;re scrambling and some options have already closed.</p>
 

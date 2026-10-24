@@ -53,6 +53,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "On January 1, 2026, three ISO endorsements quietly carved AI-related claims out of the standard commercial general liability policies that most small businesses carry. If you use a chatbot, an AI drafting tool, or automated pricing on your site, you may be running that exposure uninsured right now. Here is what changed, what to check at your next renewal, and the two paths back to coverage.",
     date: "2026-09-28",
+    dateModified: "2026-10-26",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -179,7 +180,7 @@ export const blogPosts: BlogPost[] = [
     category: "Tax Planning & Accounting — Book 3",
     excerpt: "Five costly tax mistakes entrepreneurs make in year one — mixing personal and business money, ignoring quarterly estimated taxes, misclassifying workers, and more. How to avoid them.",
     date: "2026-03-31",
-    dateModified: "2026-10-17",
+    dateModified: "2026-10-26",
   },
   {
     slug: "business-insurance-claims",
@@ -388,7 +389,7 @@ export const blogPosts: BlogPost[] = [
     category: "Tax Planning & Accounting — Books 3 & 11",
     excerpt: "The OBBBA is the most significant federal tax legislation since TCJA 2017. Here's what small business owners need to understand about bonus depreciation, QSBS, and pass-through deductions.",
     date: "2026-07-07",
-    dateModified: "2026-10-17",
+    dateModified: "2026-10-26",
   },
   {
     slug: "offshore-accounts-legal-illegal",
@@ -459,6 +460,7 @@ export const blogPosts: BlogPost[] = [
     category: "Tax Planning & Accounting — Book 3",
     excerpt: "The difference between an average small business owner and one who understands the tax code is often $5,000-$15,000 in lost deductions every year. Here are the legitimate write-offs most owners leave on the table.",
     date: "2026-05-26",
+    dateModified: "2026-10-26",
     relatedBook: {
       title: "Tax Planning & Accounting — Book 3",
       description: "Detailed guidance on tax planning, entity structures, and financial management for small businesses. Part of The Million Dollar Highway series from Silverton Publishing.",
@@ -662,6 +664,43 @@ export const blogPosts: BlogPost[] = [
       title: "Selling Your Business — Book 11",
       description: "Covering exit timing, valuation frameworks, buyer identification, deal structure, tax optimization, purchase agreements, and post-closing obligations.",
       href: "/#vol-11",
+    },
+  },
+  // Blog cycle 2026-10-26 additions
+  {
+    slug: "ai-notetakers-recording-consent-otter-lawsuit-2026",
+    title: "Your AI Notetaker May Be Wiretapping Your Clients",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "A federal judge let wiretap, California eavesdropping, and Illinois biometric claims against Otter.ai move forward in August 2026. The case is about the vendor, but the consent rules it applies reach every business that lets a bot join its calls. Here is what the ruling says and a meeting protocol that holds up in all-party-consent states.",
+    date: "2026-10-26",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "deepfake-wire-fraud-who-bears-loss-ucc-4a",
+    title: "A Deepfake CEO Told Your Bookkeeper to Wire $250,000. Who Eats the Loss?",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "When an employee is fooled by a cloned voice or a fake video call and sends the wire, the law that governs business wire transfers usually treats the payment as authorized. Here is why the bank is rarely on the hook, what you can still recover, and the controls that move the odds.",
+    date: "2026-10-26",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "form-1099-nec-2000-threshold-2027-filing",
+    title: "The 1099 Threshold Is Now $2,000: What Changes When You File in January 2027",
+    category: "Tax Planning & Accounting — Book 3",
+    excerpt: "For payments made in 2026, the Form 1099-NEC and most 1099-MISC thresholds rise from $600 to $2,000. Some amounts still trigger reporting at $600 or $10, the forms have new boxes, and the January 31 deadline moves to February 1, 2027. Here is the filing season, step by step.",
+    date: "2026-10-26",
+    relatedBook: {
+      title: "Tax Planning & Accounting — Book 3",
+      description: "Detailed guidance on tax planning, entity structures, and financial management for small businesses. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-3",
     },
   },
 ];

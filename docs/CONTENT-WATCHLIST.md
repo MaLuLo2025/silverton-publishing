@@ -25,3 +25,12 @@ Time-sensitive claims to re-verify each audit.
 | 2026-10-19 | california-ai-employer-laws-2027 | SB 947 operative date July 1, 2027; any 2027 cleanup bill (e.g. stray "deactivation" in § 1526.1(c)) | leginfo.legislature.ca.gov, SB 947 | | New |
 | 2026-10-19 | california-ai-employer-laws-2027 | CPPA ADMT compliance date (Jan 1, 2027) and enforcement advisories | cppa.ca.gov/regulations | | New |
 | 2026-10-19 | california-ai-employer-laws-2027 | EDD implementation of SB 951 technology-displacement notice summaries | edd.ca.gov WARN page, after Jan 1, 2027 | | New |
+| 2026-10-26 | ai-notetakers-recording-consent-otter-lawsuit-2026 | In re Otter.AI Privacy Litigation: amended complaint, class certification motion (deadline May 13, 2027), or settlement | courtlistener.com (N.D. Cal. docket 454675) | | New |
+| 2026-10-26 | ai-notetakers-recording-consent-otter-lawsuit-2026 | California SB 690 operative date and any 2027 cleanup to Cal. Penal Code § 637.2 | legiscan.com/CA/bill/SB690/2025 | | New |
+| 2026-10-26 | ai-notetakers-recording-consent-otter-lawsuit-2026 | Copycat notetaker suits against other vendors (Fireflies, Read.ai, Microsoft or Zoom native assistants) | N.D. Cal. dockets | | New |
+| 2026-10-26 | deepfake-wire-fraud-who-bears-loss-ucc-4a | IC3 2026 annual report (expected spring 2027): replace the 2025 AI-related and Financial Fraud Kill Chain figures | ic3.gov/AnnualReport | | New |
+| 2026-10-26 | deepfake-wire-fraud-who-bears-loss-ucc-4a | Reported decisions applying UCC Article 4A to AI/deepfake-induced transfers | CourtListener case-law search (quarterly) | | New |
+| 2026-10-26 | deepfake-wire-fraud-who-bears-loss-ucc-4a | State adoption of the 2022 UCC amendments affecting 4A-201 | Uniform Law Commission enactment map | | New |
+| 2026-10-26 | form-1099-nec-2000-threshold-2027-filing | Inflation-adjusted threshold for 2027 payments | irs.gov/instructions/i1099mec; annual inflation-adjustment revenue procedure | | New |
+| 2026-10-26 | form-1099-nec-2000-threshold-2027-filing | Final regulations on the $2,000 threshold and backup withholding (proposed per IR-2026-03 for third-party networks) | irs.gov/newsroom/working-families-tax-cuts-businesses | | New |
+| 2026-10-26 | form-1099-nec-2000-threshold-2027-filing | IRS guidance on the tips/overtime boxes (TTOC list changes) | irs.gov/ttoc | | New |

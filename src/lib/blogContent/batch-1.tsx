@@ -7,7 +7,7 @@ export const batch1Content: Record<string, ReactNode> = {
 
       <p>Then something does. A worker files for unemployment after the engagement ends and the state labor department asks why they weren&apos;t on payroll. The IRS picks the business up in an information-return matching audit. A worker gets injured on a job site and files a workers&apos; comp claim that the company has no policy to cover. At that point, every misclassified worker for every year of the misclassification period becomes a liability with interest running, and the founder learns the hard way that the worker&apos;s preference for 1099 status was never a defense.</p>
 
-      <p>This article is the practitioner version of the topic &mdash; what the rules actually require, how the three competing tests interact, and what the back-tax exposure looks like in real numbers. It draws from <em>The Entrepreneur&apos;s Guide to Building Your Team</em> (Volume 5 of the Million Dollar Highway series), which covers the topic in greater depth.</p>
+      <p>This article is the practitioner version of the topic &mdash; what the rules actually require, how the three competing tests interact, and what the back-tax exposure looks like in real numbers.</p>
 
       <h2>Why Misclassification Math Compounds So Fast</h2>
 
@@ -174,10 +174,6 @@ export const batch1Content: Record<string, ReactNode> = {
       <p>The businesses that will get burned are the ones that use AI for legal documents without review, that rely on AI for professional advice without independent verification, and that expose confidential information without understanding where it goes.</p>
 
       <p>The businesses that will benefit are the ones that understand what AI does well, use it aggressively for those tasks, and maintain appropriate professional review for the things that actually matter.</p>
-
-      <div className="callout">
-        Volume 7 of <em>The Million Dollar Highway</em> covers technology and AI in small business: what tools are available, how to use them effectively, and how to manage the legal and operational risks they introduce.
-      </div>
     </>
   ),
 
@@ -244,10 +240,6 @@ export const batch1Content: Record<string, ReactNode> = {
       </div>
 
       <p>Every one of these mistakes is a first-year problem. None of them require advanced tax knowledge to avoid. They just require someone telling you about them before you make them &mdash; which is the whole point of this series.</p>
-
-      <div className="callout">
-        This article draws from <strong>Volume 3: Tax Planning &amp; Accounting</strong> of The Million Dollar Highway series &mdash; covering entity taxation, deductions, quarterly estimates, audit preparation, and the tax strategies most CPAs don&apos;t explain until it&apos;s too late.
-      </div>
     </>
   ),
 
@@ -328,10 +320,6 @@ export const batch1Content: Record<string, ReactNode> = {
         <li>Know your deductibles and how they apply. A $10,000 deductible on a $12,000 loss means you&apos;re self-insuring most of it.</li>
         <li>Review your coverage annually with your broker, particularly as your business grows. Underinsurance &mdash; coverage limits that haven&apos;t kept pace with actual asset values &mdash; is a common problem that surfaces at claim time.</li>
       </ul>
-
-      <div className="callout">
-        This article draws from <strong>Volume 4: Business Insurance &amp; Risk Management</strong> of The Million Dollar Highway series &mdash; covering every insurance type, how to read a policy, what exclusions to watch for, and how to structure coverage as your business grows.
-      </div>
     </>
   ),
 
@@ -387,7 +375,7 @@ export const batch1Content: Record<string, ReactNode> = {
 
       <p>If you store any customer data &mdash; names, email addresses, payment information, health records &mdash; you have cyber exposure. Small businesses are not immune. They are frequently targeted precisely because their defenses are thinner than large enterprises.</p>
 
-      <p>Cyber policies vary significantly in what they cover and exclude. Read the policy carefully around war exclusions, social engineering fraud (phishing), and retroactive dates. Many insurers now require you to have basic security controls (MFA, endpoint protection, backups) as a condition of coverage.</p>
+      <p>Cyber policies vary significantly in what they cover and exclude. Read the policy carefully around war exclusions, social engineering fraud (phishing), and retroactive dates. For how a deepfake-induced wire transfer is treated, see <a href="/blog/deepfake-wire-fraud-who-bears-loss-ucc-4a">who bears the loss</a>. Many insurers now require you to have basic security controls (MFA, endpoint protection, backups) as a condition of coverage.</p>
 
       <h2>One thing to check at your next renewal: AI exclusions</h2>
 

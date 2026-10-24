@@ -4,9 +4,9 @@ import type { ReactNode } from "react";
 export const batch14Content: Record<string, ReactNode> = {
   "ai-insurance-coverage-gap-iso-exclusions-2026": (
     <>
-      <p>The renewal notice that arrived at a fifty-person marketing agency in April 2026 looked like every other renewal notice they had ever received. Same carrier. Similar premium. Same coverage limits. The owner signed it, sent it back, and moved on. Six weeks later the agency&apos;s website chatbot, which had been running for two years without incident, told a prospective customer that a package priced at nine thousand dollars was included in a promotion for twenty-nine hundred. The customer accepted, sent a purchase order, and expected the discount. When the agency told him the chatbot was wrong, he sued. When the agency told its carrier, the carrier pointed to a two-line endorsement in the renewed policy that had not been there the year before. The claim was denied. The endorsement number was CG 40 47 01 26.</p>
+      <p>Consider a fifty-person marketing agency whose renewal notice looks like every other renewal notice it has ever received. Same carrier. Similar premium. Same coverage limits. The owner signs it, sends it back, and moves on. Six weeks later the agency&apos;s website chatbot, which has run for two years without incident, tells a prospective customer that a package priced at nine thousand dollars is included in a promotion for twenty-nine hundred. The customer accepts, sends a purchase order, and expects the discount. When the agency tells him the chatbot was wrong, he sues. When the agency tells its carrier, the carrier points to a two-line endorsement in the renewed policy that was not there the year before and denies the claim. The endorsement number is CG 40 47 01 26.</p>
 
-      <p>This is a story that is going to happen a lot of times in the next twelve months, and it is going to happen to businesses whose exposure to artificial intelligence they would not have described as exposure at all.</p>
+      <p>Scenarios like this are likely to become more common over the next twelve months, and they will reach businesses whose exposure to artificial intelligence they would not have described as exposure at all.</p>
 
       <h2>What actually changed on January 1, 2026</h2>
 

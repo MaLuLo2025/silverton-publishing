@@ -268,7 +268,7 @@ export const batch12Content: Record<string, ReactNode> = {
         <p>Triage rather than panic. Identify what was uploaded and to which service. Delete the conversations from the account and, where available, submit the vendor&apos;s deletion request. Assess by data category &mdash; a routine business upload may be a policy issue with limited legal consequence; a legal document may require notice to affected parties; privileged material may require a waiver analysis with counsel. Document what happened and what was done. Most single uploads are recoverable in practice if handled promptly and candidly.</p>
       </div>
 
-      <p>This article draws from the forthcoming Silverton Publishing book <em>AI in Business and Law: A Practical Guide to Using Artificial Intelligence Without Getting Sued</em>. The doctrine on AI and privilege is developing quickly; for ongoing updates on court rulings, vendor terms changes, and regulatory developments after this article&apos;s publication, see <a href="/ai-current">the AI Legal Tracker</a>.</p>
+      <p>The doctrine on AI and privilege is developing quickly; for ongoing updates on court rulings, vendor terms changes, and regulatory developments after this article&apos;s publication, see <a href="/ai-current">the AI Legal Tracker</a>.</p>
     </>
   ),
 
@@ -437,7 +437,7 @@ export const batch12Content: Record<string, ReactNode> = {
         <p>A DPA is a contract addendum that governs how the vendor processes personal data on your behalf &mdash; required under GDPR, useful under U.S. state privacy laws like CCPA, and generally good practice for any AI vendor handling data about individuals. If your AI vendor doesn&apos;t offer a DPA, that&apos;s a warning sign. If they offer one but the subprocessor list is opaque or the retention terms unfavorable, negotiate.</p>
       </div>
 
-      <p>This article draws from the forthcoming Silverton Publishing book <em>AI in Business and Law: A Practical Guide to Using Artificial Intelligence Without Getting Sued</em>. AI vendor terms change frequently; for ongoing updates on vendor terms, indemnity programs, and regulatory developments after this article&apos;s publication, see <a href="/ai-current">the AI Legal Tracker</a>.</p>
+      <p>AI vendor terms change frequently; for ongoing updates on vendor terms, indemnity programs, and regulatory developments after this article&apos;s publication, see <a href="/ai-current">the AI Legal Tracker</a>.</p>
     </>
   ),
 };

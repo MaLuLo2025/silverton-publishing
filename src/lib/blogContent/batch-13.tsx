@@ -328,7 +328,7 @@ export const batch13Content: Record<string, ReactNode> = {
 
       <p><strong>Pattern 2 &mdash; The client ledger.</strong> A bookkeeper or accountant uploads a client&apos;s general ledger, bank statements, or tax documents to find an error or draft a summary. The data is confidential under the engagement letter, potentially GLBA-covered, potentially subject to state privacy law. Fix: business-tier tool under a DPA and an engagement letter that permits it.</p>
 
-      <p><strong>Pattern 3 &mdash; The recorded meeting.</strong> An AI note-taker joins a call, transcribes, and summarizes. The transcript contains confidential and potentially privileged information. In all-party consent states, the recording itself may be unlawful without notice. Fix: notice at the start of every recorded call, business-tier tool, no privileged conversations recorded.</p>
+      <p><strong>Pattern 3 &mdash; The recorded meeting.</strong> An AI note-taker joins a call, transcribes, and summarizes. The transcript contains confidential and potentially privileged information. In all-party consent states, the recording itself may be unlawful without notice. Fix: notice at the start of every recorded call, business-tier tool, no privileged conversations recorded. Learn more: <a href="/blog/ai-notetakers-recording-consent-otter-lawsuit-2026">AI notetakers and recording consent</a>.</p>
 
       <p><strong>Pattern 4 &mdash; The medical visit.</strong> Ambient documentation tools listen to clinical encounters and draft notes. Audio and transcript are PHI; vendor is a business associate under HIPAA. Without a BAA, the arrangement is a HIPAA violation from the first visit. California and other states additionally require patient disclosure of generative AI use. Fix: BAA, disclosure, retention terms matching obligations.</p>
 
@@ -422,7 +422,7 @@ export const batch13Content: Record<string, ReactNode> = {
         <p>Then you don&apos;t use AI tools on their data &mdash; no matter what your own AI-use policy says. The client&apos;s contractual restrictions govern their data. This is why Tier 3 classification requires checking the governing contract, not just verifying the AI vendor&apos;s terms.</p>
       </div>
 
-      <p>This article draws from the forthcoming Silverton Publishing book <em>AI in Business and Law: A Practical Guide to Using Artificial Intelligence Without Getting Sued</em>. It is general information only, not legal advice. AI compliance frameworks require adaptation to specific business circumstances; consult a qualified attorney for guidance on your specific situation. For ongoing updates on AI compliance developments after this article&apos;s publication, see <a href="/ai-current">silvertonpublishing.com/ai-current</a>.</p>
+      <p>This article is general information only, not legal advice. AI compliance frameworks require adaptation to specific business circumstances; consult a qualified attorney for guidance on your specific situation. For ongoing updates on AI compliance developments after this article&apos;s publication, see <a href="/ai-current">silvertonpublishing.com/ai-current</a>.</p>
     </>
   ),
 };

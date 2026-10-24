@@ -5,7 +5,7 @@ export const batch5Content: Record<string, ReactNode> = {
     <>
       <p>Founders who form an LLC for liability protection and then personally guarantee the company&apos;s first business loan have undone, in one signature, the protection the entity was created to provide. The two facts are not incompatible &mdash; there are good reasons most lenders require personal guarantees, and good reasons many founders sign them &mdash; but the asymmetry between what the entity protects and what the guarantee re-exposes is something most first-time borrowers don&apos;t fully understand until the document is in front of them.</p>
 
-      <p>This article walks through what a personal guarantee actually obligates you to, the limited mechanisms for narrowing it, and the practical decision frame for whether to sign. It draws from <em>The Entrepreneur&apos;s Guide to Business Financing</em> (Volume 9 of the Million Dollar Highway series), which covers commercial lending in greater depth.</p>
+      <p>This article walks through what a personal guarantee actually obligates you to, the limited mechanisms for narrowing it, and the practical decision frame for whether to sign.</p>
 
       <h2>What the Personal Guarantee Does</h2>
 
@@ -439,7 +439,7 @@ export const batch5Content: Record<string, ReactNode> = {
 
       <p>Establish a practice: all professional services related to the business are paid by the business. This creates a clear paper trail and ensures the deduction isn&apos;t overlooked.</p>
 
-      <p>The IRS requires issuing 1099-NEC forms to service providers you pay $600 or more annually. Don&apos;t let fear of 1099 filing prevent you from taking legitimate deductions. Accounting software automates 1099 filing, making it a non-issue.</p>
+      <p>For payments made after 2025, the IRS requires a Form 1099-NEC for service providers you pay $2,000 or more in a year (the threshold was $600 for earlier years). See <a href="/blog/form-1099-nec-2000-threshold-2027-filing">what changes when you file in January 2027</a>. Don&apos;t let fear of 1099 filing prevent you from taking legitimate deductions. Accounting software automates 1099 filing, making it a non-issue.</p>
 
       <h2>Business Insurance Premiums</h2>
 

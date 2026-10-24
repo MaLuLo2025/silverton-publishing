@@ -553,10 +553,11 @@ export const batch4Content: Record<string, ReactNode> = {
 
       <h2>Estate and Gift Tax Provisions</h2>
       <p>
-        The OBBBA made permanent the elevated estate and gift tax exemption from the TCJA
-        (approximately $14 million per individual, $28 million per married couple in 2025 dollars,
-        indexed for inflation). Under prior law, this was scheduled to sunset after 2025 to roughly $7
-        million per individual.
+        The OBBBA made the elevated estate and gift tax exemption permanent and set it at
+        $15,000,000 per individual for 2026 ($30 million per married couple), indexed for inflation
+        after that. Under prior law, the exemption was scheduled to sunset after 2025 to roughly $7
+        million per individual. The IRS lists the figure on its{" "}
+        <a href="https://www.irs.gov/newsroom/whats-new-estate-and-gift-tax" target="_blank" rel="noopener noreferrer">Estate and Gift Tax &ldquo;What&apos;s New&rdquo; page</a>.
       </p>
       <p>
         For business owners with estates that might trigger estate tax at lower exemption levels, the
@@ -610,10 +611,7 @@ export const batch4Content: Record<string, ReactNode> = {
       <p>
         This article walks through the U.S. reporting regime for offshore financial accounts, the
         penalty structure that has surprised more than one expat and inheritance recipient, and the
-        basic compliance framework. It draws from{" "}
-        <em>The Entrepreneur&apos;s Guide to Offshore Business, Tax Havens &amp; International Trusts</em>{" "}
-        (Volume 12 of the Million Dollar Highway series), which covers international tax planning in
-        greater depth.
+        basic compliance framework.
       </p>
 
       <h2>The Citizenship-Based Tax System That Sets the Stage</h2>
