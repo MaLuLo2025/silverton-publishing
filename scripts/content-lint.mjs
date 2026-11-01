@@ -36,6 +36,10 @@ const RULES = [
   // e. Silverton: no pre-launch book references in body prose
   { id: "book-reference", re: /\bChapter \d+ of\b/ },
   { id: "book-reference", re: /\bthe book\b/i },
+  // f. literal markdown bold left in JSX text by the draft-to-JSX converter
+  // (2026-10-26 deepfake post, fixed in 6296e42). Content files only; JS
+  // comment lines are skipped below.
+  { id: "literal-double-asterisk", re: /\*\*/, contentOnly: true },
 ];
 
 const allow = existsSync(join(root, "content-lint.allow.json"))
@@ -58,7 +62,9 @@ for (const { rel, all } of files) {
   lines.forEach((line, i) => {
     // blog.ts: only title/excerpt are prose; category and relatedBook are exempt.
     if (!all && !/^\s*(title|excerpt):/.test(line)) return;
-    for (const { id, re } of RULES) {
+    const isComment = /^\s*(\/\/|\/\*|\*)/.test(line);
+    for (const { id, re, contentOnly } of RULES) {
+      if (contentOnly && (!all || isComment)) continue;
       const m = line.match(re);
       if (m && !allowed(rel, id, line)) {
         hits++;

@@ -636,6 +636,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "Putting \"AI\" on your website is an advertising claim the FTC expects you to back up, and that includes claims made to other businesses. Here is what the FTC's AI-washing cases from 2024 through 2026 have in common, what the Rytr reversal says about the limits, and how to review your own copy.",
     date: "2026-10-19",
+    dateModified: "2026-11-02",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -701,6 +702,44 @@ export const blogPosts: BlogPost[] = [
       title: "Tax Planning & Accounting — Book 3",
       description: "Detailed guidance on tax planning, entity structures, and financial management for small businesses. Part of The Million Dollar Highway series from Silverton Publishing.",
       href: "/#vol-3",
+    },
+  },
+  // Blog cycle 2026-11-02 additions
+  {
+    slug: "ai-agent-purchases-who-is-bound-amazon-perplexity-2026",
+    title: "Your AI Agent Just Clicked \"Buy.\" Is Your Business Bound?",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "The Ninth Circuit said an AI shopping agent is \"a tool, not a person\" and that the user is the one acting. Contract law already agrees: E-SIGN and UETA attribute an electronic agent's orders to the person who deploys it, and sites like Amazon now write terms for agents. Here is what that means and the controls to put in place.",
+    date: "2026-11-02",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "ai-voice-agents-tcpa-robocall-rules-2026",
+    title: "Your AI Voice Agent Makes Robocalls Under Federal Law: The TCPA Rules and the November 25 Change",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "The FCC treats AI-generated voices as artificial voices under the TCPA, so outbound AI calls need consent, a business ID, and opt-out handling. New revocation rules take effect November 25, 2026. What small businesses using AI voice agents need to set up now.",
+    date: "2026-11-02",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "exempt-salary-thresholds-2027-overtime",
+    title: "Salaried Isn't Exempt: The 2027 Overtime Salary Floors in California, Washington and Federal Law",
+    category: "Managing Your Team — Book 6",
+    excerpt: "Paying a salary doesn't end the overtime question. On January 1, 2027, California's exempt salary floor rises to $72,384 and Washington's to as much as $92,196, while the federal level is back at $684 a week. The three tests, the new numbers, and your options.",
+    date: "2026-11-02",
+    relatedBook: {
+      title: "The Entrepreneur's Guide to Managing Your Team — Book 6",
+      description:
+        "Workplace policies, performance management, discipline and termination, discrimination and harassment law, wage and hour compliance, and the documentation that protects an employer. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-6",
     },
   },
 ];
