@@ -742,6 +742,42 @@ export const blogPosts: BlogPost[] = [
       href: "/#vol-6",
     },
   },
+  {
+    slug: "algorithmic-pricing-disclosure-laws-2026",
+    title: "“This Price Was Set by an Algorithm”: New York’s Label and the Surveillance Pricing Laws Coming in 2027",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "New York requires a capital-letters warning next to any price set by an algorithm using a customer’s personal data. Maryland now bans it for big grocers, and Connecticut, New Jersey and Seattle follow in 2027. What the laws say, the pending appeal, and how to check your pricing tools.",
+    date: "2026-11-09",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "ccpa-automated-decisionmaking-rules-2027",
+    title: "California’s Automated Decisionmaking Rules Start January 1, 2027: Notices, Opt-Outs and Risk Assessments",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "If your business is covered by the CCPA and uses software to make hiring, lending, housing, education or healthcare decisions, new rules apply January 1, 2027: a pre-use notice, an opt-out or human appeal, access to the logic, and a risk assessment. Who is covered and what to do.",
+    date: "2026-11-09",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "washington-noncompete-ban-2027",
+    title: "Washington Voids Every Noncompete on June 30, 2027. Here’s What Employers Must Do First.",
+    category: "Building Your Team — Book 5",
+    excerpt: "Washington’s ESHB 1155 makes all noncompetes with employees and contractors void on June 30, 2027, no matter when they were signed, and requires written notice to current and former workers by October 1, 2027. What still works, what it costs to get it wrong, and an eight-month plan.",
+    date: "2026-11-09",
+    relatedBook: {
+      title: "The Entrepreneur's Guide to Building Your Team — Book 5",
+      description: "Worker classification, hiring law, employment agreements, restrictive covenants, equity compensation, and the legal foundation for bringing people into your business. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-5",
+    },
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);
