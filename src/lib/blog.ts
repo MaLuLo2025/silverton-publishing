@@ -771,6 +771,43 @@ export const blogPosts: BlogPost[] = [
       href: "/#vol-5",
     },
   },
+  // Blog cycle 2026-11-17 additions
+  {
+    slug: "new-york-synthetic-performer-ad-disclosure-law",
+    title: "New York Now Requires a Label on Ads With AI-Generated People. Here’s What Advertisers Must Do.",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "Since June 9, 2026, New York General Business Law § 396-b has required businesses to conspicuously disclose when an ad shows an AI-generated person, with penalties of $1,000 and then $5,000 per violation. What counts, what’s excluded, and a five-step process for your ads.",
+    date: "2026-11-17",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "ftc-consumer-review-rule-ai-generated-reviews",
+    title: "AI-Written Reviews and the FTC’s Fake Review Rule: Where the Line Is in 2026",
+    category: "Technology, AI & Digital Business — Book 7",
+    excerpt: "The FTC’s consumer review rule bans fake reviews, including AI-generated ones, with penalties up to $53,088 per violation. The FTC sent its first warning letters in December 2025 and the same day dropped its case against an AI review tool. What’s safe, what isn’t, and a checklist.",
+    date: "2026-11-17",
+    relatedBook: {
+      title: "AI in Business and Law (forthcoming)",
+      description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
+      href: "/ai-current",
+    },
+  },
+  {
+    slug: "2027-tax-numbers-small-business-owners",
+    title: "The 2027 Tax Numbers Small Business Owners Need: Brackets, Section 179, 401(k) Limits and More",
+    category: "Tax Planning & Accounting — Book 3",
+    excerpt: "The IRS has released the 2027 inflation adjustments. The standard deduction rises to $33,200 for couples, Section 179 to $2,640,000, the 401(k) limit to $25,500, the 1099 threshold to $2,100, and the Social Security wage base to $192,300. The figures owners use most, in one place.",
+    date: "2026-11-17",
+    relatedBook: {
+      title: "Tax Planning & Accounting — Book 3",
+      description: "Detailed guidance on tax planning, entity structures, and financial management for small businesses. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-3",
+    },
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);
