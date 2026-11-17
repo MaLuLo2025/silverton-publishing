@@ -190,13 +190,13 @@ export const batch5Content: Record<string, ReactNode> = {
 
   "qsbs-qualified-small-business-stock": (
     <>
-      <p>Section 1202 of the Internal Revenue Code allows investors and founders to exclude up to 100% of capital gains from the sale of Qualified Small Business Stock from federal income tax &mdash; up to $10 million or 10 times the taxpayer&apos;s adjusted basis, whichever is greater. For a founder or early employee who sells a business for several million dollars, this exclusion can save millions of tax dollars.</p>
+      <p>Section 1202 of the Internal Revenue Code allows investors and founders to exclude up to 100% of capital gains from the sale of Qualified Small Business Stock from federal income tax &mdash; up to $10 million or 10 times the taxpayer&apos;s adjusted basis, whichever is greater, for stock acquired on or before July 4, 2025, and up to $15 million (indexed for inflation after 2026) or 10 times basis for stock acquired after that date. For a founder or early employee who sells a business for several million dollars, this exclusion can save millions of tax dollars.</p>
 
       <p>Despite the magnitude of the benefit, most small business owners don&apos;t know it exists or don&apos;t know it might apply to them. The OBBBA&apos;s enhancement of the provision makes it more important than ever to understand.</p>
 
       <h2>What QSBS Is</h2>
 
-      <p>Qualified Small Business Stock is stock in a C-corporation that meets specific requirements at the time of issuance. When an eligible shareholder sells QSBS held for more than five years, gains from that sale can be excluded from federal income tax under Section 1202.</p>
+      <p>Qualified Small Business Stock is stock in a C-corporation that meets specific requirements at the time of issuance. When an eligible shareholder sells QSBS held long enough (more than five years for stock acquired on or before July 4, 2025; at least three years for a partial exclusion on stock acquired after that date), gains from that sale can be excluded from federal income tax under Section 1202.</p>
 
       <p>The exclusion is not a deferral &mdash; it&apos;s permanent. The capital gain is not taxed. Not at lower rates. Not later. Not at all at the federal level, if the requirements are met.</p>
 
@@ -208,19 +208,19 @@ export const batch5Content: Record<string, ReactNode> = {
 
       <p><strong>1. C-corporation stock.</strong> Only stock in domestic C-corporations qualifies. S-corporations, LLCs, limited partnerships, and other pass-through entities don&apos;t qualify, and neither does stock in publicly traded companies.</p>
 
-      <p><strong>2. Qualified small business.</strong> The corporation&apos;s aggregate gross assets must not have exceeded $50 million (at issuance) at any time before or immediately after the stock was issued. The OBBBA increased this threshold from the prior $50 million limit in certain circumstances.</p>
+      <p><strong>2. Qualified small business.</strong> The corporation&apos;s aggregate gross assets must not have exceeded the limit at any time before or immediately after the stock was issued. The limit is $50 million for stock issued on or before July 4, 2025. For stock issued after that date, the OBBBA raised it to $75 million, indexed for inflation after 2026.</p>
 
       <p><strong>3. Active business in a qualifying trade.</strong> The corporation must use at least 80% of its assets in an active business in a qualifying trade. The excluded categories are: personal services (health, law, engineering, architecture, accounting, consulting, financial services, banking, insurance, performing arts, athletics) and hospitality and retail food businesses. Technology, software, manufacturing, wholesale, retail (non-food), and many service businesses qualify.</p>
 
       <p><strong>4. Original issuance.</strong> The shareholder must acquire the stock at original issuance, not from a secondary seller. This is why founders and early investors benefit while later-stage purchasers of existing shares typically don&apos;t.</p>
 
-      <p><strong>5. More than five years held.</strong> The stock must be held for more than five years from acquisition to qualify for 100% exclusion. Stock held 3&ndash;5 years had a 75% exclusion under prior law; OBBBA adjusted these thresholds.</p>
+      <p><strong>5. Holding period.</strong> For stock acquired on or before July 4, 2025, the stock must be held for more than five years, and there is no partial exclusion for a shorter hold. For stock acquired after July 4, 2025, the OBBBA added a tiered exclusion: 50% of the gain after three years, 75% after four years, and 100% after five years. The OBBBA also raised the per-company cap on excludable gain for that newer stock from $10 million to $15 million (or 10 times basis, if greater), indexed for inflation after 2026.</p>
 
       <h2>How This Applies to Business Owners</h2>
 
-      <p>A business owner who has operated as an S-corp, LLC, or sole proprietorship can convert to a C-corporation and issue themselves stock in the new entity. That stock, issued at conversion, starts the five-year holding period clock.</p>
+      <p>A business owner who has operated as an S-corp, LLC, or sole proprietorship can convert to a C-corporation and issue themselves stock in the new entity. That stock, issued at conversion, starts the holding-period clock: three years for a 50% exclusion, four for 75%, and five for 100%, for stock issued after July 4, 2025.</p>
 
-      <p>If the business is then sold more than five years later, and the other requirements are met, the gain attributable to value appreciation during the QSBS holding period may qualify for exclusion.</p>
+      <p>If the business is then sold at least three years later, and the other requirements are met, part or all of the gain attributable to appreciation during the QSBS holding period may qualify for exclusion.</p>
 
       <p>The gain excluded under QSBS is generally the appreciation from the date of stock issuance. Gain attributable to goodwill or asset value that existed before conversion may not qualify. The technical determination of the qualifying gain amount is a computation that requires your CPA and attorney.</p>
 
@@ -263,14 +263,14 @@ export const batch5Content: Record<string, ReactNode> = {
       <p>Most small businesses start as LLCs or S-corporations because they want pass-through taxation &mdash; income flows to the owner&apos;s personal return without a separate corporate tax layer. For most businesses in most phases, this is the right structure. But there are circumstances &mdash; primarily related to exit planning and investment &mdash; where conversion to C-corporation status makes significant economic sense. The OBBBA has made this conversation more urgent for a specific category of business owner.</p>
 
       <div className="callout">
-        <p>A business owner I work with operated a SaaS company as an S-corporation for seven years. Revenues grew to $3 million annually and he&apos;d had preliminary conversations with two strategic acquirers. When we ran the QSBS analysis on a potential C-corp conversion, the math was startling: if the company sold for $4 million two years after converting, his entire federal capital gains tax on the sale would be zero under Section 1202 &mdash; provided the holding period and other requirements were met. The conversion and the five-year holding period requirement meant he was looking at a 7-year horizon before sale. He converted. Not because the current tax situation changed, but because the exit tax situation changes dramatically.</p>
+        <p>Consider a hypothetical SaaS company that has run as an S-corporation for seven years, earns $3 million a year in revenue, and has had early conversations with strategic acquirers. If it converts to a C-corporation in 2026, only appreciation after the conversion can qualify for the Section 1202 exclusion; value built before conversion stays taxable. And under the OBBBA&apos;s tiered rule, a sale three years after conversion excludes 50% of the qualifying gain, four years 75%, and five years 100%. An owner planning a sale in the next one or two years gets nothing from converting. An owner who expects significant growth and can wait three to five years may get a lot.</p>
       </div>
 
       <h2>The Core Issue: Tax on Sale</h2>
 
       <p>When you sell a business structured as an S-corp or LLC, the gain is typically taxed as capital gain on your individual return. Long-term capital gains rates for higher-income sellers run 20% plus the 3.8% net investment income tax &mdash; a combined 23.8% federal rate before state taxes. On a $5 million gain, that&apos;s roughly $1.2 million in federal tax.</p>
 
-      <p>Under Section 1202 (Qualified Small Business Stock), gains from selling C-corporation stock can be excluded from federal income tax entirely &mdash; if the stock meets specific requirements. The exclusion is up to 100% of gains, up to the greater of $10 million or 10x the taxpayer&apos;s adjusted basis.</p>
+      <p>Under Section 1202 (Qualified Small Business Stock), gains from selling C-corporation stock can be excluded from federal income tax entirely &mdash; if the stock meets specific requirements. The exclusion is up to 100% of gains, up to the greater of 10x the taxpayer&apos;s adjusted basis or $10 million ($15 million for stock acquired after July 4, 2025).</p>
 
       <p>The potential tax savings on business sale are why this conversation has increased urgency after the OBBBA enhanced the QSBS provisions.</p>
 
@@ -280,13 +280,13 @@ export const batch5Content: Record<string, ReactNode> = {
 
       <p><strong>C-corporation requirement.</strong> Only C-corporation stock qualifies. S-corps, LLCs, and partnerships are categorically excluded.</p>
 
-      <p><strong>Qualified small business.</strong> The corporation&apos;s aggregate gross assets must not have exceeded $50 million (or the OBBBA-adjusted threshold) at any time before or immediately after the stock was issued. This is a qualification at issuance &mdash; a company that later grows beyond the threshold doesn&apos;t lose QSBS status for stock already issued.</p>
+      <p><strong>Qualified small business.</strong> The corporation&apos;s aggregate gross assets must not have exceeded $75 million for stock issued after July 4, 2025 ($50 million for earlier stock) at any time before or immediately after the stock was issued. This is a qualification at issuance &mdash; a company that later grows beyond the threshold doesn&apos;t lose QSBS status for stock already issued.</p>
 
       <p><strong>Active business.</strong> The corporation must be an active business in a qualifying trade or business &mdash; not primarily real estate, finance, hospitality, or professional services (specifically, health, law, engineering, architecture, accounting, actuarial science, performing arts, consulting, athletics, financial services, brokerage, and any business where the principal asset is the reputation or skill of employees are excluded). Technology, manufacturing, retail, and many other business types qualify.</p>
 
       <p><strong>Original issuance.</strong> The stock must be acquired at original issuance, not purchased from a secondary seller. This is why conversion timing matters &mdash; you acquire your stock in the converted C-corp at the time of conversion.</p>
 
-      <p><strong>Five-year holding period.</strong> The stock must be held for more than five years before sale to qualify for full exclusion.</p>
+      <p><strong>Holding period.</strong> For stock issued after July 4, 2025, a sale after three years qualifies for a 50% exclusion, after four years for 75%, and after five years for 100%. Earlier stock still needs more than five years, with no partial exclusion.</p>
 
       <h2>The Trade-Off: Current-Year Tax</h2>
 
@@ -316,7 +316,7 @@ export const batch5Content: Record<string, ReactNode> = {
 
       <p>Converting from an LLC to a C-corp is more involved: the LLC checks the box to be taxed as a corporation, files Form 8832, and begins operating as a C-corp for federal tax purposes. Or the entity can convert to an actual corporation under state law.</p>
 
-      <p>The critical point: the five-year QSBS holding period begins at conversion. If you convert in 2026, the earliest you can fully qualify for QSBS exclusion on a sale is 2031. This is a long-term play, not a near-term tax strategy.</p>
+      <p>The critical point: the QSBS holding period begins at conversion. If you convert in 2026, the earliest partial exclusion (50%) is available on a sale in 2029, and the full exclusion in 2031. This is a long-term play, not a near-term tax strategy.</p>
 
       <h2>The Professional Conversation You Need to Have</h2>
 

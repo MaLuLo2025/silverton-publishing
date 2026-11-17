@@ -9,6 +9,11 @@ const nextConfig = {
         statusCode: 301,
       },
       {
+        source: "/blog/when-to-elect-s-corp-status",
+        destination: "/blog/llc-to-s-corp-conversion",
+        statusCode: 301,
+      },
+      {
         source: "/blog/how-to-fire-an-employee-legally",
         destination: "/blog/how-to-legally-terminate-employee",
         statusCode: 301,

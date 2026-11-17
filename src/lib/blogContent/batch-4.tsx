@@ -220,6 +220,33 @@ export const batch4Content: Record<string, ReactNode> = {
           structures and asset sale treatment
         </li>
       </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div className="faq-item">
+        <h3>Can I elect S corp status at any time, or only when I form the LLC?</h3>
+        <p>You can make the election at formation or in any subsequent year. To be effective for the current tax year, Form 2553 must be filed by March 15 for calendar year entities (two months and 15 days after the tax year begins). You can also file in the preceding tax year for a prospective election. Late elections are sometimes granted but require a showing of reasonable cause.</p>
+      </div>
+
+      <div className="faq-item">
+        <h3>What happens to my LLC if I elect S corp status&mdash;does it become a corporation?</h3>
+        <p>No. Your LLC remains an LLC under state law. The S corp election only affects how the IRS taxes the business&apos;s income. State law still governs governance, liability protection, and ownership transfers. The LLC operating agreement and state filing requirements remain unchanged.</p>
+      </div>
+
+      <div className="faq-item">
+        <h3>Is there a minimum salary I have to pay myself under an S corp?</h3>
+        <p>The IRS requires &ldquo;reasonable compensation&rdquo; for services actually performed, but there is no set minimum dollar amount. The determination is fact-specific based on your industry, the services you perform, and what a third party would charge for the same services. Zero salary and very low salaries attract IRS scrutiny when the business has substantial profit. Work with a CPA to establish and document a defensible salary amount.</p>
+      </div>
+
+      <div className="faq-item">
+        <h3>Can a single-member LLC elect S corp status?</h3>
+        <p>Yes. A single-member LLC can elect S corp treatment by filing Form 2553. The owner becomes the sole shareholder and is required to pay themselves reasonable W-2 compensation.</p>
+      </div>
+
+      <div className="faq-item">
+        <h3>Do S corp distributions avoid all payroll taxes, or just some?</h3>
+        <p>Distributions from an S corp avoid the FICA payroll taxes: Social Security (6.2% employee + 6.2% employer) and Medicare (1.45% + 1.45%), which together make up the 15.3% self-employment tax rate on wages. Distributions are not wages and are therefore not subject to FICA. They are subject to income tax, however, just like salary. The savings are on the payroll tax component only, not on income tax.</p>
+      </div>
     </>
   ),
 
@@ -503,16 +530,17 @@ export const batch4Content: Record<string, ReactNode> = {
         less at the time of issuance.
       </p>
       <p>
-        The OBBBA increased the asset limit for qualifying corporations and made other adjustments
-        that expand the pool of businesses and transactions eligible for the exclusion. If you&apos;re
-        currently operating as an LLC or S-corp and have plans to sell within the next 3–7 years, the
-        QSBS analysis may now favor converting to a C-corporation — the conversion starts your
-        five-year holding clock, and the tax savings on sale can be extraordinary for a business that
-        appreciates significantly.
+        For stock acquired after July 4, 2025, the OBBBA made three changes. It raised the
+        corporation&apos;s gross-asset limit from $50 million to $75 million. It raised the per-company
+        cap on excludable gain from $10 million to $15 million (or 10 times basis, if greater), with
+        both figures indexed for inflation after 2026. And it replaced the all-or-nothing five-year
+        rule with a tiered exclusion: 50% of the gain after three years, 75% after four, and 100%
+        after five. If you&apos;re operating as an LLC or S-corp and plan to sell within the next 3–7
+        years, the QSBS analysis may now favor converting to a C-corporation. The conversion starts
+        your holding clock, and only appreciation after conversion can qualify. See our{" "}
+        <a href="/blog/qsbs-qualified-small-business-stock">QSBS guide</a>.
       </p>
       <p>
-        J.P. Morgan and other planning resources specifically flagged QSBS as a priority planning
-        consideration for business owners in 2026.{" "}
         <strong>
           If you&apos;re thinking about exiting in the next 5–10 years and haven&apos;t had a QSBS
           conversation with your attorney and CPA, that conversation needs to happen now.
@@ -1124,15 +1152,15 @@ export const batch4Content: Record<string, ReactNode> = {
 
       <h2>Cost to Have an Attorney Draft One</h2>
       <p>
-        A basic operating agreement for a two-member LLC with straightforward economics costs
-        $1,500–$3,000 in attorney fees at most small business law firms. A more complex agreement with
-        multiple members, different economic classes, or venture investment terms can run
-        $5,000–$10,000 or more.
+        Fees vary by firm and region, so ask for a flat-fee quote before you engage anyone. What drives
+        the price is complexity. A basic operating agreement for a two-member LLC with straightforward
+        economics sits at the low end. Multiple members, different economic classes, or venture
+        investment terms add drafting and negotiation time.
       </p>
       <p>
-        A shareholder agreement for a small corporation with standard provisions — right of first
-        refusal, drag-along/tag-along, basic buy-sell — typically runs $2,000–$5,000. More complex
-        structures with multiple investor classes and governance controls run higher.
+        The same is true of a shareholder agreement for a small corporation. Standard provisions —
+        right of first refusal, drag-along/tag-along, a basic buy-sell — cost less than structures with
+        multiple investor classes and governance controls.
       </p>
       <p>
         Online templates are widely available and dramatically cheaper. They are also generalized —

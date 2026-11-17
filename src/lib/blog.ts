@@ -54,7 +54,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "On January 1, 2026, three ISO endorsements quietly carved AI-related claims out of the standard commercial general liability policies that most small businesses carry. If you use a chatbot, an AI drafting tool, or automated pricing on your site, you may be running that exposure uninsured right now. Here is what changed, what to check at your next renewal, and the two paths back to coverage.",
     date: "2026-09-28",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -286,7 +286,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-31",
     dateModified: "2026-10-17",
     relatedBook: {
-      title: "Volume 5: Building Your Team",
+      title: "The Entrepreneur's Guide to Building Your Team — Book 5",
       description: "Covering classification, hiring, onboarding, compensation structures, payroll setup, and the complete legal framework for becoming an employer.",
       href: "/#vol-5",
     },
@@ -342,6 +342,7 @@ export const blogPosts: BlogPost[] = [
     category: "Selling Your Business — Book 11",
     excerpt: "When should you sell your business, and how do you get the best price? A practical guide to exit timing, business valuation, buyer types, deal structure, and tax planning for business sales.",
     date: "2026-03-31",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "Selling Your Business — Book 11",
       description: "Covering exit timing, valuation frameworks, buyer identification, deal structure, tax optimization, purchase agreements, and post-closing obligations.",
@@ -390,7 +391,7 @@ export const blogPosts: BlogPost[] = [
     category: "Tax Planning & Accounting — Books 3 & 11",
     excerpt: "The OBBBA is the most significant federal tax legislation since TCJA 2017. Here's what small business owners need to understand about bonus depreciation, QSBS, and pass-through deductions.",
     date: "2026-07-07",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-17",
   },
   {
     slug: "offshore-accounts-legal-illegal",
@@ -442,6 +443,7 @@ export const blogPosts: BlogPost[] = [
     category: "Selling Your Business — Book 11",
     excerpt: "Section 1202 allows founders to exclude up to 100% of capital gains on QSBS from federal income tax — up to $10 million or 10x basis. Most business owners don't know it exists or might apply to them.",
     date: "2026-07-14",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "Exit Planning — Book 11",
       description: "Covers business exit planning — entity structure for exits, sale structure (asset vs. stock), earnouts, and post-closing considerations.",
@@ -515,18 +517,6 @@ export const blogPosts: BlogPost[] = [
       title: "The Entrepreneur's Guide to Technology, AI & Digital Business — Book 7",
       description: "AI legal liability and governance, privacy law, intellectual property in the digital economy, digital contracts, platform risk, cybersecurity compliance, fintech, and health tech. Part of The Million Dollar Highway series from Silverton Publishing.",
       href: "/#vol-7",
-    },
-  },
-  {
-    slug: "when-to-elect-s-corp-status",
-    title: "When Should Your LLC Elect S Corp Status? The Tax Math That Actually Matters",
-    category: "Tax Planning & Accounting — Book 3",
-    excerpt: "An S corp election can save an LLC owner $5,000 to $20,000+ per year in self-employment taxes—but only above a certain income level. Here's the calculation every profitable LLC owner should run.",
-    date: "2026-04-06",
-    relatedBook: {
-      title: "The Entrepreneur's Guide to Taxes & Accounting — Book 3",
-      description: "Entity elections, S corp mechanics, pass-through taxation, estimated taxes, and the tax strategy decisions every entrepreneur should make at formation and as the business scales. Part of The Million Dollar Highway series from Silverton Publishing.",
-      href: "/#vol-3",
     },
   },
   {

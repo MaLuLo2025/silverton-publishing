@@ -29,8 +29,10 @@ const RULES = [
   { id: "client-anecdote", re: /\bmy client\b/i },
   { id: "client-anecdote", re: /\bI represented\b/i },
   { id: "client-anecdote", re: /\ba client (called|came|asked) me\b/i },
-  { id: "client-anecdote", re: /\bI had a client\b/i },
-  { id: "client-anecdote", re: /\b(a|one) client (sold|bought|hired|signed|paid|lost|owed|received|told|wanted|was|had)\b/i },
+  // Generic narrative "a client ..." (owner 2026-11-17: prefer a generic rule over "I had a client";
+  // stories use "a company" or "a business" and are labeled hypotheticals)
+  { id: "client-anecdote", re: /\b(an? |one )?(business )?(owner|founder|company|business|client)s? (I|we) (work|worked|have worked) with\b/i },
+  { id: "client-anecdote", re: /\b(a|one) client (who|that|whose|was|were|had|sold|bought|paid|lost|told|took|got|came|went|left|\w+ed)\b/i },
   { id: "client-anecdote", re: /\b(imagine|consider|picture|suppose) (that )?(a|one|your) clients?\b/i },
   { id: "client-anecdote", re: /\bI(&apos;|')ve (watched|seen) (founders|owners|clients|buyers|sellers)[^.<]{0,80}\$\d/i },
   // e. Silverton: no pre-launch book references in body prose
