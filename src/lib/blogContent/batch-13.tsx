@@ -163,7 +163,7 @@ export const batch13Content: Record<string, ReactNode> = {
         <li>What&apos;s the vendor&apos;s obligation to update or improve the tool if bias is identified?</li>
       </ul>
 
-      <p>Colorado&apos;s AI framework (effective 2027) makes some of these vendor obligations statutory &mdash; developers of &ldquo;high-risk&rdquo; AI systems will be required to provide deployers with documentation supporting compliance. Other states are likely to follow. For a broader treatment of AI vendor contract negotiation, see our <a href="/blog/ai-vendor-contract-negotiation-checklist">AI vendor contract checklist</a>.</p>
+      <p>Colorado&apos;s replacement AI law, SB 26-189 (effective January 1, 2027), makes some of these vendor obligations statutory &mdash; developers of automated decision-making technology used in consequential decisions must give deployers documentation on intended uses, known limitations and risks, and training data categories. Our <a href="/blog/colorado-ai-act-repealed-replaced-sb-189-2026">Colorado guide</a> covers the details. Other states are likely to follow. For a broader treatment of AI vendor contract negotiation, see our <a href="/blog/ai-vendor-contract-negotiation-checklist">AI vendor contract checklist</a>.</p>
 
       <h2>The specific AI hiring tools that create the most risk</h2>
 

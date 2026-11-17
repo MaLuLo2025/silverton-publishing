@@ -439,7 +439,7 @@ export const batch5Content: Record<string, ReactNode> = {
 
       <p>Establish a practice: all professional services related to the business are paid by the business. This creates a clear paper trail and ensures the deduction isn&apos;t overlooked.</p>
 
-      <p>For payments made after 2025, the IRS requires a Form 1099-NEC for service providers you pay $2,000 or more in a year (the threshold was $600 for earlier years). See <a href="/blog/form-1099-nec-2000-threshold-2027-filing">what changes when you file in January 2027</a>. Don&apos;t let fear of 1099 filing prevent you from taking legitimate deductions. Accounting software automates 1099 filing, making it a non-issue.</p>
+      <p>For payments made in 2026, the IRS requires a Form 1099-NEC for service providers you pay $2,000 or more in a year (the threshold was $600 for earlier years). The threshold is indexed for inflation and is $2,100 for payments made in 2027. See <a href="/blog/form-1099-nec-2000-threshold-2027-filing">what changes when you file in January 2027</a>. Don&apos;t let fear of 1099 filing prevent you from taking legitimate deductions. Accounting software automates 1099 filing, making it a non-issue.</p>
 
       <h2>Business Insurance Premiums</h2>
 

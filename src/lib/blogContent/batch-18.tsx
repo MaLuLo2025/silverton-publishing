@@ -202,7 +202,7 @@ export const batch18Content: Record<string, ReactNode> = {
     <>
       <p>For as long as most owners have been filing 1099s, the number was $600. Pay a contractor $600 or more in a year and you owed them a Form 1099-NEC by January 31. For payments made in 2026, that number is gone.</p>
 
-      <p>For payments made in 2026 and later, the basic reporting threshold is $2,000. The IRS&apos;s <a href="https://www.irs.gov/instructions/i1099mec" target="_blank" rel="noopener noreferrer">instructions for Forms 1099-MISC and 1099-NEC</a> put it this way: &ldquo;For tax years beginning after 2025, the minimum threshold amount for reporting certain payments ... increased to $2,000 and may be adjusted for inflation beginning in calendar year 2027.&rdquo; The change came from the 2025 tax law the IRS now calls the Working Families Tax Cuts (Public Law 119-21), which our <a href="/blog/obbba-small-business-owners">overview of the law for small business owners</a> covers more broadly.</p>
+      <p>For payments made in 2026, the basic reporting threshold is $2,000. For payments made in 2027, it is $2,100 (more on that below). The IRS&apos;s <a href="https://www.irs.gov/instructions/i1099mec" target="_blank" rel="noopener noreferrer">instructions for Forms 1099-MISC and 1099-NEC</a> put it this way: &ldquo;For tax years beginning after 2025, the minimum threshold amount for reporting certain payments ... increased to $2,000 and may be adjusted for inflation beginning in calendar year 2027.&rdquo; The change came from the 2025 tax law the IRS now calls the Working Families Tax Cuts (Public Law 119-21), which our <a href="/blog/obbba-small-business-owners">overview of the law for small business owners</a> covers more broadly.</p>
 
       <p>A higher threshold means fewer forms. It doesn&apos;t mean fewer rules, and a few of the old numbers survived. This piece walks through the January 2027 filing season in the order you&apos;ll actually do the work.</p>
 
@@ -328,7 +328,7 @@ export const batch18Content: Record<string, ReactNode> = {
 
       <h2>What to watch in 2027</h2>
 
-      <p>The $2,000 figure applies to 2026 payments. Publication 1099 says the threshold &ldquo;will be adjusted for inflation beginning in calendar year 2027&rdquo; (the form instructions say &ldquo;may be&rdquo;). As of October 2026, the indexed figure for 2027 payments has not yet appeared in the 1099 instructions. If you set a vendor-onboarding rule for next year (&ldquo;get a W-9 from anyone we&apos;ll pay $2,000 or more&rdquo;), plan to update the number when the IRS publishes it.</p>
+      <p>The $2,000 figure applies to 2026 payments. The threshold is indexed for inflation starting in 2027, and on November 5, 2026 the IRS set the 2027 figure in <a href="https://www.irs.gov/pub/irs-drop/rp-26-35.pdf" target="_blank" rel="noopener noreferrer">Revenue Procedure 2026-35</a>: &ldquo;For payments made in calendar year 2027, the reporting threshold for payments described in &sect; 6041(a) is $2,100.&rdquo; If you set a vendor-onboarding rule for next year (&ldquo;get a W-9 from anyone we&apos;ll pay $2,000 or more&rdquo;), change the number to $2,100 for 2027 payments, and plan to check it again each fall, when the IRS publishes the next year&apos;s adjustments.</p>
 
       <p>The penalty rules didn&apos;t change. Late and incorrect information returns are penalized per return, with lower annual maximums for small businesses with average gross receipts of $5 million or less. Current amounts are on the IRS&apos;s <a href="https://www.irs.gov/payments/information-return-penalties" target="_blank" rel="noopener noreferrer">information return penalties page</a>. Reasonable cause is a defense, but &ldquo;my software defaulted to $600&rdquo; or &ldquo;I thought the threshold went up for everything&rdquo; won&apos;t qualify.</p>
 
@@ -346,7 +346,7 @@ export const batch18Content: Record<string, ReactNode> = {
 
       <p>No. The 1099-K rules apply to payment processors and online platforms and have their own thresholds. The $2,000 change applies to the 1099-NEC and 1099-MISC forms you file as a payer. For year-end steps that interact with filing season, see our <a href="/blog/year-end-tax-planning-small-business">year-end tax planning checklist</a>.</p>
 
-      <p><em>This article reflects the IRS&apos;s December 2026 instructions for Forms 1099-MISC and 1099-NEC and Publication 1099 (2026) as of October 2026. Confirm thresholds and due dates against the current IRS instructions before filing. This is general information, not tax or legal advice for your situation.</em></p>
+      <p><em>This article reflects the IRS&apos;s December 2026 instructions for Forms 1099-MISC and 1099-NEC and Publication 1099 (2026) as of October 2026, and the 2027 threshold in Revenue Procedure 2026-35 as of November 2026. Confirm thresholds and due dates against the current IRS instructions before filing. This is general information, not tax or legal advice for your situation.</em></p>
     </>
   ),
 };

@@ -398,6 +398,8 @@ export const batch4Content: Record<string, ReactNode> = {
 
       <p>At one end, several states effectively ban most non-competes. California has prohibited them since 1872 &mdash; long before anyone was discussing federal action. Minnesota, North Dakota, and Oklahoma also broadly prohibit post-employment non-compete agreements, with narrow exceptions. In these states, a non-compete clause in an employment agreement is unenforceable regardless of how carefully it&apos;s drafted.</p>
 
+      <p>Washington is moving into this group. Today it allows non-competes only for employees and contractors above annual earnings thresholds, with other conditions. Under ESHB 1155 (Chapter 149, Laws of 2026), non-competes with Washington employees and contractors become unenforceable on June 30, 2027, including agreements already signed, with a few narrow exceptions, and employers owe current and former workers a notice by October 1, 2027. Our <a href="/blog/washington-noncompete-ban-2027">guide to Washington&apos;s non-compete ban</a> covers the details.</p>
+
       <p>At the other end, states like Florida and Kansas have enacted statutes creating a presumption of enforceability for non-compete agreements that meet specified criteria &mdash; reasonable time period, reasonable geographic scope, protection of a legitimate business interest. In these states, a well-drafted non-compete is not just enforceable but presumptively valid, shifting the burden to the employee to prove it&apos;s unreasonable.</p>
 
       <p>Most states fall between these poles. They&apos;ll enforce a non-compete if it&apos;s reasonable in scope, duration, and geographic reach, protects a legitimate business interest (trade secrets, customer relationships, specialized training), and doesn&apos;t impose an undue hardship on the employee. &ldquo;Reasonable&rdquo; is interpreted by courts on a case-by-case basis, which means enforceability depends as much on how a judge reads the facts as on what the contract says.</p>
@@ -557,7 +559,7 @@ export const batch4Content: Record<string, ReactNode> = {
         $15,000,000 per individual for 2026 ($30 million per married couple), indexed for inflation
         after that. Under prior law, the exemption was scheduled to sunset after 2025 to roughly $7
         million per individual. The IRS lists the figure on its{" "}
-        <a href="https://www.irs.gov/newsroom/whats-new-estate-and-gift-tax" target="_blank" rel="noopener noreferrer">Estate and Gift Tax &ldquo;What&apos;s New&rdquo; page</a>.
+        <a href="https://www.irs.gov/businesses/small-businesses-self-employed/whats-new-estate-and-gift-tax" target="_blank" rel="noopener noreferrer">Estate and Gift Tax &ldquo;What&apos;s New&rdquo; page</a>.
       </p>
       <p>
         For business owners with estates that might trigger estate tax at lower exemption levels, the

@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "Colorado repealed its 2024 AI Act and replaced it with SB 26-189, a notice-and-explanation law that takes effect January 1, 2027. What small businesses using AI in hiring, lending, housing, or insurance must do now, what they can stop doing, and what is still unsettled.",
     date: "2026-10-05",
-    dateModified: "2026-10-17",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -27,6 +27,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "Most new chatbot laws target AI companions, not the help widget on your website. A few do reach ordinary customer-service bots. Here is the 2026 state map, the federal backstop, and a five-point checklist for small businesses.",
     date: "2026-10-05",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -106,7 +107,7 @@ export const blogPosts: BlogPost[] = [
     category: "Technology, AI & Digital Business — Book 7",
     excerpt: "AI hiring tools create Title VII disparate-impact exposure most small businesses don't understand. The four-fifths rule applied to AI outputs, the bias audit requirements in NYC and Illinois, and the six vendor questions that determine whether you have compliance cover.",
     date: "2026-09-21",
-    dateModified: "2026-10-19",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "AI in Business and Law (forthcoming)",
       description: "A practical guide to using artificial intelligence in business without the legal exposure — court rulings, vendor contract terms, privacy and privilege risk, and governance policies for small businesses adopting AI tools. From Silverton Publishing.",
@@ -381,7 +382,7 @@ export const blogPosts: BlogPost[] = [
     category: "Building Your Team — Book 5",
     excerpt: "The FTC's nationwide non-compete ban was struck down and formally withdrawn. What remains is a patchwork of state rules that varies dramatically. Here's what small businesses need to know.",
     date: "2026-06-30",
-    dateModified: "2026-09-08",
+    dateModified: "2026-11-17",
   },
   {
     slug: "obbba-small-business-owners",
@@ -460,7 +461,7 @@ export const blogPosts: BlogPost[] = [
     category: "Tax Planning & Accounting — Book 3",
     excerpt: "The difference between an average small business owner and one who understands the tax code is often $5,000-$15,000 in lost deductions every year. Here are the legitimate write-offs most owners leave on the table.",
     date: "2026-05-26",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "Tax Planning & Accounting — Book 3",
       description: "Detailed guidance on tax planning, entity structures, and financial management for small businesses. Part of The Million Dollar Highway series from Silverton Publishing.",
@@ -661,6 +662,7 @@ export const blogPosts: BlogPost[] = [
     category: "Selling Your Business — Book 11",
     excerpt: "In Connelly v. United States, the Supreme Court held that life insurance a company holds to buy out a deceased owner counts toward the company's value for estate tax, with no offset for the buyout obligation. With the 2026 federal exemption at $15 million, fewer owners face federal estate tax, but many buy-sell agreements still need a second look.",
     date: "2026-10-19",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "Selling Your Business — Book 11",
       description: "Covering exit timing, valuation frameworks, buyer identification, deal structure, tax optimization, purchase agreements, and post-closing obligations.",
@@ -698,6 +700,7 @@ export const blogPosts: BlogPost[] = [
     category: "Tax Planning & Accounting — Book 3",
     excerpt: "For payments made in 2026, the Form 1099-NEC and most 1099-MISC thresholds rise from $600 to $2,000. Some amounts still trigger reporting at $600 or $10, the forms have new boxes, and the January 31 deadline moves to February 1, 2027. Here is the filing season, step by step.",
     date: "2026-10-26",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "Tax Planning & Accounting — Book 3",
       description: "Detailed guidance on tax planning, entity structures, and financial management for small businesses. Part of The Million Dollar Highway series from Silverton Publishing.",
