@@ -100,7 +100,7 @@ export const batch3Content: Record<string, ReactNode> = {
 
       <p>The federal Worker Adjustment and Retraining Notification (WARN) Act applies to larger employers. The employee thresholds and the 60-day notice requirement are described in the lawyer checklist above.</p>
 
-      <p>For most small businesses, the federal WARN Act is not triggered. However, roughly 20 states have mini-WARN laws with lower employee thresholds. If you are conducting layoffs affecting multiple employees, check your state&apos;s WARN requirements before proceeding.</p>
+      <p>For most small businesses, the federal WARN Act is not triggered. However, roughly 20 states have mini-WARN laws with lower employee thresholds. If you are conducting layoffs affecting multiple employees, check your state&apos;s WARN requirements before proceeding. California&apos;s version (Cal-WARN) applies to a covered establishment that employs, or has employed in the preceding 12 months, 75 or more people, and from January 1, 2027, SB 951 requires the notice to say so when a layoff is caused in whole or in substantial part by AI. See our guide to <a href="/blog/california-ai-employer-laws-2027">California&apos;s new AI workplace laws</a>.</p>
 
       <h2>Severance Agreements and Releases</h2>
 

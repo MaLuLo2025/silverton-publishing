@@ -205,7 +205,7 @@ export const blogPosts: BlogPost[] = [
     category: "Selling Your Business — Book 11",
     excerpt: "Succession planning isn't morbid — it's business continuity planning, exit value optimization, and personal financial planning all at once. Starting five years early is almost always the right move.",
     date: "2026-07-14",
-    dateModified: "2026-10-19",
+    dateModified: "2026-11-17",
   },
   {
     slug: "contractor-agreement",
@@ -284,7 +284,7 @@ export const blogPosts: BlogPost[] = [
     category: "Building Your Team — Book 5",
     excerpt: "A step-by-step legal guide to hiring your first employee. EIN, W-4, I-9, workers comp, payroll taxes, and the mistakes that get small businesses fined. Written by a practicing attorney.",
     date: "2026-03-31",
-    dateModified: "2026-10-17",
+    dateModified: "2026-11-17",
     relatedBook: {
       title: "The Entrepreneur's Guide to Building Your Team — Book 5",
       description: "Covering classification, hiring, onboarding, compensation structures, payroll setup, and the complete legal framework for becoming an employer.",
@@ -297,7 +297,7 @@ export const blogPosts: BlogPost[] = [
     category: "Managing Your Team — Book 6",
     excerpt: "The legal steps for terminating an employee in an at-will state: documentation requirements, final pay timing, COBRA notice, WARN Act basics, and what to avoid.",
     date: "2026-08-09",
-    dateModified: "2026-10-05",
+    dateModified: "2026-11-17",
   },
   {
     slug: "how-to-prepare-business-for-sale",

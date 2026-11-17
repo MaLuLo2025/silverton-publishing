@@ -487,7 +487,7 @@ export const batch1Content: Record<string, ReactNode> = {
         <li>Without a documented operating plan, the business may not survive the disruption of your absence</li>
       </ul>
 
-      <p>A buy-sell agreement funded with life insurance &mdash; often a cross-purchase or entity-purchase agreement with appropriate insurance &mdash; provides a mechanism for business continuation and liquidity for your estate without forcing a fire sale.</p>
+      <p>A buy-sell agreement funded with life insurance &mdash; often a cross-purchase or entity-purchase agreement with appropriate insurance &mdash; provides a mechanism for business continuation and liquidity for your estate without forcing a fire sale. How you fund it matters: in 2024 the Supreme Court held in <em>Connelly v. United States</em> that life insurance a company holds to redeem a deceased owner&apos;s shares counts toward the company&apos;s value for estate tax, with no offset for the buyout obligation. Our guide to <a href="/blog/buy-sell-agreement-connelly-life-insurance">what Connelly changed for buy-sell agreements</a> explains when a cross-purchase structure may work better.</p>
 
       <h2>Starting the Conversation</h2>
 
