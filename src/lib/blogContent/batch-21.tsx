@@ -203,4 +203,72 @@ export const batch21Content: Record<string, ReactNode> = {
       <p><em>This article reflects Rev. Proc. 2026-35, Notice 2026-66 and IR-2026-136 from IRS.gov and the Social Security Administration&apos;s 2027 announcement, read on November 17, 2026. It is general information, not tax advice for your business.</em></p>
     </>
   ),
+  "saas-sales-tax-colorado-california-2027": (
+    <>
+      <p>For years, most software sold as a subscription escaped sales tax in Colorado and California. That ends on January 1, 2027. Both states passed laws in June 2026 that bring software-as-a-service (SaaS) and other electronically delivered software into the sales tax base. Washington, which has taxed SaaS for years, widened its tax on technology services in October 2025.</p>
+
+      <p>This affects two groups: businesses that sell software to customers in these states, and the much larger group of businesses that buy it. If you pay for accounting software, a CRM, a scheduling tool or a design subscription, your bill in Colorado or California is likely to go up.</p>
+
+      <h2>Colorado: HB 26-1223</h2>
+
+      <p><a href="https://leg.colorado.gov/bills/hb26-1223" target="_blank" rel="noopener noreferrer">House Bill 26-1223</a>, signed June 4, 2026, repeals Colorado&apos;s exemption for downloaded and remotely accessed software. Until now, Colorado taxed software only if it came in a box with a tear-open license on a disc or similar medium; software delivered online or hosted by a provider was exempt.</p>
+
+      <p>The <a href="https://tax.colorado.gov/sales-use-tax-topics-computer-software" target="_blank" rel="noopener noreferrer">Colorado Department of Revenue</a> says that starting January 1, 2027, computer software is generally taxable &ldquo;regardless of the means of delivery,&rdquo; including remote access through the internet. Software stays exempt in only two cases:</p>
+
+      <ul>
+        <li><strong>A negotiated license agreement.</strong> The department defines this as a written agreement &ldquo;individually bargained between the licensor and licensee,&rdquo; signed by both sides before or when the customer first uses the software. Click-through, browse-wrap and standard form agreements offered on the same terms to many customers don&apos;t count, even if signed.</li>
+        <li><strong>Software developed for a particular user</strong>, meaning custom software.</li>
+      </ul>
+
+      <p>The department&apos;s guidance covers state tax and the local taxes the state collects. Colorado&apos;s home-rule cities, including Denver, run their own sales taxes and set their own rules, so check each one where you have customers. The department has started rulemaking but hasn&apos;t adopted rules, and its guidance has no transition rule for subscriptions that span January 1.</p>
+
+      <h2>California: SB 122</h2>
+
+      <p>Senate Bill 122 (Statutes 2026, chapter 23), signed June 29, 2026, adds &ldquo;digital products&rdquo; to California&apos;s definition of tangible personal property. According to the California Department of Tax and Fee Administration&apos;s <a href="https://cdtfa.ca.gov/formspubs/L1036.pdf" target="_blank" rel="noopener noreferrer">special notice</a>, a digital product is prewritten computer software &ldquo;transferred on tangible storage media, transferred electronically, or accessed remotely,&rdquo; and the change specifically reaches SaaS providers.</p>
+
+      <p>Several categories are left out or exempt:</p>
+
+      <ul>
+        <li><strong>Not digital products:</strong> e-books, music, movies and video, video games, digital artwork, cryptocurrency and other digital assets, and cloud platforms that let customers build and run their own applications.</li>
+        <li><strong>Exempt:</strong> custom software; digital products that represent a service (but not SaaS); products sold with reproduction and distribution rights; and products bought solely for use outside California.</li>
+      </ul>
+
+      <p>Two California rules are new and worth knowing:</p>
+
+      <ul>
+        <li><strong>Large buyers may owe the tax directly.</strong> If one seller&apos;s sales of digital products to one buyer exceed $5 million in a calendar year or the year before, the tax liability may shift to the buyer, who may have to report it under a use tax direct payment permit.</li>
+        <li><strong>Local tax follows the user.</strong> For local and district tax, the place of sale is generally the customer&apos;s address and the place of use is where the person using the software is located.</li>
+      </ul>
+
+      <p>The department has proposed emergency regulations to implement the law. Watch for them before January 1.</p>
+
+      <h2>Washington: already taxing SaaS, now taxing more</h2>
+
+      <p>Washington has taxed SaaS as a &ldquo;digital automated service&rdquo; since 2009. Its 2025 law, ESSB 5814, went further. Starting October 1, 2025, the <a href="https://dor.wa.gov/taxes-rates/retail-sales-tax/services-newly-subject-retail-sales-tax" target="_blank" rel="noopener noreferrer">Washington Department of Revenue</a> says retail sales tax applies to several services that were previously untaxed, including information technology services, custom website development, custom software and customization of prewritten software, advertising services, and live presentations. The law also removed several old exclusions from digital automated services. More exclusions and exemptions took effect July 1, 2026, and the department has offered penalty relief for businesses caught out by the change.</p>
+
+      <h2>If you sell software</h2>
+
+      <ul>
+        <li><strong>Check nexus.</strong> You generally have to collect a state&apos;s tax only if you have nexus there. For remote sellers, that usually means passing the state&apos;s economic threshold, which is $100,000 in sales for Colorado and Washington and $500,000 for California.</li>
+        <li><strong>Register before January 1</strong> if you need to, and set up your billing system to charge tax on Colorado and California customers.</li>
+        <li><strong>Review your contracts.</strong> In Colorado, a signed, individually negotiated license can keep a sale exempt. A click-through agreement can&apos;t. Don&apos;t redraft standard terms just to call them negotiated; the department&apos;s test looks at whether the terms were actually bargained.</li>
+        <li><strong>Separate custom work.</strong> Custom development is exempt in both states. Invoice it separately from subscription fees so the exempt part is clear.</li>
+        <li><strong>Collect exemption documents</strong> from customers who claim the software is used outside the state or is bought for resale.</li>
+      </ul>
+
+      <h2>If you buy software</h2>
+
+      <ul>
+        <li><strong>Budget for the increase</strong> on subscriptions billed to Colorado and California locations starting with January invoices.</li>
+        <li><strong>Watch for use tax.</strong> If a vendor doesn&apos;t charge the tax, a business buyer generally owes use tax on taxable purchases and should report it on its own return.</li>
+        <li><strong>Check where your users are.</strong> If your team is spread across states, California&apos;s rules look at where the software is used, and multi-state use can change what you owe.</li>
+      </ul>
+
+      <h2>What is not settled</h2>
+
+      <p>Neither Colorado nor California has final rules. How each state will treat bundles of software and services, subscriptions that renew mid-contract, and multi-state users is still being worked out. If software is a major cost or product for your business, talk to a sales tax adviser before January 1.</p>
+
+      <p><em>This article reflects HB 26-1223, SB 122 and ESSB 5814, and guidance from the Colorado Department of Revenue, the California Department of Tax and Fee Administration and the Washington Department of Revenue, read on November 18, 2026. It is general information, not tax advice for your business.</em></p>
+    </>
+  ),
 };

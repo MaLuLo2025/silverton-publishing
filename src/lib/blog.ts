@@ -808,6 +808,18 @@ export const blogPosts: BlogPost[] = [
       href: "/#vol-3",
     },
   },
+  {
+    slug: "saas-sales-tax-colorado-california-2027",
+    title: "Colorado and California Will Tax SaaS Starting January 1, 2027. What Sellers and Buyers Should Do Now.",
+    category: "Tax Planning & Accounting — Book 3",
+    excerpt: "Colorado (HB 26-1223) and California (SB 122) bring software-as-a-service and other electronically delivered software into the sales tax base on January 1, 2027, and Washington widened its tax on technology services in 2025. What changes, what stays exempt, and a checklist for businesses that sell or buy software.",
+    date: "2026-11-18",
+    relatedBook: {
+      title: "Tax Planning & Accounting — Book 3",
+      description: "Detailed guidance on tax planning, entity structures, and financial management for small businesses. Part of The Million Dollar Highway series from Silverton Publishing.",
+      href: "/#vol-3",
+    },
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);
